@@ -9,7 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [TWRP](https://github.com/n00b69/woaberyllium/releases/download/Recoveries/twrp.img)
+- [TWRP]() FILE NEEDED
 
 - [Parted](https://github.com/n00b69/woaberyllium/releases/download/Files/parted)
 
