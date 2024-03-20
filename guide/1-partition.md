@@ -1,7 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woaberyllium/blob/main/beryllium.png" width="350" alt="Windows 11 running on beryllium">
+<img align="right" src="https://github.com/n00b69/woapolaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-
-# Running Windows on the Xiaomi Pocophone F1
+# Running Windows on the Xiaomi Mi Mix 2s
 
 ## Partitioning your device
 
