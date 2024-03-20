@@ -14,7 +14,7 @@ This project is in an early stage, all the files here have been contributed by o
 ## Get started
 - [Project status](guide/status.md)
 
-- [Installation instructions](guide/1-partition.md)
+- [Installation instructions](guide/1-partition.md) W.I.P DO NOT USE
 
 - [Troubleshooting](guide/troubleshooting.md)
 
@@ -24,11 +24,11 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Additional materials](guide/materials.md)
 
-- [Update drivers](guide/update.md)
+- [Update drivers](guide/update.md) W.I.P DO NOT USE
 
-- [Reinstall instructions](guide/reinstall.md)
+- [Reinstall instructions](guide/reinstall.md) W.I.P DO NOT USE
 
-- [Uninstall instructions](guide/uninstall.md) DO NOT USE
+- [Uninstall instructions](guide/uninstall.md) W.I.P DO NOT USE
 
 ## Contributors
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
