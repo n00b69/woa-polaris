@@ -4,7 +4,7 @@
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnF1)
 
 ## ⚠️ Warning
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead pmics, dead sd cards, dead ram, dead sim cards, dead display ics, dead cpus, any xiaomi/poco shenanigans, exploding batteries, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead pmics, dead ram, dead sim cards, dead display ics, dead cpus, any xiaomi shenanigans, exploding batteries, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
 This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
@@ -30,6 +30,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Uninstall instructions](guide/uninstall.md) W.I.P DO NOT USE
 
+
 ## Contributors
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
@@ -54,5 +55,10 @@ This project is in an early stage, all the files here have been contributed by o
 src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/142384494?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/RIllEX1)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="graphiks" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/136170061?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/graphiks)
-[<img alt="TAOCroatia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/34100820?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TAOcroatia)
+
+
+
+
+
+
 
