@@ -27,55 +27,67 @@ adb push msc.sh / && adb shell sh msc.sh
 ```
 
 ### Diskpart
->  [!WARNING]
-> DO NOT ERASE ANY PARTITION WHILE IN DISKPART!!!! THIS WILL ERASE ALL OF YOUR UFS!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
+> [!WARNING]
+> DO NOT ERASE ANY PARTITION WHILE IN DISKPART!!!! THIS WILL ERASE YOUR ENTIRE UFS!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
 
 ```cmd
 diskpart
 ```
 
-#### List device volumes
+#### Finding your phone
+> This will list all connected disks
 ```cmd
-list volume
-```
-> If you don't see an unnamed NTFS and unnamed 500mb fat32 disk, go to TWRP, mount, Enable MTP, then run the command again
-
-#### Select Windows volume
-> Replace $ with the actual number of the Windows volume. It is the volume that has around the same size as you picked on the previous page
-```cmd
-select volume $
+lis dis
 ```
 
-#### Assign letter to Windows
+#### Selecting your phone
+> Replace $ with the actual number of your phone (its size should be around 128GB)
+```cmd
+sel dis $
+```
+
+#### Listing your phone's partitions
+> This will list your device's partitions
+```cmd
+lis par
+```
+
+#### Selecting the Windows partition
+> Replace $ with the partition number of Windows (should be 32)
+```cmd
+sel par $
+```
+
+#### Formatting Windows drive
+```cmd
+format quick fs=ntfs label="WINPOLARIS"
+```
+
+#### Add letter to Windows
 ```cmd
 assign letter x
 ```
 
-#### Select ESP volume
-> Replace $ with the actual number of the ESP volume. It is the volume that is around 500mb
+#### Selecting the ESP partition
+> Replace $ with the partition number of ESP (should be 31)
 ```cmd
-select volume $
+sel par $
 ```
 
-#### Assign letter to ESP
+#### Formatting ESP drive
+```cmd
+format quick fs=fat32 label="ESPPOLARIS"
+```
+
+#### Add letter to ESP
 ```cmd
 assign letter y
 ```
 
-### Exit diskpart
+#### Exit diskpart
 ```cmd
 exit
 ```
-
-#### Formatting Windows drive
-> In Windows Explorer (under My PC) locate the X: Windows drive
-
-Right click and fast format it as NTFS
-
-#### Formatting ESP drive
-> In Windows Explorer (under My PC) locate the Y: ESP drive
-
-Right click and fast format it as Fat32
 
 ### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
