@@ -9,9 +9,9 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [TWRP](https://github.com/n00b69/woapolaris/releases/download/Files/twrp.img)
+- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
 
-- [Parted](https://github.com/n00b69/woapolaris/releases/download/Files/parted)
+- [Parted](https://github.com/n00b69/woa-polaris/releases/download/Files/parted)
 
 ### Notes
 > [!WARNING]  
