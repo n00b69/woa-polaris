@@ -23,15 +23,9 @@
 > 
 > DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat](https://t.me/WinOnF1).
 > 
->
 > Do not run all commands at once, execute them in order!
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
-
-> [!IMPORTANT]
-> Make sure you use the provided TWRP Recovery throughout this whole tutorial as this will make it easier for you.
-> 
-> If you don't use it and you face any errors, consider it your fault and consider yourself alone if you try asking for support as you have deferred from the main guide.
 
 #### Flash TWRP recovery
 > Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
@@ -45,7 +39,7 @@ fastboot flash recovery path\to\twrp.img reboot recovery
 Use TWRP now to back up your Modem and EFS partition (as well as anything else if you have important data). Move this backup to a safe place (e.g your PC) as the next steps will wipe your data.
 
 #### Partitioning guide
-> Your Pocophone F1 may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
+> Your Xiaomi Mix 2s may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
 
 #### Preparing for partitioning
 > Download the parted file and move it in the platform-tools folder, then run
@@ -60,7 +54,7 @@ print
 ```
 
 #### Resizing userdata
-> Replace $ with the number of the userdata partition
+> Replace $ with the number of the userdata partition, which should be 21
 >
 > If it asks you if you are okay with data loss, type yes
 ```cmd
