@@ -68,13 +68,13 @@ exit
 ```
 #### Formatting Windows drive
 > In Windows Explorer (under My PC) locate the X: Windows drive
->
-> Right click and fast format it as NTFS
+
+Right click and fast format it as NTFS
 
 #### Formatting ESP drive
 > In Windows Explorer (under My PC) locate the Y: ESP drive
-> 
-> Right click and fast format it as Fat32
+
+Right click and fast format it as Fat32
 
 ### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
@@ -90,9 +90,6 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ```cmd
 dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
 ```
-
-#### Fixing touch
-> Run the `touchfix.bat` file as an administrator, or touch will not work when you boot into Windows
   
 #### Create Windows bootloader files
 ```cmd
@@ -156,23 +153,17 @@ exit
 adb reboot recovery
 ```
 
-#### Checking panel type
-> This should output either `dsi_ebbg_fhd_ft8719_video_display` or `dsi_tianma_fhd_nt36672a_video_display`
-```cmd
-adb shell dmesg | grep dsi_display_bind
-```
-
 #### Push the UEFI to your phone
-Download the UEFI for your panel, then drag and drop it to your phone
+Download the UEFI, then drag and drop it to your phone's internal storage in Windows Explorer
 
 #### Back up your Android boot image
-Use the TWRP backup feature to backup your Android boot image. Name this backup `Android`
+Use the TWRP backup feature to back up your Android boot image. Name this backup `Android`
 
 #### Flash the UEFI
 Use the TWRP install feature to flash the UEFI image to your boot partition. Select `install image`, then locate the image.
 
 #### Back up your Windows boot image
-Use the TWRP backup feature to backup your Windows boot image. Name this backup `Windows`
+Use the TWRP backup feature to back up your Windows boot image. Name this backup `Windows`
 
 #### Boot into Windows
 After having flashed the UEFI image, reboot your phone.
