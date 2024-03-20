@@ -9,9 +9,7 @@
 
 - [UEFI image]() FILE NEEDED
   
-- [Drivers]() FILE NEEDED
-  
-- [Msc script](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
+- [Drivers](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris.tar.gz)
   
 - [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img) (should already be installed)
 
@@ -59,9 +57,6 @@ exit
 ```cmd
 dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
 ```
-
-#### Fixing touch
-> Run the `touchfix.bat` file as an administrator, or touch will not work when you boot into Windows
 
 ### Unassign disk letter
 > So that it doesn't stay there after disconnecting the device
