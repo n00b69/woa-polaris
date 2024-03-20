@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/n00b69/woapolaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
 # Running Windows on the Xiaomi Mix 2s
 
@@ -11,9 +11,9 @@
   
 - [Drivers]() FILE NEEDED
   
-- [Msc script](https://github.com/n00b69/woapolaris/releases/download/Files/msc.sh)
+- [Msc script](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
   
-- [TWRP](https://github.com/n00b69/woapolaris/releases/download/Files/twrp.img) (should already be installed)
+- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img) (should already be installed)
 
 #### Boot to TWRP
 > If Xiaomi has replaced your recovery back to stock, flash it again in fastboot with:
