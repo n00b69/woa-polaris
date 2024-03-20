@@ -21,7 +21,7 @@
 > 
 > Do not run the same command twice unless specified.
 > 
-> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat](https://t.me/WinOnF1).
+> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat](https://t.me/WinOnMIX2S).
 > 
 > Do not run all commands at once, execute them in order!
 >
@@ -37,6 +37,8 @@ fastboot flash recovery path\to\twrp.img reboot recovery
 > If you do anything incorrectly, you may wipe your UFS and render your device unusable.
 
 Use TWRP now to back up your Modem and EFS partition (as well as anything else if you have important data). Move this backup to a safe place (e.g your PC) as the next steps will wipe your data.
+
+**IF YOU PROCEED WITHOUT BACKING UP MODEM AND EFS, YOU ARE ON YOUR OWN IF YOU MESS UP**
 
 #### Partitioning guide
 > Your Xiaomi Mix 2s may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
