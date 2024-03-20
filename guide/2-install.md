@@ -10,7 +10,7 @@
   
 - [UEFI image]() FILE NEEDED
   
-- [Drivers]() FILE NEEDED
+- [Drivers](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris.tar.gz)
   
 - [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img) (should already be installed)
 
@@ -66,6 +66,7 @@ assign letter y
 ```cmd
 exit
 ```
+
 #### Formatting Windows drive
 > In Windows Explorer (under My PC) locate the X: Windows drive
 
