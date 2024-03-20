@@ -12,8 +12,6 @@
   
 - [Drivers]() FILE NEEDED
   
-- [Msc script](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
-  
 - [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img) (should already be installed)
 
 #### Boot to TWRP
