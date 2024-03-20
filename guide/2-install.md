@@ -109,7 +109,7 @@ dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-#### Configure bootloader files
+#### Enabling test signing
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
