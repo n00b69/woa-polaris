@@ -13,7 +13,7 @@
 ##### Finished!
 
 ## USB does not work
-Enable USB host mode using the optional [post install guide](materials.md).
+Enable USB host mode using the [Togggling USB host mode guide](materials.md#toggling-usb-host-mode).
 
 ##### Finished!
 
