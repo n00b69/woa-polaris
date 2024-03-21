@@ -8,7 +8,7 @@
 
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [UEFI image]() FILE NEEDED
+- [UEFI image](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris-uefi.img)
   
 - [Drivers](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris.tar.gz)
 
@@ -93,16 +93,7 @@ assign letter y
 exit
 ```
 
-### Installing Windows
-> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
-
-```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
-```
-
-> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
-
-#### Running parted
+### Running parted
 ```cmd
 adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
 ```
@@ -117,6 +108,15 @@ set $ esp on
 ```sh
 quit
 ```
+
+### Installing Windows
+> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
+
+```cmd
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+```
+
+> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
 #### Installing Drivers
 > Extract the drivers folder from the archive, then run the following command, replacing`<path\to\drivers>` with the actual path of the drivers folder
