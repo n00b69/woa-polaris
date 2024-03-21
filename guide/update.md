@@ -39,7 +39,7 @@ list volume
 ```
 
 #### Select Windows volume
-> Replace $ with the actual number of the Windows volume
+> Replace $ with the actual number of the WINPOLARIS volume
 ```cmd
 select volume $
 ```
@@ -67,7 +67,7 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `lis vol` to find it, it's the one named "Windows"
+> Use `lis vol` to find it, it's the one named "WINPOLARIS"
 ```diskpart
 select volume <number>
 ```
