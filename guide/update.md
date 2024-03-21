@@ -7,7 +7,7 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [UEFI image]() FILE NEEDED
+- [UEFI image](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris-uefi.img)
   
 - [Drivers](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris.tar.gz)
 
