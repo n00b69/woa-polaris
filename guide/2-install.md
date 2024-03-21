@@ -12,7 +12,7 @@
   
 - [Drivers](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris.tar.gz)
 
-- [Msc script]() FILE NEEDED
+- [Msc script](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
 
 - [Parted](https://github.com/n00b69/woa-polaris/releases/download/Files/parted)
   
