@@ -1,6 +1,3 @@
-> [!warning]
-> Guide is under development and is missing files. **Do not use.**
-
 <img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
 # Running Windows on the Xiaomi Mix 2s
@@ -17,7 +14,7 @@ This project is in an early stage, all the files here have been contributed by o
 ## Get started
 - [Project status](guide/status.md)
 
-- [Installation instructions](guide/1-partition.md) W.I.P DO NOT USE
+- [Installation instructions](guide/1-partition.md)
 
 - [Troubleshooting](guide/troubleshooting.md)
 
@@ -27,9 +24,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Additional materials](guide/materials.md)
 
-- [Update drivers](guide/update.md) W.I.P DO NOT USE
+- [Update drivers](guide/update.md)
 
-- [Reinstall instructions](guide/2-install.md) W.I.P DO NOT USE
+- [Reinstall instructions](guide/2-install.md)
 
 - [Uninstall instructions](guide/uninstall.md) W.I.P DO NOT USE
 
