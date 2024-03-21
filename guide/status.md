@@ -22,13 +22,12 @@ This project is not actively maintained, updates may eventually appear, but don'
 - [x] Wi-Fi
 
 #### Sensors
-- [ ] Accelerometer
+- [x] Accelerometer
 - [ ] Fingerprint
 - [x] GPS
-- [ ] Gyroscope
-- [ ] Light sensor
-- [ ] Magnetometer
-- [ ] Proximity
+- [x] Gyroscope
+- [x] Light sensor
+- [x] Proximity
 
 #### Security
 
