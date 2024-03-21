@@ -3,12 +3,11 @@
 # Running Windows on the Xiaomi Mix 2s
 
 ## Project Status
-
-The project is in development. Expect some updates in the future.
+This project is not actively maintained, updates may eventually appear, but don't expect them frequently
 
 #### Features
 
-- [X] Audio 
+- [ ] Audio 
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness 
@@ -23,12 +22,12 @@ The project is in development. Expect some updates in the future.
 - [x] Wi-Fi
 
 #### Sensors
-- [x] Accelerometer
+- [ ] Accelerometer
 - [ ] Fingerprint
 - [x] GPS
-- [x] Gyroscope
+- [ ] Gyroscope
 - [ ] Light sensor
-- [x] Magnetometer
+- [ ] Magnetometer
 - [ ] Proximity
 
 #### Security
