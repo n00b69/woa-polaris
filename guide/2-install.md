@@ -151,9 +151,9 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `lis vol` to find it, it's the one named **WINPOLARIS**
+> Use `list volume` to find it, replace "$" with the actual number of **WINPOLARIS**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Unassign the letter X
@@ -162,9 +162,9 @@ remove letter x
 ```
 
 #### Select the ESP volume of the phone
-> Use `list volume` to find it, it's the one named **ESPPOLARIS**
+> Use `list volume` to find it, replace "$" with the actual number of **ESPPOLARIS**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Unassign the letter Y
