@@ -49,45 +49,40 @@ Use TWRP now to back up your Modem and EFS partition (as well as anything else i
 adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
 ```
 
-#### Printing the current table partition:
+#### Printing the current partition table
 > Parted will print the list of partitions, userdata should be the last partition in the list.
 ```cmd
 print
 ```
 
-#### Resizing userdata
-> Replace $ with the number of the userdata partition, which should be 21
+#### Removing userdata
+> Replace **$** with the number of the **userdata** partition, which should be **21**
+```cmd
+rm $
+```
+
+#### Recreating userdata
+> Replace **1611MB** with the former start value of **userdata** which we just deleted (it is probably 1611MB)
 >
-> If it asks you if you are okay with data loss, type yes
+> Replace **32GB** with the end value you want **userdata** to have
 ```cmd
-resizepart $
-```
-> Parted will now ask you for the end value.
-> You can choose the size you want, as long as it is lower than the value it provides to you. In this example we resize it to 32GB
-```cmd
-End? [123GB]? 32GB
-```
-Note: 123GB is parted telling us the maximum end value we can select.
-
-#### Checking free space
-```cmd
-p free
-```
-
-#### Creating Windows partition
-> In this example, 122.5GB is the **End** of the **Windows** partition we will be creating. Replace "122.5GB" with your actual end value, making sure to subtract 0.5GB which will be used to create the ESP partition
-
-> 32GB in this example is the end of userdata, replace this with your actual end value accordingly as well
-```cmd
-mkpart win ntfs 32GB 122.5GB
+mkpart userdata ext4 1611MB 32GB
 ```
 
 #### Creating ESP partition
-> 122.5GB is the **End** of the **Windows** partition in this example and 123GB is the end of the ESP partition we will be creating, which will be 500MB in size
-
-> Replace 122.5GB with the actual value you used when resizing the partition, then add 0.5 to this value and use it for the second value
+> Replace **32.16GB** with the end value of **userdata**
+>
+> Replace **32.66GB** with the value you used before, adding **0.5GB** to it
 ```cmd
-mkpart esp fat32 122.5GB 123GB
+mkpart esp fat32 32.16GB 32.66GB
+```
+
+#### Creating Windows partition
+> Replace **32.66GB** with the end value of **esp**
+>
+> Replace **123GB** with the end value of your disk, use `p free` to find it
+```cmd
+mkpart win ntfs 32.66GB 123GB
 ```
 
 #### Exit parted
