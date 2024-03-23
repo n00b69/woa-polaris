@@ -98,7 +98,7 @@ quit
 - Just restart the phone, and see if Android still works
 
 
-## [Next step: Installing Windows](/guide/2-install.md)
+## [Next step: Installing Windows](2-install.md)
 
 
 
