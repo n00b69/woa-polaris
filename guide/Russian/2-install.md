@@ -207,7 +207,7 @@ After having flashed the UEFI image, reboot your phone.
 > [!Note]
 > To skip the Microsoft Account login, use "g" for the email and password. Windows will then let you make a local account
 
-## [Last step: Setting up dualboot](/guide/dualboot.md)
+## [Last step: Setting up dualboot](dualboot.md)
 
 
 
