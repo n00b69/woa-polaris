@@ -15,7 +15,9 @@
 - [Msc script](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
 
 - [Parted](https://github.com/n00b69/woa-polaris/releases/download/Files/parted)
-  
+
+- [Devcfg (touch fix)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
+
 - [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img) (should already be installed)
 
 #### Boot to TWRP
@@ -177,13 +179,15 @@ remove letter y
 exit
 ```
 
-### Backing up boot images and flashing UEFI
+### Fixing touch
+> Replace "path\to" with the actual path to the image
+```cmd
+fastboot flash path\to\devcgf-polaris.img
+```
 
 #### Reboot your recovery
-> To remove the msc script
-- Reboot to recovery through TWRP, or run
 ```cmd
-adb reboot recovery
+fastboot reboot recovery
 ```
 
 #### Push the UEFI to your phone
