@@ -14,11 +14,9 @@
 - [Switch To Android package](https://github.com/n00b69/woa-polaris/releases/download/Files/polaris-sta.zip)
 
 ## Dualboot guide
-
 This guide assumes you are rooted, if you aren't, please follow [this guide](root.md) first.
 
 ### Setup - Android
-
 - Download and install the WOA Helper app, then open it and grant it root access.
 - Download the UEFI image for your panel and place it inside the folder named `UEFI` in your internal storage. If this folder does not exist, create it.
 - Press the `Mount Windows` button to mount Windows to your internal storage at `/sdcard/Windows`
