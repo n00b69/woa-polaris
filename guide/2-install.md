@@ -7,7 +7,7 @@
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [Drivers](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris.tar.gz)
+- [Drivers](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
 - [Msc script](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
 
