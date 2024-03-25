@@ -7,7 +7,7 @@
 ### Prerequisites
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [UEFI image](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris-uefi.img)
+- [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 - [WOA Helper app](https://github.com/n00b69/woaberyllium/releases/download/Dualboot/woahelper.apk)
 
