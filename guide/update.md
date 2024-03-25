@@ -6,10 +6,8 @@
 
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
-- [UEFI image](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris-uefi.img)
   
-- [Drivers](https://github.com/n00b69/woa-polaris/releases/download/Drivers%26UEFI/polaris.tar.gz)
+- [Drivers](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
 - [Msc script](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
   
