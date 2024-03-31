@@ -15,7 +15,7 @@ This project is not actively maintained, updates may eventually appear, but don'
 - [x] Cellular
 - [x] Charging ```VERY slow```
 - [x] Display
-- [x] Flashlight
+- [ ] Flashlight
 - [x] GPU  ```No x64 acceleration```
 - [x] Touchscreen 
 - [x] UFS
