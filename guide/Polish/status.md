@@ -31,8 +31,8 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 
 #### Bezpieczeństwo
 
-- [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
-- [ ] TPM (Software Backed)
+- [ ] Processor Bezpieczeństwa ```Nie można uruchomić, Xiaomi zepsuło oprogramowanie```
+- [ ] TPM (Działa na oprogramowaniu)
 
 
 
