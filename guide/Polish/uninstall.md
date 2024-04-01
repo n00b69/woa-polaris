@@ -16,7 +16,7 @@ Jeśli chcesz ponownie zablokować program ładujący, musisz mieć zapasową ta
 - [gpt_both0.bin](https://github.com/n00b69/woa-polaris/releases/download/Files/gpt_both0.bin)
 
 ### Instrukcje odinstalowania
-> [!Ważne]
+> [!Important]
 > Istnieje bardzo małe prawdopodobieństwo, że ten przewodnik nie zadziała, jeśli tablica partycji jest całkowicie popieprzona. Jeśli później nie będziesz mógł uruchomić systemu odzyskiwania/Androida, będziesz musiał ponownie sflashować urządzenie za pomocą EDL.
 
 #### Uruchom komputer w trybie fastboot
@@ -36,7 +36,7 @@ partycja flash fastboot: ścieżka 0 do \gpt_both0.bin
 ```cmd
 fastboot -w
 ```
-> [!Uwaga]
+> [!Note]
 > Jeśli wymazanie danych użytkownika nie powiedzie się, uruchom ponownie komputer w celu odzyskania i zamiast tego wyczyść wszystkie dane
 
 ## Skończone!
