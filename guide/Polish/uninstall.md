@@ -1,0 +1,55 @@
+<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+
+# Windows na Xiaomi Mix 2s
+
+## Dezinstalacja
+
+### Dlaczego jest to potrzebne?
+Jeśli chcesz odinstalować system Windows, używa się tego zamiast ręcznego usuwania partycji, aby uniknąć błędów ludzkich + napisania całego dedykowanego przewodnika na temat samego odinstalowywania.
+
+Jeśli chcesz ponownie zablokować program ładujący, musisz mieć zapasową tablicę partycji.
+
+### Warunki wstępne
+
+- [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
+  
+- [gpt_both0.bin](https://github.com/n00b69/woa-polaris/releases/download/Files/gpt_both0.bin)
+
+### Instrukcje odinstalowania
+> [!Ważne]
+> Istnieje bardzo małe prawdopodobieństwo, że ten przewodnik nie zadziała, jeśli tablica partycji jest całkowicie popieprzona. Jeśli później nie będziesz mógł uruchomić systemu odzyskiwania/Androida, będziesz musiał ponownie sflashować urządzenie za pomocą EDL.
+
+#### Uruchom komputer w trybie fastboot
+> Przytrzymaj przycisk zmniejszania głośności + przycisk zasilania, gdy telefon jest wyłączony, lub uruchom następujące polecenie podczas uruchamiania
+```cmd
+adb, zrestartuj program ładujący
+```
+
+#### Przywróć GPT
+> Zastąp ```ścieżkę\to\gpt_both0.bin``` ścieżką do pliku gpt_both0.bin.
+
+```cmd
+partycja flash fastboot: ścieżka 0 do \gpt_both0.bin
+```
+
+#### Usuń dane użytkownika, aby uniknąć pętli rozruchowej i przywrócić rozmiar FS
+```cmd
+fastboot -w
+```
+> [!Uwaga]
+> Jeśli wymazanie danych użytkownika nie powiedzie się, uruchom ponownie komputer w celu odzyskania i zamiast tego wyczyść wszystkie dane
+
+## Skończone!
+
+
+
+
+
+
+
+
+
+
+
+
+
