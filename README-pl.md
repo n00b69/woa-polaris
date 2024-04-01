@@ -3,38 +3,38 @@
 # Running Windows on the Xiaomi Mix 2s
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMIX2S)
 
-## Choose your language
-[English](README.md) | ~~[Pусский](README-ru.md)~~ | ~~**Polish**~~
+## Wybierz swój język
+[Angielski](README.md) | ~~[Pусский](README-ru.md)~~ | ~~**polski**~~
 
-## ⚠️ Warning
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead pmics, dead ram, dead sim cards, dead display ics, dead cpus, any xiaomi shenanigans, exploding batteries, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+## ⚠️ Uwaga
+Nie ponosimy odpowiedzialności za uszkodzone urządzenia, brakujące partycje odzyskiwania, niedziałającą linię fabryczną Xiaomi ~~pracownicy~~ kowboje, martwe pmic, martwy baran, martwe karty SIM, martwe układy wyświetlacza, martwy procesor, wszelkie wybryki Xiaomi, eksplodujące baterie, martwe koty lub psy, wojny nuklearne lub zostaniesz zwolniony, ponieważ zapomniałeś ponownie uruchomić Androida, aby włączyć alarm.
 
-This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Ten projekt jest na wczesnym etapie, wszystkie pliki tutaj zostały przesłane przez innych użytkowników, tutaj znajdziesz przewodnik z działającymi plikami, które udało nam się zdobyć. Jest to delikatny proces, rób to na własne ryzyko i dokładnie postępuj zgodnie ze wszystkimi krokami.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
-
-
-## Get started
-- [Project status](guide/Polish/status.md)
-
-- [Installation instructions](guide/Polish/1-partition.md)
-
-- [Troubleshooting](guide/Polish/troubleshooting.md)
+**JEŚLI NIE CZUJESZ SIĘ WYGODNIE W INTEGERENCJE SWOJEGO TELEFONU LUB JEGO TABLICY GPT LUB MASZ PARANOIDĘ ZEPSUCIA SWOJEGO URZĄDZENIA, KLIKNIJ TERAZ!!! ZOSTAŁEŚ OSTRZEŻONY, JEŚLI ZEPSUJESZ SWOJE URZĄDZENIE, JESTEŚ NA WŁASNĄ ODPOWIEDZIALNOŚĆ!!! PONOWNIE! ZOSTAŁEŚ OSTRZEŻONY!!!**
 
 
-## Miscellaneous
-- [Dualboot setup](guide/Polish/dualboot.md)
+## Zaczynaj
+- [Status projektu](guide/Polish/status.md)
 
-- [Additional materials](guide/Polish/materials.md)
+- [Instrukcja instalacji](guide/Polish/1-partition.md)
 
-- [Update drivers](guide/Polish/update.md)
-
-- [Reinstall instructions](guide/Polish/2-install.md)
-
-- [Uninstall instructions](guide/Polish/uninstall.md)
+- [Rozwiązywanie problemów](przewodnik/polski/troubleshooting.md)
 
 
-## Contributors
+## Różnorodny
+- [Konfiguracja Dualboot](przewodnik/polski/dualboot.md)
+
+- [Materiały dodatkowe](przewodnik/polski/materials.md)
+
+- [Aktualizuj sterowniki](guide/Polish/update.md)
+
+- [Instrukcje ponownej instalacji](guide/Polish/2-install.md)
+
+- [Instrukcje odinstalowania](guide/Polish/uninstall.md)
+
+
+## Współtwórcy
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
