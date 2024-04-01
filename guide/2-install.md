@@ -9,8 +9,6 @@
   
 - [Drivers](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
-- [Msc script](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
-
 - [Devcfg (touch fix)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
 - [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
@@ -29,7 +27,7 @@ fastboot boot <path\to\polaris-uefi.img>
 
 ### Diskpart
 > [!WARNING]
-> DO NOT ERASE ANY PARTITION WHILE IN DISKPART!!!! THIS WILL ERASE YOUR ENTIRE UFS!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
+> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS WILL ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
 
 ```cmd
 diskpart
