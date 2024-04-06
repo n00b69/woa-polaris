@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Running Windows on the Xiaomi Mix 2s
+# Windows na Xiaomi Mix 2s
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMIX2S)
 
 ## Wybierz swój język
@@ -19,11 +19,11 @@ Ten projekt jest na wczesnym etapie, wszystkie pliki tutaj zostały przesłane p
 
 - [Instrukcja instalacji](guide/Polish/1-partition.md)
 
-- [Rozwiązywanie problemów](przewodnik/polski/troubleshooting.md)
+- [Rozwiązywanie problemów](guide/polski/troubleshooting.md)
 
 
 ## Różnorodny
-- [Konfiguracja Dualboot](przewodnik/polski/dualboot.md)
+- [Konfiguracja Dualboot](guide/polski/dualboot.md)
 
 - [Materiały dodatkowe](przewodnik/polski/materials.md)
 
