@@ -9,7 +9,7 @@
 
 - [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-- [WOA Helper](https://github.com/n00b69/woaberyllium/releases/download/Dualboot/woahelper.apk)
+- [WOA Helper](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
 - [StA](https://github.com/n00b69/woa-polaris/releases/download/Files/polaris-sta.zip)
 
