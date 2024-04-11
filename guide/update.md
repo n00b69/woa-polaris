@@ -47,7 +47,7 @@ select volume $
 assign letter x
 ```
 
-### Exit diskpart
+#### Exit diskpart
 ```cmd
 exit
 ```
