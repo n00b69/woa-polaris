@@ -13,7 +13,7 @@
   
 - [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-#### Boot to the UEFI
+### Boot to the UEFI
 > Replace **<path\to\polaris-uefi.img>** with the actual path of the UEFI image
 ```cmd
 fastboot boot <path\to\polaris-uefi.img>
@@ -21,9 +21,9 @@ fastboot boot <path\to\polaris-uefi.img>
 
 #### Enabling mass storage mode
 > Once booted into the UEFI, use the volume buttons to navigate the menu and the power button to confirm
-- Select UEFI Boot Menu.
-- Select USB Attached SCSI (UAS) Storage.
-- Select Boot.
+- Select **UEFI Boot Menu**.
+- Select **USB Attached SCSI (UAS) Storage**.
+- Press the **power** button twice to confirm.
 
 ### Diskpart
 > [!WARNING]
