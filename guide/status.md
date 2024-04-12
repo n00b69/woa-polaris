@@ -6,7 +6,6 @@
 This project is not actively maintained, updates may eventually appear, but don't expect them frequently
 
 #### Features
-
 - [ ] Audio 
 - [X] Battery status
 - [x] Bluetooth
@@ -31,7 +30,6 @@ This project is not actively maintained, updates may eventually appear, but don'
 - [x] Proximity
 
 #### Security
-
 - [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
 - [ ] TPM (Software Backed)
 
