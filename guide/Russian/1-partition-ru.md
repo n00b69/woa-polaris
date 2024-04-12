@@ -1,23 +1,23 @@
-<img align="right" src="https://github.com/n00b69/woa-beryllium/blob/main/beryllium.png" width="350" alt="Windows 11 running on beryllium">
+<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Запуск Windows на Xiaomi Pocophone F1
+# Запуск Windows на Xiaomi Mix 2s
 
 ## Разметка устройства 
 
 ### Требования 
 - Мозг (самый важный из всех)
 
-- [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [TWRP](https://github.com/n00b69/woa-beryllium/releases/download/Recoveries/twrp.img)
+- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
 
-- [Parted](https://github.com/n00b69/woa-beryllium/releases/download/Files/parted)
+- [Parted](https://github.com/n00b69/woa-polaris/releases/download/Files/parted)
 
 ### Заметки 
 > [!WARNING]  
 > Не выполняйте одну и ту же команду дважды, если не указано иное.
 > 
-> НЕ ПЕРЕЗАГРУЖАЙТЕ ТЕЛЕФОН! Если вы считаете, что допустили ошибку, обратитесь за помощью в [Telegram чате](https://t.me/WinOnF1).
+> НЕ ПЕРЕЗАГРУЖАЙТЕ ТЕЛЕФОН! Если вы считаете, что допустили ошибку, обратитесь за помощью в [Telegram чате](https://t.me/WinOnMIX2S).
 > 
 > Не выполняйте все команды сразу, выполняйте их по порядку!
 >
@@ -26,7 +26,7 @@
 #### Прошейте TWRP recovery
 > Откройте окно CMD внутри папки platform-tools, затем (пока ваш телефон находится в режиме fastboot) выполните 
 ```cmd
-fastboot flash recovery "путь\к\twrp.img" reboot recovery
+fastboot flash recovery путь\к\twrp.img reboot recovery
 ```
 
 #### Сделайте резервное копирование важных файлов
@@ -38,7 +38,7 @@ fastboot flash recovery "путь\к\twrp.img" reboot recovery
 > **ЕСЛИ ВЫ ПРОДОЛЖИТЕ РАБОТУ БЕЗ РЕЗЕРВНОГО КОПИРОВАНИЯ modem И EFS, ТО В СЛУЧАЕ НЕУДАЧИ ОТВЕТСТВЕННОСТЬ ЛЕЖИТ НА ВАС**
 
 ### Руководство по разметке
-> Ваш Pocophone F1 может иметь разный объем памяти. В данном руководстве в качестве примера используются значения для модели емкостью 128 ГБ. При необходимости в руководстве будет указано, можно или нужно ли использовать другие значения.
+> Ваш Xiaomi Mix 2s может иметь разный объем памяти. В данном руководстве в качестве примера используются значения для модели емкостью 128 ГБ. При необходимости в руководстве будет указано, можно или нужно ли использовать другие значения.
 
 #### Размантируйте data
 - Перейдите к `Монтировать` в TWRP и размонтируйте Data, если она смонтирована
