@@ -1,14 +1,12 @@
-<img align="right" src="https://github.com/n00b69/woa-beryllium/blob/main/beryllium.png" width="350" alt="Windows 11 running on beryllium">
+<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Запуск Windows на Xiaomi Pocophone F1
+# Запуск Windows на Xiaomi Mix 2s
 
 ## Статус проекта 
-
 Проект находится в стадии разработки. Ожидайте некоторых обновлений в будущем.
 
 #### Функции 
-
-- [X] Аудио 
+- [ ] Аудио 
 - [X] Статус Батареи
 - [x] Bluetooth
 - [x] Яркость
@@ -17,7 +15,7 @@
 - [x] Зарядка ```ОЧЕНЬ медленно```
 - [x] Дисплей
 - [x] GPU  ```Нет ускорения x64```
-- [ ] SD карта ```Very unreliable```
+- [ ] SD карта
 - [ ] СМС
 - [x] Touchscreen ```Ломается после спящего режима```
 - [x] UFS
@@ -29,12 +27,10 @@
 - [ ] Отпечаток пальца
 - [x] GPS
 - [x] Гироскоп
-- [ ] Датчик освещенности
-- [x] Магнитометр
+- [x] Датчик освещенности
 - [ ] Датчик приближения 
 
 #### Безопасность 
-
 - [ ] Процессор обеспечения безопасности ```Невозможно заставить работать, Xiaomi сломали прошивку```
 - [ ] TPM (Поддерживаемое программное обеспечение)
 
