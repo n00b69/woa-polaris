@@ -8,38 +8,48 @@
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
 - [Drivers](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
-
-- [Msc script](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
   
-- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img) (should already be installed)
+- [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-#### Boot to TWRP
-> If Xiaomi has replaced your recovery back to stock, flash it again in fastboot with:
+### Boot to the UEFI
+> Replace **<path\to\polaris-uefi.img>** with the actual path of the UEFI image
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
+fastboot boot <path\to\polaris-uefi.img>
 ```
 
-#### Running the msc script
-> Put msc.sh in the platform-tools folder, then run:
-```cmd
-adb push msc.sh / && adb shell sh msc.sh
-```
+#### Enabling mass storage mode
+> Once booted into the UEFI, use the volume buttons to navigate the menu and the power button to confirm
+- Select **UEFI Boot Menu**.
+- Select **USB Attached SCSI (UAS) Storage**.
+- Press the **power** button twice to confirm.
 
 ### Diskpart
 ```cmd
 diskpart
 ```
 
-#### List device volumes
-> To print a list of all the connected volumes, run
+#### Finding your phone
+> This will list all connected disks
 ```cmd
-list volume
+lis dis
 ```
 
-#### Select Windows volume
-> Replace $ with the actual number of **WINPOLARIS**
+#### Selecting your phone
+> Replace $ with the actual number of your phone (it should be the last one)
 ```cmd
-select volume $
+sel dis $
+```
+
+#### Listing your phone's partitions
+> This will list your device's partitions
+```cmd
+lis par
+```
+
+#### Selecting the Windows partition
+> Replace $ with the partition number of Windows (should be 23)
+```cmd
+sel par $
 ```
 
 #### Assign letter to Windows
@@ -58,31 +68,8 @@ exit
 dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
 ```
 
-### Unassign disk letter
-> So that it doesn't stay there after disconnecting the device
-```cmd
-diskpart
-```
-
-#### Select the Windows volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **WINPOLARIS**
-```diskpart
-select volume $
-```
-
-#### Unassign the letter X
-```diskpart
-remove letter x
-```
-
-#### Exit diskpart
-```diskpart
-exit
-```
-
 #### Boot back into Windows
 > Reboot your device to boot back into Windows. If this boots you to Android, reflash the UEFI image through fastboot or by using the WOA Helper app
-
 
 ## Finished!
 
