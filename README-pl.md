@@ -29,7 +29,7 @@ Ten projekt jest na wczesnym etapie, wszystkie pliki tutaj zostały przesłane p
 
 - [Aktualizuj sterowniki](guide/Polish/update.md)
 
-- [Instrukcje ponownej instalacji](guide/Polish/2-install.md)
+- [Instrukcje ponownej instalacji](guide/Polish/reinstall.md)
 
 - [Instrukcje odinstalowania](guide/Polish/uninstall.md)
 
