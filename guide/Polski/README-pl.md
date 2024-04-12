@@ -4,7 +4,7 @@
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMIX2S)
 
 ## Wybierz swój język
-[Angielski](README.md) | ~~[Pусский](README-ru.md)~~ | **Polski**
+[`Angielski`](/README.md) | ~~[`Pусский`](/guide/Russian/README-ru.md)~~ | **Polski**
 
 ## ⚠️ Uwaga
 Nie ponosimy odpowiedzialności za uszkodzone urządzenia, brakujące partycje odzyskiwania, niedziałającą linię fabryczną Xiaomi ~~pracownicy~~ kowboje, martwe pmic, martwy baran, martwe karty SIM, martwe układy wyświetlacza, martwy procesor, wszelkie wybryki Xiaomi, eksplodujące baterie, martwe koty lub psy, wojny nuklearne lub zostaniesz zwolniony, ponieważ zapomniałeś ponownie uruchomić Androida, aby włączyć alarm.
@@ -15,23 +15,23 @@ Ten projekt jest na wczesnym etapie, wszystkie pliki tutaj zostały przesłane p
 
 
 ## Zaczynaj
-- [Status projektu](guide/Polish/status.md)
+- [Status projektu](status.md)
 
-- [Instrukcja instalacji](guide/Polish/1-partition.md)
+- [Instrukcja instalacji](1-partition.md)
 
-- [Rozwiązywanie problemów](guide/polski/troubleshooting.md)
+- [Rozwiązywanie problemów](troubleshooting.md)
 
 
 ## Różnorodny
-- [Konfiguracja Dualboot](guide/polski/dualboot.md)
+- [Konfiguracja Dualboot](dualboot.md)
 
-- [Materiały dodatkowe](przewodnik/polski/materials.md)
+- [Materiały dodatkowe](materials.md)
 
-- [Aktualizuj sterowniki](guide/Polish/update.md)
+- [Aktualizuj sterowniki](update.md)
 
-- [Instrukcje ponownej instalacji](guide/Polish/reinstall.md)
+- [Instrukcje ponownej instalacji](reinstall.md)
 
-- [Instrukcje odinstalowania](guide/Polish/uninstall.md)
+- [Instrukcje odinstalowania](uninstall.md)
 
 
 ## Współtwórcy
@@ -59,6 +59,7 @@ src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14238
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="graphiks" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/136170061?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/graphiks)
 [<img alt="TrustedFloppa" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85476585?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TrustedFloppa)
+[<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
 
 
 
