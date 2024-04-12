@@ -166,7 +166,7 @@ fastboot flash devcfg_ab path\to\devcgf-polaris.img
 ### Uruchom ponownie system Android
 > Aby skonfigurować dualboot
 
-## [Ostatni Krok: Ustawianie dualboot](/guide/dualboot.md)
+## [Ostatni Krok: Ustawianie dualboot](dualboot.md)
 
 
 
