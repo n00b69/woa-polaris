@@ -1,20 +1,20 @@
-<img align="right" src="https://github.com/n00b69/woa-beryllium/blob/main/beryllium.png" width="350" alt="Windows 11 running on beryllium">
+<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Запуск Windows на Xiaomi Pocophone F1
+# Запуск Windows на Xiaomi Mix 2s
 
 ## Обновление драйверов 
 
 ### Требования
-- [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Драйвера](https://github.com/n00b69/woa-beryllium/releases/tag/Drivers)
+- [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
   
-- [Образ UEFI](https://github.com/n00b69/woa-beryllium/releases/tag/UEFI)
+- [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 ### Запуск UEFI
-> Замените **<путь\к\beryllium-uefi.img>** путём к образу UEFI 
+> Замените **<путь\к\polaris-uefi.img>** путём к образу UEFI 
 ```cmd
-fastboot boot <путь\к\beryllium-uefi.img>
+fastboot boot <путь\к\polaris-uefi.img>
 ```
 
 #### Включение режима mass storage 
@@ -35,12 +35,12 @@ list volume
 ```
 
 #### Выберите раздел Windows 
-> Замените `$` номером раздела **WINF1**
+> Замените `$` номером раздела **WINPOLARIS**
 ```cmd
 select volume $
 ```
 
-#### Привязать букву к WINF1
+#### Привязать букву к WINPOLARIS
 ```cmd
 assign letter X
 ```
@@ -51,12 +51,12 @@ exit
 ```
 
 ### Установка драйверов 
-> Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd`
-
-> Введите букву диска **WINF1**, должна быть X, затем нажмите enter
+> Extract the drivers folder from the archive, then run the following command, replacing`<path\to\drivers>` with the actual path of the drivers folder
+```cmd
+dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
+```
 
 #### Загрузка обратно в Windows
 > Перезагрузите устройство, чтобы снова загрузиться в Windows. Если после этого планшет загрузится в Android, перепрошейте образ UEFI с помощью fastboot или с помощью приложения WOA Helper
-
 
 ## Готово!
