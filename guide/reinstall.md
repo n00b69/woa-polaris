@@ -67,10 +67,9 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
 ```
 
-### Reboot to fastboot
-> Hold the **volume up** + **power** button until it boots to fastboot
-
 ### Fixing touch
+> Hold the **volume up** + **power** button until it boots to fastboot
+> 
 > Replace "path\to" with the actual path to the image
 ```cmd
 fastboot flash devcfg_ab path\to\devcgf-polaris.img
