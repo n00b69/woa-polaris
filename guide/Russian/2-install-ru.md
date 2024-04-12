@@ -1,22 +1,22 @@
-<img align="right" src="https://github.com/n00b69/woa-beryllium/blob/main/beryllium.png" width="350" alt="Windows 11 running on beryllium">
+<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Запуск Windows на Xiaomi Pocophone F1
+# Запуск Windows на Xiaomi Mix 2s
 
 ## Установка Windows
 
 ### Требования
 - [ARM образ Windows](https://worproject.com/esd)
   
-- [Драйвера](https://github.com/n00b69/woa-beryllium/releases/tag/Drivers)
+- [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
-- [Скрипт исправления touch](https://github.com/n00b69/woa-beryllium/releases/download/Files/touchfix.bat)
+- [Devcfg исправления touch](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
-- [образ UEFI](https://github.com/n00b69/woa-beryllium/releases/tag/UEFI)
+- [образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 ### Загрузка в UEFI
-> Замените **<путь\к\beryllium-uefi.img>** с актуальным путём к образу UEFI
+> Замените **<путь\к\polaris-uefi.img>** с актуальным путём к образу UEFI
 ```cmd
-fastboot boot <путь\к\beryllium-uefi.img>
+fastboot boot <путь\к\polaris-uefi.img>
 ```
 
 #### Включение режима mass storage
@@ -58,7 +58,7 @@ sel par $
 
 #### Отформатировать раздел Windows
 ```cmd
-format quick fs=ntfs label="WINF1"
+format quick fs=ntfs label="WINPOLARIS"
 ```
 
 #### Добавить букву к разделу Windows
@@ -74,7 +74,7 @@ sel par $
 
 #### Отформатировать раздел ESP
 ```cmd
-format quick fs=fat32 label="ESPF1"
+format quick fs=fat32 label="ESPPOLARIS"
 ```
 
 #### Добавьте букву к ESP
@@ -96,12 +96,10 @@ dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 > Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` действтельным индексом Windows 11 Pro в вашем образе
 
 ### Установка драйверов
-> Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` 
-
-> Введите букву диска **WINF1**, должна быть X, затем нажмите Enter
-
-#### Исправить touch
-> Запустите файл `touchfix.bat` от имени администратора, иначе сенсорное управление не будет работать при загрузке в Windows
+> Извлеките папку с драйверами из архива, затем выполните следующую команду, заменяя `<путь\к\драйверам>` путём к папке с драйверами
+```cmd
+dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
+```
   
 #### Создать файлы загрузчика Windows
 ```cmd
@@ -130,7 +128,7 @@ diskpart
 ```
 
 #### Выбрать раздел Windows телефона
-> Используйте `list volume` чтобы найти его, замените `$` номером **WINF1**
+> Используйте `list volume` чтобы найти его, замените `$` номером **WINPOLARIS**
 ```diskpart
 select volume $
 ```
@@ -141,7 +139,7 @@ remove letter x
 ```
 
 #### Выбрать раздел ESP телефна
-> Используйте `list volume` чтобы найти его, замените `$` номером **ESPF1**
+> Используйте `list volume` чтобы найти его, замените `$` номером **ESPPOLARIS**
 ```diskpart
 select volume $
 ```
@@ -156,12 +154,11 @@ remove letter y
 exit
 ```
 
-#### Проверить тип дисплея 
-> Это должно отобразить `dsi_ebbg_fhd_ft8719_video_display` или `dsi_tianma_fhd_nt36672a_video_display`
+### Исправить touch
+> Reboot to fastboot, then replace **path\to** with the actual path to the image
 ```cmd
-adb shell dmesg | grep dsi_display_bind
+fastboot flash devcfg_ab path\to\devcgf-polaris.img
 ```
-Запомните тип вашей панели (Tianma или EBBG), это понадобится вам позже
 
 ### Перезагрузка в Android
 > Чтобы настроить двойную загрузку
