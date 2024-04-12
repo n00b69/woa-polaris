@@ -155,7 +155,7 @@ exit
 ```
 
 ### Исправить touch
-> Reboot to fastboot, then replace **path\to** with the actual path to the image
+> Перезагрузитесь в fastboot, затем замените **path\to** путём к образу
 ```cmd
 fastboot flash devcfg_ab path\to\devcgf-polaris.img
 ```
@@ -163,4 +163,4 @@ fastboot flash devcfg_ab path\to\devcgf-polaris.img
 ### Перезагрузка в Android
 > Чтобы настроить двойную загрузку
 
-## [Последний шаг: Настройка двойной загрузки](/guide/Russian/dualboot-ru.md)
+## [Последний шаг: Настройка двойной загрузки](dualboot-ru.md)
