@@ -20,9 +20,11 @@ W tym przewodniku założono, że jesteś zrootowany, jeśli tak nie jest, post�
 - Pobierz i zainstaluj aplikację WOA Helper, a następnie otwórz ją i przyznaj uprawnienia roota.
 - Pobierz obraz UEFI i umieść go w folderze o nazwie `UEFI` w pamięci wewnętrznej.
 - Naciśnij przycisk `Zamontuj system Windows`, aby zamontować system Windows w pamięci wewnętrznej w `/sdcard/Windows`
+> [!Important]
+> If `/sdcard/Windows` is empty, your rom does not support mounting and you will have to make a boot.img backup inside the app, then copy it manually to Windows once you boot to it (for example by uploading it somewhere and then downloading it while booted into Windows). The same applies to the STA files.
+>
+> Do the same thing if the folder is read-only.
 - Utwórz folder o nazwie `sta` w systemie Windows i rozpakuj dwa pliki w pliku `Przełącz na pakiet Android` tutaj (pliki powinny trafić do `/sdcard/Windows/sta`
-> [!Note]
-> Jeśli powyższy krok się nie powiedzie, naciśnij zamiast tego `flash UEFI`, a następnie uruchom ponownie komputer, aby uruchomić system Windows, naciśnij przycisk restart w systemie Windows, a następnie w trakcie ponownego uruchamiania uruchom komputer z powrotem do odzyskiwania, aby sflashować plik boot.img systemu Android znajdujący się w pamięci wewnętrznej i spróbuj ponownie .
 - Wróć do aplikacji WOA Helper i naciśnij przycisk `Quickboot`.
 
 ### Konfiguracja — Windows
