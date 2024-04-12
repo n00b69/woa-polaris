@@ -4,7 +4,7 @@
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMIX2S)
 
 ## Wybierz swój język
-[`English`](/README.md) | ~~[`Pусский`](/guide/Russian/README-ru.md)~~ | **Polski**
+[`English`](/README.md) | [`Pусский`](/guide/Russian/README-ru.md) | **Polski**
 
 ## ⚠️ Uwaga
 Nie ponosimy odpowiedzialności za uszkodzone urządzenia, brakujące partycje odzyskiwania, niedziałającą linię fabryczną Xiaomi ~~pracownicy~~ kowboje, martwe pmic, martwy baran, martwe karty SIM, martwe układy wyświetlacza, martwy procesor, wszelkie wybryki Xiaomi, eksplodujące baterie, martwe koty lub psy, wojny nuklearne lub zostaniesz zwolniony, ponieważ zapomniałeś ponownie uruchomić Androida, aby włączyć alarm.
