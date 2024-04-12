@@ -103,7 +103,7 @@ quit
 - Po prostu uruchom ponownie telefon i sprawdź, czy Android nadal działa
 
 
-## [Następny Krok](/guide/Polish/2-install.md)
+## [Następny Krok](2-install.md)
 
 
 
