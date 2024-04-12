@@ -68,9 +68,7 @@ dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
 ```
 
 ### Reboot to fastboot
-```cmd
-adb reboot bootloader
-```
+> Hold the **volume up** + **power** button until it boots to fastboot
 
 ### Fixing touch
 > Replace "path\to" with the actual path to the image
