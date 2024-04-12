@@ -1,6 +1,7 @@
-<img align="right" src="https://github.com/n00b69/woa-beryllium/blob/main/beryllium.png" width="350" alt="Windows 11 running on beryllium">
+<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Запуск Windows на Xiaomi Pocophone F1
+
+# Запуск Windows на Xiaomi Mix 2s
 
 ## Удаление
 
@@ -10,8 +11,9 @@
 If you want to relock your bootloader you'll need your partition table to be stock.
 
 ### Требования
-- [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](https://github.com/n00b69/woa-beryllium/releases/download/Files/gpt_both0.bin)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+
+- [gpt_both0.bin](https://github.com/n00b69/woa-polaris/releases/download/Files/gpt_both0.bin)
 
 ### Загрузитесь в fastboot 
 > Удерживайте нажатой кнопку уменьшения громкости + включения, пока телефон выключен, или выполните следующую команду когда он загружен 
@@ -32,4 +34,5 @@ fastboot -w
 ```
 > [!Note]
 > Если форматирование userdata завершится неудачно, перезагрузтесь в recovery и сделайте wipe data там вместо этого
+
 ## Готово!
