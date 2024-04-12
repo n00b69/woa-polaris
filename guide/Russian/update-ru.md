@@ -57,13 +57,13 @@ sel par $
 assign letter X
 ```
 
-### Выйти из diskpart
+#### Выйти из diskpart
 ```cmd
 exit
 ```
 
 ### Установка драйверов 
-> Extract the drivers folder from the archive, then run the following command, replacing`<path\to\drivers>` with the actual path of the drivers folder
+> Извлеките папку с драйверами из архива, затем выполните следующую команду, заменяя **<path\to\drivers>** путём к папке с драйверами
 ```cmd
 dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
 ```
