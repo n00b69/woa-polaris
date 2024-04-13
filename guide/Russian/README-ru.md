@@ -18,17 +18,17 @@
 
 - [Установка](1-partition-ru.md)
 
-- ~~[Исправление проблем](troubleshooting-ru.md)~~
+- [Исправление проблем](troubleshooting-ru.md)
 
 
 ## Прочее 
 - [Настройка двойной загрузки](dualboot-ru.md)
 
-- ~~[Полезные инструкции](materials-ru.md)~~
+- [Полезные инструкции](materials-ru.md)
 
 - [Обновление Драйверов](update-ru.md)
 
-- ~~[Переустановка](reinstall-ru.md)~~
+- [Переустановка](reinstall-ru.md)
 
 - [Инструкции по удалению](uninstall-ru.md)
 
