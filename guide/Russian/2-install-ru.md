@@ -11,7 +11,7 @@
 
 - [Devcfg исправления touch](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
-- [образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 ### Загрузка в UEFI
 > Замените **<путь\к\polaris-uefi.img>** с актуальным путём к образу UEFI
