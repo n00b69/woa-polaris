@@ -63,25 +63,25 @@ rm $
 #### Ponowne utworzenie userdata
 > Zamień **1611MB** na poprzednią wartość początkową **userdata**, którą właśnie usunęliśmy (prawdopodobnie jest to 1611MB)
 >
-> Zastąp **32 GB** wartością końcową, jaką chcesz mieć dla **userdata**
+> Zastąp **32GB** wartością końcową, jaką chcesz mieć dla **userdata**
 ```cmd
 mkpart userdata ext4 1611MB 32GB
 ```
 
 #### Tworzenie partycji ESP 
-> Zamień **32,16 GB** na końcową wartość **userdata**
+> Zamień **32GB** na końcową wartość **userdata**
 >
-> Zastąp **32,66 GB** wartością, której użyłeś wcześniej, dodając do niej **0,5 GB**
+> Zastąp **32.3GB** wartością, której użyłeś wcześniej, dodając do niej **0.3GB**
 ```cmd
-mkpart esp fat32 32.16GB 32.66GB
+mkpart esp fat32 32GB 32.3GB
 ```
 
 #### Tworzenie partycji Windows
-> Zastąp **32,66 GB** wartością końcową **esp**
+> Zastąp **32.3GB** wartością końcową **esp**
 >
 > Zamień **123GB** na końcową wartość dysku, użyj `p free`, aby go znaleźć
 ```cmd
-mkpart win ntfs 32.66GB 123GB
+mkpart win ntfs 32.3GB 123GB
 ```
 
 #### Tworzenie bootowalnego ESP
