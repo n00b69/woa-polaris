@@ -9,7 +9,7 @@
   
 - [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-#### Uruchom do UEFI
+### Uruchom do UEFI
 > Zastąp **<path\to\polaris-uefi.img>** rzeczywistą ścieżką obrazu UEFI
 ```cmd
 fastboot boot <path\to\polaris-uefi.img>
@@ -17,9 +17,9 @@ fastboot boot <path\to\polaris-uefi.img>
 
 #### Włączanie trybu pamięci masowej
 > Po uruchomieniu systemu UEFI użyj przycisków głośności do poruszania się po menu i przycisku zasilania, aby potwierdzić
-- Wybierz UEFI Boot Menu.
-- Wybierz USB Attached SCSI (UAS) Storage.
-- Wybierz Boot.
+- Wybierz **UEFI Boot Menu**.
+- Wybierz **USB Attached SCSI (UAS) Storage**.
+- Naciśnij przycisk dwa razy aby potwierdzić.
 
 ### Diskpart
 ```cmd
@@ -60,22 +60,6 @@ format quick fs=ntfs label="WINPOLARIS"
 assign letter x
 ```
 
-#### Wybieranie Partycji ESP
-> Zamień $ na numer partycji ESP (powinno być 22)
-```cmd
-sel par $
-```
-
-#### Formatowanie ESP
-```cmd
-format quick fs=fat32 label="ESPPOLARIS"
-```
-
-#### Dodaj literę do ESP
-```cmd
-assign letter y
-```
-
 #### Wyjdź z Diskpart
 ```cmd
 exit
@@ -98,6 +82,7 @@ dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
 
 ### Uruchom do Androida
 Uruchom ponownie telefon. Jeśli zamiast systemu Windows wylądujesz w systemie Android, ponownie wykonaj flashowanie UEFI za pomocą WOA Helper.
+
 #### Konfiguracja Windowsa
 > Twoje urządzenie skonfiguruje teraz system Windows. To zajmie trochę czasu. W końcu uruchomi się ponownie, a następnie powinna rozpocząć się konfiguracja wstępna (oobe).
 
