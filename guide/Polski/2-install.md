@@ -9,13 +9,11 @@
   
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
-- [skrypt msc](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
-
 - [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
 - [obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-#### Uruchom do UEFI
+### Uruchom do UEFI
 > Zastąp **<path\to\polaris-uefi.img>** rzeczywistą ścieżką obrazu UEFI
 ```cmd
 fastboot boot <path\to\polaris-uefi.img>
@@ -23,9 +21,9 @@ fastboot boot <path\to\polaris-uefi.img>
 
 #### Włączanie trybu pamięci masowej
 > Po uruchomieniu systemu UEFI użyj przycisków głośności do poruszania się po menu i przycisku zasilania, aby potwierdzić
-- Wybierz UEFI Boot Menu.
-- Wybierz USB Attached SCSI (UAS) Storage.
-- Wybierz Boot.
+- Wybierz **UEFI Boot Menu**.
+- Wybierz **USB Attached SCSI (UAS) Storage**.
+- Naciśnij przycisk dwa razy aby potwierdzić.
 
 ### Diskpart
 > [!WARNING]
