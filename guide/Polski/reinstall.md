@@ -89,7 +89,7 @@ Uruchom ponownie telefon. Jeśli zamiast systemu Windows wylądujesz w systemie 
 > [!Note]
 > Aby pominąć logowanie do konta Microsoft, wpisz „g” jako adres e-mail i hasło. System Windows umożliwi wówczas utworzenie konta lokalnego
 
-## Finished!
+## Skończone!
 
 
 
