@@ -96,10 +96,11 @@ dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 > Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` действтельным индексом Windows 11 Pro в вашем образе
 
 ### Установка драйверов
-> Извлеките папку с драйверами из архива, затем выполните следующую команду, заменяя `<path\to\drivers>` путём к папке с драйверами
-```cmd
-dism /image:X:\ /add-driver /driver:<path\to\drivers> /recurse
-```
+> Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` 
+
+> Введите букву диска **WINPOLARIS**, должна быть X, затем нажмите Enter
+
+> If any errors appear under **Installing App Packages**, ignore them and continue
   
 #### Создать файлы загрузчика Windows
 ```cmd
