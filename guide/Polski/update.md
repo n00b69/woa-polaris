@@ -8,13 +8,13 @@
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
 ### Boot into Windows
-> Flash the UEFI image in fastboot or use the WOA Helper app
+> Zflashuj UEFI w fastboot lub użyj aplikacji WOA Helper
 
-### Installing Drivers
-> Unpack the driver archive on your Xiaomi Mix 2s in Windows, then open the `OnlineUpdater.cmd` file
+### Instalowanie Sterowników
+> Rozpakuj archiwum sterowników na swoim Xiaomi Mix 2s w systemie Windows, a następnie otwórz plik `OnlineUpdater.cmd`
 
-> Follow any instructions provided on the screen
+> Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie
 
-> If you see an error after installing **App Packages**, ignore it, and reboot your device manually after it says **Done!**
+> Jeśli po zainstalowaniu **pakietów aplikacji** zobaczysz błąd, zignoruj ​​go i ręcznie uruchom ponownie urządzenie, gdy pojawi się komunikat **Done!**
 
 ## Skończone!
