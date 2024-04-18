@@ -28,6 +28,7 @@ This project is not actively maintained, updates may eventually appear, but don'
 - [x] Gyroscope
 - [x] Light sensor
 - [x] Proximity
+- [X] NFC ```NFC Tags work, other NFC related things may work too```
 
 #### Security
 - [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
