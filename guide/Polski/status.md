@@ -28,7 +28,8 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [x] Gyroscope
 - [x] Light sensor
 - [x] Proximity
-
+- [X] NFC ```Tagi NFC działają, inne funkcje związane z NFC też mogą działać```
+      
 #### Bezpieczeństwo
 
 - [ ] Processor Bezpieczeństwa ```Nie można uruchomić, Xiaomi zepsuło oprogramowanie```
