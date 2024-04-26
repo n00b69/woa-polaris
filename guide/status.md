@@ -6,7 +6,7 @@
 This project is not actively maintained, updates may eventually appear, but don't expect them frequently
 
 #### Features
-- [x] Audio ```Mono only```
+- [x] Audio ```Mono only, Currently speakers are playing quietly (will fix in future)  ```
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness 
