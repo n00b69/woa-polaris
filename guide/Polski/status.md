@@ -6,7 +6,7 @@
 Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić się, ale nie należy się ich spodziewać często
 
 #### Funkcje
-- [x] Dzwięk ```Tylko Mono, Glośniki narazie grają cicho. (zostanie naprawione w przyszlości)```
+- [x] Dzwięk
 - [X] Wzkaźnik baterii
 - [x] Bluetooth
 - [x] Jasność 
