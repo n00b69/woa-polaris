@@ -97,11 +97,9 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu Windows 11 Pro na Twoim obrazie
 
 ### Instalowanie Sterowników
-> Rozpakuj archiwum sterowników na swoim Xiaomi Mix 2s w systemie Windows, a następnie otwórz plik `OnlineUpdater.cmd`
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie
-
-> Jeśli po zainstalowaniu **pakietów aplikacji** zobaczysz błąd, zignoruj ​​go i ręcznie uruchom ponownie urządzenie, gdy pojawi się komunikat **Done!**
+> If it asks you to enter a letter, enter the drive letter of **WINPOLARIS** (which should be X), then press enter
   
 #### Utwórz pliki bootloadera systemu Windows
 ```cmd
