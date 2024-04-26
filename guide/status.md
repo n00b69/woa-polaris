@@ -6,7 +6,7 @@
 This project is not actively maintained, updates may eventually appear, but don't expect them frequently
 
 #### Features
-- [ ] Audio 
+- [x] Audio ```Mono only```
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness 
@@ -30,9 +30,10 @@ This project is not actively maintained, updates may eventually appear, but don'
 - [x] Proximity
 - [X] NFC ```NFC Tags work, other NFC related things may work too```
 
-#### Security
-- [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
-- [ ] TPM (Software Backed)
+
+
+
+
 
 
 
