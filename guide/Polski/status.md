@@ -4,9 +4,9 @@
 
 ## Status Projektu
 Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić się, ale nie należy się ich spodziewać często
-#### Funkcje
 
-- [ ] Dzwięk 
+#### Funkcje
+- [x] Dzwięk ```Mono only```
 - [X] Wzkaźnik baterii
 - [x] Bluetooth
 - [x] Jasność 
@@ -30,12 +30,6 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [x] Proximity
 - [X] NFC ```Tagi NFC działają, inne funkcje związane z NFC też mogą działać```
       
-#### Bezpieczeństwo
-
-- [ ] Processor Bezpieczeństwa ```Nie można uruchomić, Xiaomi zepsuło oprogramowanie```
-- [ ] TPM (Działa na oprogramowaniu)
-
-
 
 
 
