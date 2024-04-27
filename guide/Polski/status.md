@@ -11,11 +11,12 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [x] Bluetooth
 - [x] Jasność 
 - [ ] Kamera
-- [x] Dane Mobilne
+- [x] LTE ```Problematic```
 - [x] Ładowanie ```BARDZO Powolne```
 - [x] Wyświetlacz
 - [ ] Latarka
 - [x] Karta Graficzna  ```Brak x64```
+- [ ] SMS
 - [x] Dotyk 
 - [x] UFS
 - [x] USB
