@@ -170,6 +170,7 @@ fastboot flash devcfg_ab path\to\devcgf-polaris.img
 fastboot boot <path\to\firstboot.img>
 ```
 
+> [!Important]
 > After Windows boots and you've completed OOBE, press **Restart** in the start menu to boot back to Android for the last step
 
 ## [Last step: Setting up dualboot](/guide/dualboot.md)
