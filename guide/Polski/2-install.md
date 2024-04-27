@@ -102,7 +102,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > If it asks you to enter a letter, enter the drive letter of **WINPOLARIS** (which should be X), then press enter
 
 > [!WARNING]
-> DO NOT USE DISM++
+> NIE UŻYWAJ DISM++
 
 #### Utwórz pliki bootloadera systemu Windows
 ```cmd
@@ -169,7 +169,7 @@ fastboot flash devcfg_ab path\to\devcgf-polaris.img
 fastboot boot <path\to\firstboot.img>
 ```
 
-> After Windows boots and you've completed the Windows setup, press "Restart" in the start menu to boot back to Android for the last step
+> Po uruchomieniu systemu Windows i zakończeniu konfiguracji systemu Windows naciśnij **Uruchom ponownie** w menu Start, aby w ostatnim kroku ponownie uruchomić system Android
 
 ## [Ostatni Krok: Ustawianie dualboot](dualboot.md)
 
