@@ -5,7 +5,7 @@
 ## Установка Windows
 
 ### Требования
-- [ARM образ Windows](https://worproject.com/esd)
+- [Образ ARM Windows](https://worproject.com/esd)
   
 - [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
@@ -13,13 +13,13 @@
   
 - [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-### Загрузка в UEFI
-> Замените **<путь\к\polaris-uefi.img>** с актуальным путём к образу UEFI
+### Загрузитесь в UEFI
+> Замените **<путь\к\polaris-uefi.img>** актуальным путём к образу UEFI
 ```cmd
 fastboot boot <путь\к\polaris-uefi.img>
 ```
 
-#### Включение режима mass storage
+#### Включите режим mass storage
 > После загрузки в UEFI используйте кнопки регулировки громкости для навигации по меню и кнопку питания для подтверждения
 - Выберите **UEFI Boot Menu**.
 - Выберите **USB Attached SCSI (UAS) Storage**.
@@ -27,7 +27,7 @@ fastboot boot <путь\к\polaris-uefi.img>
 
 ### Diskpart
 > [!WARNING]
-> НЕ УДАЛЯЙТЕ, НЕ СОЗДАВАЙТЕ И НЕ ИЗМЕНЯЙТЕ КАКИМ-ЛИБО ИНЫМ ОБРАЗОМ РАЗДЕЛЫ, НАХОДЯСЬ В DISKPART!!!! ЭТО МОЖЕТ ПРИВЕСТИ К УДАЛЕНИЮ UFS ИЛИ НЕВОЗМОЖНОСТИ ЗАГРУЗКИ В FASTBOOT!!!! ЭТО ОЗНАЧАЕТ, ЧТО ВАШЕ УСТРОЙСТВО БУДЕТ ОКИРПИЧЕНО БЕЗ КАКОГО-ЛИБО РЕШЕНИЯ! (за исключением доставки устройства в Xiaomi или его перепрошивки с помощью EDL, и то, и другое, скорее всего, будет стоить денег)
+> НЕ УДАЛЯЙТЕ, НЕ СОЗДАВАЙТЕ И НЕ ИЗМЕНЯЙТЕ КАКИМ-ЛИБО ИНЫМ ОБРАЗОМ РАЗДЕЛЫ, НАХОДЯСЬ В DISKPART!!! ЭТО МОЖЕТ ПРИВЕСТИ К УДАЛЕНИЮ UFS ИЛИ НЕВОЗМОЖНОСТИ ЗАГРУЗКИ В FASTBOOT!!! ЭТО ОЗНАЧАЕТ, ЧТО ВАШЕ УСТРОЙСТВО БУДЕТ ОКИРПИЧЕНО БЕЗ КАКОГО-ЛИБО РЕШЕНИЯ! (за исключением доставки устройства в Xiaomi или его перепрошивки с помощью EDL, и то, и другое, скорее всего, будет стоить денег)
 ```cmd
 diskpart
 ```
@@ -88,7 +88,7 @@ exit
 ```
 
 ### Установка Windows
-> Замените `<путь\к\install.esd>` актуальным путём к install.esd (он также может называться install.wim)
+> Замените `<путь\к\install.esd>` актуальным путём к install.esd (файл также может называться install.wim)
 ```cmd
 dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 ```
@@ -98,7 +98,7 @@ dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 ### Установка драйверов
 > Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` 
 
-> Введите букву диска **WINPOLARIS**, должна быть X, затем нажмите Enter
+> Введите букву диска **WINPOLARIS** (должна быть **X**) затем нажмите Enter
 
 > [!WARNING]
 > НЕ ИСПОЛЬЗУЙТЕ DISM++
@@ -108,51 +108,51 @@ dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-#### Включение тестовой подписи
+#### Включение тестовой подпись
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
-#### Выключение восстановления 
+#### Отключите восстановление
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 ```
 
-#### Отключение проверки целостности
+#### Отключите проверку целостности
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
-### Отвязать буквы дисков
+### Отвяжите буквы дисков
 > Чтобы они не остались после отключения устройства
 ```cmd
 diskpart
 ```
 
-#### Выбрать раздел Windows телефона
-> Используйте `list volume` чтобы найти его, замените `$` номером **WINPOLARIS**
-```diskpart
+#### Выберите раздел Windows телефона
+> Используйте `list volume` чтобы найти его, замените `$` номером раздела **WINPOLARIS**
+```cmd
 select volume $
 ```
 
-#### Отвязать букву X
-```diskpart
+#### Отвяжите букву X
+```cmd
 remove letter x
 ```
 
-#### Выбрать раздел ESP телефна
-> Используйте `list volume` чтобы найти его, замените `$` номером **ESPPOLARIS**
-```diskpart
+#### Выберите раздел ESP телефна
+> Используйте `list volume` чтобы найти его, замените `$` номером раздела **ESPPOLARIS**
+```cmd
 select volume $
 ```
 
-#### Отвязать букву Y
-```diskpart
+#### Отвяжите букву Y
+```cmd
 remove letter y
 ```
 
-#### Выйти из diskpart
-```diskpart
+#### Выйдите из diskpart
+```cmd
 exit
 ```
 
