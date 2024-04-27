@@ -11,7 +11,7 @@ Most things work, flashlight does not yet work but it might be functional soon.
 - [x] Bluetooth
 - [x] Brightness 
 - [ ] Camera
-- [x] LTE
+- [x] LTE ```Problematic```
 - [x] Charging ```VERY slow```
 - [x] Display
 - [ ] Flashlight
