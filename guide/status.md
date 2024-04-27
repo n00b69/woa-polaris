@@ -11,11 +11,12 @@ Most things work, flashlight does not yet work but it might be functional soon.
 - [x] Bluetooth
 - [x] Brightness 
 - [ ] Camera
-- [x] Cellular
+- [x] LTE
 - [x] Charging ```VERY slow```
 - [x] Display
 - [ ] Flashlight
 - [x] GPU  ```No x64 acceleration```
+- [ ] SMS
 - [x] Touchscreen 
 - [x] UFS
 - [x] USB
