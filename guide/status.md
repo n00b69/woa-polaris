@@ -3,7 +3,7 @@
 # Running Windows on the Xiaomi Mix 2s
 
 ## Project Status
-This project is not actively maintained, updates may eventually appear, but don't expect them frequently
+Most things work, flashlight does not yet work but it might be functional soon.
 
 #### Features
 - [x] Audio
