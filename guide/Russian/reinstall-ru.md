@@ -8,8 +8,6 @@
 - [Образ ARM Windows](https://worproject.com/esd)
   
 - [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
-
-- [Скрипт исправления touch](https://github.com/n00b69/woa-beryllium/releases/download/Files/touchfix.bat)
   
 - [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
