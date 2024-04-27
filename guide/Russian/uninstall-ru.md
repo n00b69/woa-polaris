@@ -1,6 +1,5 @@
 <img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-
 # Запуск Windows на Xiaomi Mix 2s
 
 ## Удаление
@@ -22,8 +21,7 @@ adb reboot bootloader
 ```
 
 #### Восстановите GPT
-> Замните ```путь\к\gpt_both0.bin``` с указанием пути к файлу gpt_both 0.bin.
-
+> Замните ```путь\к\gpt_both0.bin``` действительным путём к файлу gpt_both 0.bin.
 ```cmd
 fastboot flash partition:0 путь\к\gpt_both0.bin
 ```
