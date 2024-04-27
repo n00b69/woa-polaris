@@ -168,7 +168,7 @@ fastboot flash devcfg_ab path\to\devcgf-polaris.img
 ```cmd
 fastboot boot <path\to\firstboot.img>
 ```
-
+> [!Important]
 > Po uruchomieniu systemu Windows i zakończeniu konfiguracji systemu Windows naciśnij **Uruchom ponownie** w menu Start, aby w ostatnim kroku ponownie uruchomić system Android
 
 ## [Ostatni Krok: Ustawianie dualboot](dualboot.md)
