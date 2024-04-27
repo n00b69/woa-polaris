@@ -104,9 +104,6 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > [!WARNING]
 > DO NOT USE DISM++
-
-> [!WARNING]
-> BOOT WITH OLD UEFI AND GO TROUGH OOBE AND USE NEW UEFI WITH SOUND OR ELSE YOU WILL GET AUDFILTER.SYS BSOD
   
 #### Create Windows bootloader files
 ```cmd
@@ -167,8 +164,13 @@ exit
 fastboot flash devcfg_ab path\to\devcgf-polaris.img
 ```
 
-### Reboot to Android
-> To set up dualboot
+### Booting Windows
+> Replace **<path\to\firstboot.img>** with the actual path of the UEFI image
+```cmd
+fastboot boot <path\to\firstboot.img>
+```
+
+> After Windows boots and you've completed OOBE, press "Restart" in the start menu to boot back to Android for the last step
 
 ## [Last step: Setting up dualboot](/guide/dualboot.md)
 
