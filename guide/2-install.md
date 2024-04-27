@@ -104,6 +104,8 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > [!WARNING]
 > DO NOT USE DISM++
+> [!WARNING]
+> BOOT WITH OLD UEFI AND GO TROUGH OOBE AND USE NEW UEFI WITH SOUND OR ELSE YOU WILL GET AUDFILTER.SYS BSOD
   
 #### Create Windows bootloader files
 ```cmd
