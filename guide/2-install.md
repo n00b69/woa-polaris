@@ -101,6 +101,9 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
 > If it asks you to enter a letter, enter the drive letter of **WINPOLARIS** (which should be X), then press enter
+
+> [!WARNING]
+> DO NOT USE DISM++
   
 #### Create Windows bootloader files
 ```cmd
