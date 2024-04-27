@@ -101,7 +101,7 @@ dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 > Введите букву диска **WINPOLARIS**, должна быть X, затем нажмите Enter
 
 > [!WARNING]
-> DO NOT USE DISM++
+> НЕ ИСПОЛЬЗУЙТЕ DISM++
   
 #### Создать файлы загрузчика Windows
 ```cmd
