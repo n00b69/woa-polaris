@@ -163,8 +163,13 @@ exit
 fastboot flash devcfg_ab path\to\devcgf-polaris.img
 ```
 
-### Uruchom ponownie system Android
-> Aby skonfigurować dualboot
+### Uruchom ponownie system Windows
+> Zastąp **<path\to\firstboot.img>** rzeczywistą ścieżką obrazu UEFI
+```cmd
+fastboot boot <path\to\firstboot.img>
+```
+
+> After Windows boots and you've completed the Windows setup, press "Restart" in the start menu to boot back to Android for the last step
 
 ## [Ostatni Krok: Ustawianie dualboot](dualboot.md)
 
