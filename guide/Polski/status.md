@@ -11,7 +11,7 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [x] Bluetooth
 - [x] Jasność 
 - [ ] Kamera
-- [x] LTE ```Problematic```
+- [x] LTE ```Problematyczne```
 - [x] Ładowanie ```BARDZO Powolne```
 - [x] Wyświetlacz
 - [ ] Latarka
