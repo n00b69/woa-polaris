@@ -1,13 +1,13 @@
 <img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Running Windows on the Xiaomi Mix 2s
+# Windows na Xiaomi Mix 2s
 
-### Prerequisites
-- [Windows on ARM image](https://worproject.com/esd)
+### Wymagania
+- [Windows dla ARM](https://worproject.com/esd)
 
-- [Drivers](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
+- [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
   
-- [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 ### Uruchom do UEFI
 > Zastąp **<path\to\polaris-uefi.img>** rzeczywistą ścieżką obrazu UEFI
