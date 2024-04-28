@@ -2,6 +2,8 @@
 
 # Running Windows on the Xiaomi Mix 2s
 
+## Reinstalling Windows
+
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
 
