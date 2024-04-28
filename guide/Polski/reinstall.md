@@ -2,6 +2,8 @@
 
 # Windows na Xiaomi Mix 2s
 
+## Ponowna instalacja Windows
+
 ### Wymagania
 - [Windows dla ARM](https://worproject.com/esd)
 
