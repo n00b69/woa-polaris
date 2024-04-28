@@ -97,9 +97,9 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu Windows 11 Pro na Twoim obrazie
 
 ### Instalowanie Sterowników
-> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
-
-> If it asks you to enter a letter, enter the drive letter of **WINPOLARIS** (which should be X), then press enter
+> Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd`
+ 
+> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być X), a następnie naciśnij enter.
 
 > [!WARNING]
 > NIE UŻYWAJ DISM++
