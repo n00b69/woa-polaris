@@ -124,36 +124,36 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
-### Usuń przypisanie liter dysku
-> So that they don't stay there after disconnecting the device
+### Usuń przypisanie litery dysku
+> Żeby nie pozostał tam po odłączeniu urządzenia
 ```cmd
 diskpart
 ```
 
-#### Wybierz partycję Windows
+#### Wybierz głośność systemu Windows w telefonie
 > Użyj `list Volume`, aby go znaleźć, zamień „$” na rzeczywistą liczbę **WINPOLARIS**
-```diskpart
-select volume $
+```część dysku
+sel vol $
 ```
 
 #### Usuń przypisanie litery X
-```diskpart
+```część dysku
 remove letter x
 ```
 
-#### Wybierz partycję ESP
-> Use `list volume` to find it, replace "$" with the actual number of **ESPPOLARIS**
-```diskpart
-select volume $
+#### Wybierz głośność systemu ESP w telefonie
+> Użyj `list Volume`, aby go znaleźć, zamień „$” na rzeczywistą liczbę **ESPPOLARIS**
+```część dysku
+sel vol $
 ```
 
 #### Usuń przypisanie litery Y
-```diskpart
+```część dysku
 remove letter y
 ```
 
-#### Wyjdź z diskpart
-```diskpart
+#### Wyjdź z dysku
+```część dysku
 exit
 ```
 
