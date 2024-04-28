@@ -4,7 +4,7 @@
 
 ## Przewodnik po rootowaniu
 
-### Warunki wstępne
+### Wymagania
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
