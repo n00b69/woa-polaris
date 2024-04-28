@@ -7,7 +7,7 @@
 ### Зачем это нужно?
 Если вы хотите удалить Windows, этот гайд используется вместо удаления разделов вручную, чтобы избежать ошибки + написания целого специального руководства по просто деинсталляции.
 
-If you want to relock your bootloader you'll need your partition table to be stock.
+Если вы хотите заблокировать ваш загрузчик, ваша таблица разделов должна быть стоковой!
 
 ### Требования
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
