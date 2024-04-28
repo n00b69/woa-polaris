@@ -9,21 +9,19 @@
   
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
-- [Skrypt Msc](https://github.com/n00b69/woa-polaris/releases/download/Files/msc.sh)
-  
-- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img) (powinno już być zainstalowane)
+- [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-#### Uruchom do TWRP
-> Jeśli Xiaomi zastąpiło Twoje recovery z powrotem do stanu magazynowego, sflashuj je ponownie w trybie fastboot za pomocą:
+### Uruchom do UEFI
+> Zastąp **<path\to\polaris-uefi.img>** rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot flash recovery path\to\twrp.img
+fastboot boot <path\to\polaris-uefi.img>
 ```
 
-#### Uruchamianie skryptu msc
-> Umieść msc.sh w folderze platform-tools, a następnie uruchom:
-```cmd
-adb push msc.sh / && adb shell sh msc.sh
-```
+#### Włączanie trybu pamięci masowej
+> Po uruchomieniu systemu UEFI użyj przycisków głośności do poruszania się po menu i przycisku zasilania, aby potwierdzić
+- Wybierz **UEFI Boot Menu**.
+- Wybierz **USB Attached SCSI (UAS) Storage**.
+- Naciśnij przycisk dwa razy aby potwierdzić.
 
 ### Diskpart
 ```cmd
