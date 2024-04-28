@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Запуск Winows на Xiaomi Mix 2s
+# Запуск Windows на Xiaomi Mix 2s
 
 ## Root guide
 
