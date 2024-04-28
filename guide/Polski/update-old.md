@@ -25,31 +25,43 @@ fastboot flash recovery path\to\twrp.img
 adb push msc.sh / && adb shell sh msc.sh
 ```
 
-### Część dysku
+### Diskpart
 ```cmd
-część dysku
+diskpart
 ```
 
-#### Lista woluminów urządzeń
-> Aby wydrukować listę wszystkich podłączonych woluminów, uruchom
+#### Znajdowanie telefonu
+> Spowoduje to wyświetlenie listy wszystkich podłączonych dysków
 ```cmd
-objętość listy
+lis dis
 ```
 
-#### Wybierz wolumin systemu Windows
-> Zastąp $ rzeczywistą liczbą **WINPOLARIS**
+#### Wybieranie telefonu
+> Zastąp $ rzeczywistym numerem partycji telefonu (powinien być ostatnim)
 ```cmd
-wybierz głośność $
+sel dis $
 ```
 
-#### Przypisz literę do systemu Windows
+#### Lista partycji Twojego telefonu
+> Spowoduje to wyświetlenie listy partycji urządzenia
 ```cmd
-przypisz literę x
+lis par
 ```
 
-### Wyjdź z dysku
+#### Wybór partycji Windows
+> Zastąp $ numerem partycji systemu Windows (powinno być 23)
 ```cmd
-Wyjście
+sel par $
+```
+
+#### Dodaj literę do systemu Windows
+```cmd
+assign letter x
+```
+
+#### Wyjdź z Diskpart
+```cmd
+exit
 ```
 
 ### Instalowanie sterowników
