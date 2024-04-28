@@ -16,7 +16,7 @@
 #### Uruchom do TWRP
 > Jeśli Xiaomi zastąpiło Twoje recovery z powrotem do stanu magazynowego, sflashuj je ponownie w trybie fastboot za pomocą:
 ```cmd
-fastboot flash \path\to\twrp.img
+fastboot flash recovery path\to\twrp.img
 ```
 
 #### Uruchamianie skryptu msc
