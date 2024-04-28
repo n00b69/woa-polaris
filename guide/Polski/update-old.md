@@ -53,10 +53,9 @@ Wyjście
 ```
 
 ### Instalowanie sterowników
-> Wyodrębnij folder sterowników z archiwum, a następnie uruchom następujące polecenie, zastępując „<ścieżkę\do\sterowników>” rzeczywistą ścieżką folderu sterowników
-```cmd
-dism /image:X:\ /add-driver /driver:<ścieżka\do\sterowników> /recurse
-```
+> Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd`
+ 
+> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być X), a następnie naciśnij enter.
 
 ### Usuń przypisanie litery dysku
 > Żeby nie pozostał tam po odłączeniu urządzenia
