@@ -11,7 +11,7 @@
 
 - [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
-- [obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 ### Uruchom do UEFI
 > Zastąp **<path\to\polaris-uefi.img>** rzeczywistą ścieżką obrazu UEFI
