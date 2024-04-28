@@ -4,7 +4,7 @@
 
 ## Aktualizowanie sterowników
 
-### Warunki wstępne
+### Wymagania
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
