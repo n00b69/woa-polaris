@@ -9,8 +9,7 @@ Jeśli chcesz odinstalować system Windows, używa się tego zamiast ręcznego u
 
 Jeśli chcesz ponownie zablokować program ładujący, musisz mieć zapasową tablicę partycji.
 
-### Warunki wstępne
-
+### Wymagania
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
 - [gpt_both0.bin](https://github.com/n00b69/woa-polaris/releases/download/Files/gpt_both0.bin)
