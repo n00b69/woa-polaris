@@ -19,7 +19,7 @@ If mounting Windows produces an empty folder, you either don't have Windows inst
 ##### Finished!
 
 ## USB does not work
-Enable USB host mode using the optional [post install guide](postinstall.md).
+Enable USB host mode using the optional [post install guide](materials#toggling-usb-host-mode.md).
 
 ##### Finished!
 
