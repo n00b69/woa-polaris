@@ -22,7 +22,7 @@
 > The software should open device manager. If it does not, open it manually
 - Locate a device named **Qualcomm HS-USB QDLoader 9008 (COM##)** under **Ports (COM & LPT)**.
 > [!Important]
-> If the device has a yellow
+> If the device has a ⚠️ yellow warning triangle, you need to install EDL drivers before you can continue to the next step.
 - Record the **COM##** number at the end of **Qualcomm HS-USB QDLoader 9008 (COM##)**.
 - In the menu, press **1** and then **enter**. It will then ask for the com port: enter the **COM##** number, then press **enter**
 
