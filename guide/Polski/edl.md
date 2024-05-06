@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Running Windows on the Xiaomi Mix 2s
+# Windows na Xiaomi Mix 2s
 
 ## Restoring your device with EDL
 
@@ -33,7 +33,7 @@
 #### Reboot to Android
 > After it finishes flashing the ROM (this might take around 5 minutes), simply reboot the device to boot back into Android.
 
-## Finished!
+## Skończone!
 
 
 
