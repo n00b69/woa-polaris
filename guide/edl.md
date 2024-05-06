@@ -7,7 +7,7 @@
 ### Prerequisites
 - [Stock fastboot rom]()
 
-- [EDL tools]
+- [EDL tools](https://github.com/n00b69/woa-polaris/releases/download/Files/Xiaomi845freeEDL.zip)
 
 ### Extracting the stock rom
 > Download the stock fastboot rom for your device (which should be in .tgz format), then extract the contents of the .tar file that is inside.
