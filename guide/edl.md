@@ -5,7 +5,7 @@
 ## Restoring your device with EDL
 
 ### Prerequisites
-- [Stock fastboot rom]()
+- [Stock fastboot rom](https://xiaomifirmwareupdater.com/)
 
 - [EDL tools](https://github.com/n00b69/woa-polaris/releases/download/Files/Xiaomi845freeEDL.zip)
 
