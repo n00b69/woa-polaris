@@ -2,36 +2,36 @@
 
 # Windows na Xiaomi Mix 2s
 
-## Restoring your device with EDL
+## Przywracanie urządzenia za pomocą trybu EDL.
 
-### Prerequisites
-- [Stock fastboot rom](https://xiaomifirmwareupdater.com/miui/polaris/)
+### Wymagania
+- [Oryginalny ROM fastboot](https://xiaomifirmwareupdater.com/miui/polaris/)
 
-- [EDL tools](https://github.com/n00b69/woa-polaris/releases/download/Files/Xiaomi845freeEDL.zip)
+- [Narzędzia EDL](https://github.com/n00b69/woa-polaris/releases/download/Files/Xiaomi845freeEDL.zip)
 
-### Extracting the stock rom
-> Download the stock fastboot rom for your device (which should be in .tgz format), then extract the contents of the .tar file that is inside.
+### Wydobywanie oryginalnego ROM-u
+> Pobierz oryginalny ROM fastboot dla swojego urządzenia (który powinien być w formacie .tgz), a następnie wyodrębnij zawartość pliku .tar znajdującego się wewnątrz.
 
-### Booting into EDL mode
-> If you're already in EDL, you can skip this step
-- Download and extract **Xiaomi845freeEDL.zip**. You may need to disable your antivirus software or it may falsely be detected as being malware.
-- While in fastboot mode, open **XiaomiFree9008ForQ845.exe**.
-- Press **2**, then confirm by pressing **enter** to boot into EDL mode.
+### Uruchamianie w tryb EDL
+> Jeśli jesteś już w EDL, możesz pominąć ten krok
+- Pobierz i rozpakuj **Xiaomi845freeEDL.zip**. Może być konieczne wyłączenie oprogramowania antywirusowego lub może ono zostać błędnie wykryte jako złośliwe oprogramowanie.
+- W trybie szybkiego uruchamiania otwórz **XiaomiFree9008ForQ845.exe**.
+- Naciśnij **2**, a następnie potwierdź, naciskając **enter**, aby uruchomić komputer w trybie EDL.
 
-#### Finding the COM## number
-> The software should open device manager. If it does not, open it manually
-- Locate a device named **Qualcomm HS-USB QDLoader 9008 (COM##)** under **Ports (COM & LPT)**.
+#### Znalezienie numeru COM##
+> Oprogramowanie powinno otworzyć menedżera urządzeń. Jeśli tak się nie stanie, otwórz go ręcznie
+- Znajdź urządzenie o nazwie **Qualcomm HS-USB QDLoader 9008 (COM##)** w sekcji **Porty (COM i LPT)**.
 > [!Important]
-> If the device has a ⚠️ yellow warning triangle, you need to install EDL drivers before you can continue to the next step.
-- Record the **COM##** number at the end of **Qualcomm HS-USB QDLoader 9008 (COM##)**.
-- In the menu, press **1** and then **enter**. It will then ask for the com port: enter the **COM##** number, then press **enter**
+> Jeśli urządzenie ma ⚠️ żółty trójkąt ostrzegawczy, musisz zainstalować sterowniki EDL, zanim będziesz mógł przejść do następnego kroku.
+- Zapisz numer **COM##** na końcu **Qualcomm HS-USB QDLoader 9008 (COM##)**.
+- W menu naciśnij **1**, a następnie **enter**. Następnie zapyta o port komunikacyjny: wprowadź numer **COM##**, a następnie naciśnij **enter**
 
-### Flashing the stock rom
-- Copy and paste the full path to the images folder in the extracted fastboot rom from the first stepn then press **enter** to start flashing the rom.
-> It should look something like: C:\Users\Pidoraz\Downloads\polaris_global_images_V12.0.3.0.QDGMIXM_20201228.0000.00_10.0_global\images
+### Flashowanie stockowego romu
+- Skopiuj i wklej pełną ścieżkę do folderu obrazów w wyodrębnionym ROMie Fastboot z pierwszego kroku, a następnie naciśnij **Enter**, aby rozpocząć flashowanie ROMu.
+> Powinno wyglądać mniej więcej tak: C:\Users\alak_romanian\Downloads\polaris_global_images_V12.0.3.0.QDGMIXM_20201228.0000.00_10.0_global\images
 
-#### Reboot to Android
-> After it finishes flashing the ROM (this might take around 5 minutes), simply reboot the device to boot back into Android.
+#### Uruchom ponownie system Android
+> Po zakończeniu flashowania pamięci ROM (może to zająć około 5 minut) po prostu uruchom ponownie urządzenie, aby ponownie uruchomić system Android.
 
 ## Skończone!
 
