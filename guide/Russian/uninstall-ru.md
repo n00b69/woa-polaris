@@ -16,9 +16,9 @@
 
 ### Uninstall instructions
 > [!Important]
-> There is a very small chance this guide might not work if your partition table is completely fucked up. If you find yourself not being able to boot to recovery / Android after, you will have to reflash your device with EDL.
+> Существует небольшая вероятность, что этот гайд вам не поможет, если ваша таблица разделов полностью испорчена. Если вы не можете загрузиться в recovery/Android, вам придется перепрошить ваше устройство с помощью EDL
 
-You can find a guide on how to use EDL [here](edl-ru.md)
+Вы можете найти гайд по использованию EDL [здесь](edl-ru.md)
 
 ### Загрузитесь в fastboot 
 > Удерживайте нажатой кнопку уменьшения громкости + включения, пока телефон выключен, или выполните следующую команду когда он загружен 
