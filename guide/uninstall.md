@@ -10,7 +10,6 @@ If you want to uninstall windows this is used instead of deleting partitions man
 If you want to relock your bootloader you'll need your partition table to be stock.
 
 ### Prerequisites
-
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
 - [gpt_both0.bin](https://github.com/n00b69/woa-polaris/releases/download/Files/gpt_both0.bin)
@@ -18,6 +17,8 @@ If you want to relock your bootloader you'll need your partition table to be sto
 ### Uninstall instructions
 > [!Important]
 > There is a very small chance this guide might not work if your partition table is completely fucked up. If you find yourself not being able to boot to recovery / Android after, you will have to reflash your device with EDL.
+
+You can find a guide on how to use EDL [here](edl.md)
 
 #### Boot into fastboot mode
 > Hold the volume down + power button while the phone is turned off, or run the following command while it is booted
