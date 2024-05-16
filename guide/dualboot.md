@@ -17,9 +17,9 @@ This guide assumes you are rooted, if you aren't, please follow [this guide](roo
 ### Setup - Android
 - Download and install the **WOA Helper** app, then open it and grant it root access.
 - Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
-- Open the WOA Helper app and use the **STA CREATOR** in **WOA TOOLBOX**
+- Open the WOA Helper app and use the **STA CREATOR** in **WOA TOOLBOX**.
 > [!Important]
-> If `/sdcard/Windows` is empty, your rom does not support mounting and you will have to make a boot.img backup inside the app, then copy it manually to Windows once you boot to it (for example by uploading it somewhere and then downloading it while booted into Windows). The same applies to the STA files, which are also generated in your internal storage.
+> If `/sdcard/Windows` is empty, your rom does not support mounting and you will have to make a boot.img backup inside the app, then copy it manually to Windows once you boot to it (for example by uploading it somewhere and then downloading it while booted into Windows). The same applies to the StA files, which are also generated in your internal storage.
 >
 > Do the same thing if the folder is read-only.
 - Press the **QUICKBOOT TO WINDOWS** button.
