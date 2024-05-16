@@ -14,6 +14,12 @@
 
 - [gpt_both0.bin](https://github.com/n00b69/woa-polaris/releases/download/Files/gpt_both0.bin)
 
+### Uninstall instructions
+> [!Important]
+> There is a very small chance this guide might not work if your partition table is completely fucked up. If you find yourself not being able to boot to recovery / Android after, you will have to reflash your device with EDL.
+
+You can find a guide on how to use EDL [here](edl-ru.md)
+
 ### Загрузитесь в fastboot 
 > Удерживайте нажатой кнопку уменьшения громкости + включения, пока телефон выключен, или выполните следующую команду когда он загружен 
 ```cmd
