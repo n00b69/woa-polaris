@@ -32,33 +32,10 @@ adb shell msc
 diskpart
 ```
 
-#### Znajdowanie telefonu
-> Spowoduje to wyświetlenie listy wszystkich podłączonych dysków
-```cmd
-lis dis
-```
-
-#### Wybieranie telefonu
-> Zastąp $ rzeczywistym numerem partycji telefonu (powinien być ostatnim)
-```cmd
-sel dis $
-```
-
-#### Lista partycji Twojego telefonu
-> Spowoduje to wyświetlenie listy partycji urządzenia
-```cmd
-lis par
-```
-
 #### Wybór partycji Windows
-> Zastąp $ numerem partycji systemu Windows (powinno być 23)
-```cmd
-sel par $
-```
-
-#### Formatowanie dysku z systemem Windows
-```cmd
-format quick fs=ntfs label="WINPOLARIS"
+> Use `list volume` to find it, replace "$" with the actual number of the Windows volume (it should be around the same size you picked on the last page)
+```diskpart
+select volume $
 ```
 
 #### Dodaj literę do systemu Windows
@@ -66,20 +43,25 @@ format quick fs=ntfs label="WINPOLARIS"
 assign letter x
 ```
 
-#### Wybieranie Partycji ESP
-> Zamień $ na numer partycji ESP (powinno być 22)
+#### Formatowanie dysku z systemem Windows
 ```cmd
-sel par $
+format quick fs=ntfs label="WINPOLARIS"
 ```
 
-#### Formatowanie ESP
-```cmd
-format quick fs=fat32 label="ESPPOLARIS"
+#### Wybieranie Partycji ESP
+> Use `list volume` to find it, replace "$" with the actual number of the ESP volume (it should be around 286MB)
+```diskpart
+select volume $
 ```
 
 #### Dodaj literę do ESP
 ```cmd
 assign letter y
+```
+
+#### Formatowanie ESP
+```cmd
+format quick fs=fat32 label="ESPPOLARIS"
 ```
 
 #### Wyjdź z Diskpart
