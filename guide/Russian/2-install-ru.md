@@ -11,19 +11,19 @@
 
 - [Devcfg исправления touch](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
-- [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-### Загрузитесь в UEFI
-> Замените **<путь\к\polaris-uefi.img>** актуальным путём к образу UEFI
+### Boot to OFOX recovery
+> If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
-fastboot boot <путь\к\polaris-uefi.img>
+fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 #### Включите режим mass storage
-> После загрузки в UEFI используйте кнопки регулировки громкости для навигации по меню и кнопку питания для подтверждения
-- Выберите **UEFI Boot Menu**.
-- Выберите **USB Attached SCSI (UAS) Storage**.
-- Нажмите кнопку **питания** дважды чтобы подтвердить.
+> If it asks you to run it once again, do so
+```cmd
+adb shell msc
+```
 
 ### Diskpart
 > [!WARNING]
