@@ -13,6 +13,8 @@
   
 - [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
+- [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+
 ### Прошейте OFOX recovery
 > Если ваше recovery было заменено стоковым, прошейте его снова используя
 ```cmd
