@@ -9,7 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Modded ofox](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 ### Заметки 
 > [!WARNING]  
@@ -20,7 +20,7 @@
 >
 > ВЫ МОЖЕТЕ СЛОМАТЬ СВОЕ УСТРОЙСТВО С ПОМОЩЬЮ ПРИВЕДЕННЫХ НИЖЕ КОМАНД, ЕСЛИ БУДЕТЕ ВЫПОЛНЯТЬ ИХ НЕПРАВИЛЬНО!!!
 
-#### Прошейте Ofox recovery
+#### Прошейте OFOX recovery
 > Откройте окно CMD внутри папки platform-tools, затем (пока ваш телефон находится в режиме fastboot) выполните 
 ```cmd
 fastboot flash recovery путь\к\ofox.img reboot recovery
