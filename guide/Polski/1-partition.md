@@ -9,9 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
-
-- [Parted](https://github.com/n00b69/woa-polaris/releases/download/Files/parted)
+- [Modded ofox](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 ### Notes
 > [!Warning]  
@@ -22,10 +20,10 @@
 >
 > MOŻESZ ZNISZCZYĆ SWOJE URZĄDZENIE ZA POMOCĄ PONIŻSZYCH POLECEŃ, JEŚLI ZROBISZ JE ŹLE!!!
 
-#### Zflashuj TWRP
+#### Zflashuj Ofox
 > Otwórz okno CMD w folderze platform-tools, a następnie (gdy telefon jest w trybie szybkiego uruchamiania) uruchom
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
+fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 #### Tworzenie kopii zapasowych ważnych plików
@@ -40,12 +38,13 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 > Twój Xiaomi Mix 2s może mieć różne rozmiary pamięci. Ten przewodnik używa wartości modelu 128GB jako przykładu. W razie potrzeby przewodnik wspomni, czy można lub należy użyć innych wartości.
 
 #### Odmontuj dane
-- Przejdź do "Montuj" w TWRP i odmontuj dane, jeśli są zamontowane
+```cmd
+adb shell umount /dev/block/sda21
+```
 
 #### Przygotowanie do partycjonowania
-> Pobierz plik parted i przenieś go do folderu platform-tools, a następnie uruchom
 ```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
+adb shell parted /dev/block/sda
 ```
 
 #### Wyświetlanie aktualnej tablicy partycji
