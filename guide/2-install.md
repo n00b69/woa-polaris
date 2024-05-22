@@ -28,38 +28,14 @@ adb shell msc
 ### Diskpart
 > [!WARNING]
 > DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
-
 ```cmd
 diskpart
 ```
 
-#### Finding your phone
-> This will list all connected disks
-```cmd
-lis dis
-```
-
-#### Selecting your phone
-> Replace $ with the actual number of your phone (it should be the last one)
-```cmd
-sel dis $
-```
-
-#### Listing your phone's partitions
-> This will list your device's partitions
-```cmd
-lis par
-```
-
 #### Selecting the Windows partition
-> Replace $ with the partition number of Windows (should be 23)
-```cmd
-sel par $
-```
-
-#### Formatting Windows drive
-```cmd
-format quick fs=ntfs label="WINPOLARIS"
+> Use `list volume` to find it, replace "$" with the actual number of the Windows volume (it should be around the same size you picked on the last page)
+```diskpart
+select volume $
 ```
 
 #### Add letter to Windows
@@ -67,20 +43,25 @@ format quick fs=ntfs label="WINPOLARIS"
 assign letter x
 ```
 
-#### Selecting the ESP partition
-> Replace $ with the partition number of ESP (should be 22)
+#### Formatting Windows drive
 ```cmd
-sel par $
+format quick fs=ntfs label="WINPOLARIS"
 ```
 
-#### Formatting ESP drive
-```cmd
-format quick fs=fat32 label="ESPPOLARIS"
+#### Selecting the ESP partition
+> Use `list volume` to find it, replace "$" with the actual number of the ESP volume (it should be around 286MB)
+```diskpart
+select volume $
 ```
 
 #### Add letter to ESP
 ```cmd
 assign letter y
+```
+
+#### Formatting ESP drive
+```cmd
+format quick fs=fat32 label="ESPPOLARIS"
 ```
 
 #### Exit diskpart
