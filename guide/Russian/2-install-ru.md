@@ -13,7 +13,7 @@
   
 - [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-### Запустите OFOX
+### Прошейте OFOX recovery
 > Если ваше recovery было заменено стоковым, прошейте его снова используя
 ```cmd
 fastboot flash recovery path\to\ofox.img reboot recovery
