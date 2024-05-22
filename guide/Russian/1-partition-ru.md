@@ -9,7 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
+- [Modded ofox](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
 
 - [Parted](https://github.com/n00b69/woa-polaris/releases/download/Files/parted)
 
@@ -40,12 +40,13 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 > Ваш Xiaomi Mix 2s может иметь разный объем памяти. В данном руководстве в качестве примера используются значения для модели емкостью 128 ГБ. При необходимости в руководстве будет указано, можно или нужно ли использовать другие значения.
 
 #### Размантируйте data
-- Перейдите к `Монтировать` в TWRP и размонтируйте Data, если она смонтирована
+```cmd
+adb shell umount /dev/block/sda21
+```
 
 #### Подгатовка к разметке 
-> Скачайте файл parted и переместите его в папку platform-tools, затем запустите
 ```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
+adb shell parted /dev/block/sda
 ```
 
 #### Отобразить текущую таблицу разделов
