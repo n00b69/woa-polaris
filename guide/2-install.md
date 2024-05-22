@@ -13,6 +13,8 @@
   
 - [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
+- [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+
 ### Boot to OFOX recovery
 > If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
