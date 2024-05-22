@@ -9,18 +9,18 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-### Запустите TWRP
+### Запустите OFOX
 > Если ваше recovery было заменено на стоковое, прошейте его ещё раз в fastboot с помощью:
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery 
+fastboot flash recovery path\to\ofox.img reboot recovery 
 ```
 
 #### Создайте резервную копию вашего загрузочного образа
 > Иногда прошивка Magisk может вызвать bootloop. Чтобы исправить это, вам нужно будет восстановить резервную копию boot.img.
 
-Используйте функцию резервного копирования TWRP для создания резервной копии загрузочного раздела.
+Используйте функцию резервного копирования OFOX для создания резервной копии загрузочного раздела.
 
 ### Прошивка Magisk
 - Прошейте файл magisk.apk (возможно, вам придется переименовать его в magisk.zip) и перезагрузите телефон.
