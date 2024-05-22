@@ -144,7 +144,7 @@ exit
 ### Naprawianie dotyku
 > Uruchom ponownie telefon w trybie fastboot, a następnie zamień **path\to** rzeczywistą ścieżką do obrazu devcfg (który pobrałeś wczesniej)
 ```cmd
-fastboot flash devcfg_ab path\to\devcgf-polaris.img
+fastboot flash devcfg_ab path\to\devcfg-polaris.img
 ```
 
 ### Uruchom ponownie system Windows
