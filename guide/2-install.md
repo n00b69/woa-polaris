@@ -33,7 +33,7 @@ diskpart
 ```
 
 #### Selecting the Windows partition
-> Use `list volume` to find it, replace "$" with the actual number of the Windows volume (it should be around the same size you picked on the last page)
+> Use `list volume` to find it, replace **$** with the actual number of the Windows volume (it should be around the same size you picked on the last page)
 ```diskpart
 select volume $
 ```
@@ -49,7 +49,7 @@ format quick fs=ntfs label="WINPOLARIS"
 ```
 
 #### Selecting the ESP partition
-> Use `list volume` to find it, replace "$" with the actual number of the ESP volume (it should be around 286MB)
+> Use `list volume` to find it, replace **$** with the actual number of the ESP volume (it should be around 286MB)
 ```diskpart
 select volume $
 ```
