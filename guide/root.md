@@ -9,18 +9,18 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-##### Boot TWRP
+##### Boot OFOX recovery
 > If your recovery has been replaced back to stock, flash it again in fastboot with:
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
+fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 ##### Backing up your boot image
 > Sometimes flashing Magisk can cause a bootloop. To fix this, you'll need to restore a boot.img backup.
 
-Use the TWRP backup feature to make a backup of the boot partition.
+Use the OFOX backup feature to make a backup of the boot partition.
 
 ##### Flashing Magisk
 - Flash the magisk.apk (you may have to rename it to magisk.zip) and reboot your phone. 
