@@ -11,19 +11,19 @@
 
 - [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
-- [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-### Uruchom do UEFI
-> Zastąp **<path\to\polaris-uefi.img>** rzeczywistą ścieżką obrazu UEFI
+### Boot to OFOX recovery
+> If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
-fastboot boot <path\to\polaris-uefi.img>
+fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 #### Włączanie trybu pamięci masowej
-> Po uruchomieniu systemu UEFI użyj przycisków głośności do poruszania się po menu i przycisku zasilania, aby potwierdzić
-- Wybierz **UEFI Boot Menu**.
-- Wybierz **USB Attached SCSI (UAS) Storage**.
-- Naciśnij przycisk dwa razy aby potwierdzić.
+> If it asks you to run it once again, do so
+```cmd
+adb shell msc
+```
 
 ### Diskpart
 > [!WARNING]
