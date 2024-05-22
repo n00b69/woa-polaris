@@ -9,9 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Modded ofox](https://github.com/n00b69/woa-polaris/releases/download/Files/twrp.img)
-
-- [Parted](https://github.com/n00b69/woa-polaris/releases/download/Files/parted)
+- [Modded ofox](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 ### Заметки 
 > [!WARNING]  
@@ -22,10 +20,10 @@
 >
 > ВЫ МОЖЕТЕ СЛОМАТЬ СВОЕ УСТРОЙСТВО С ПОМОЩЬЮ ПРИВЕДЕННЫХ НИЖЕ КОМАНД, ЕСЛИ БУДЕТЕ ВЫПОЛНЯТЬ ИХ НЕПРАВИЛЬНО!!!
 
-#### Прошейте TWRP recovery
+#### Прошейте Ofox recovery
 > Откройте окно CMD внутри папки platform-tools, затем (пока ваш телефон находится в режиме fastboot) выполните 
 ```cmd
-fastboot flash recovery путь\к\twrp.img reboot recovery
+fastboot flash recovery путь\к\ofox.img reboot recovery
 ```
 
 #### Создание резервной копии важных файлов
