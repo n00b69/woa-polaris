@@ -40,12 +40,13 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 > Your Xiaomi Mix 2s may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
 
 #### Unmount data
-- Go to "Mount" in TWRP and unmount data, if it is mounted
+```cmd
+adb shell umount /dev/block/sda21
+```
 
 #### Preparing for partitioning
-> Download the parted file and move it in the platform-tools folder, then run
 ```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
+adb shell parted /dev/block/sda
 ```
 
 #### Printing the current partition table
