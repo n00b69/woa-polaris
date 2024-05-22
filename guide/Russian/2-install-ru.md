@@ -13,14 +13,14 @@
   
 - [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-### Boot to OFOX recovery
-> If your recovery has been replaced by the stock recovery, flash it again using
+### Запустите OFOX
+> Если ваше recovery было заменено стоковым, прошейте его снова используя
 ```cmd
 fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 #### Включите режим mass storage
-> If it asks you to run it once again, do so
+> Если он попросит вас запустить его ещё раз, сделайте это
 ```cmd
 adb shell msc
 ```
@@ -33,7 +33,7 @@ diskpart
 ```
 
 #### Выбрать раздел Windows 
-> Use `list volume` to find it, replace **$** with the actual number of the Windows volume (it should be around the same size you picked on the last page)
+> Use `list volume` to find it, replace `$` with the actual number of the Windows volume (it should be around the same size you picked on the last page)
 ```diskpart
 select volume $
 ```
@@ -49,7 +49,7 @@ format quick fs=ntfs label="WINPOLARIS"
 ```
 
 #### Выбhfnm раздел ESP
-> Use `list volume` to find it, replace **$** with the actual number of the ESP volume (it should be around 286MB)
+> Use `list volume` to find it, replace `$` with the actual number of the ESP volume (it should be around 286MB)
 ```diskpart
 select volume $
 ```
