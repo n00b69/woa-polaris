@@ -95,7 +95,7 @@ quit
 ```
 
 #### Formatting data
-- Format all data in TWRP, or Android will not boot.
+- Format all data in OFOX, or Android will not boot.
 - ( Go to Wipe > Format data > type yes )
 
 #### Check if Android still starts
