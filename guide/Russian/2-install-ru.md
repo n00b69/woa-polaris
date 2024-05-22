@@ -143,7 +143,7 @@ exit
 ### Исправить touch
 > Перезагрузитесь в fastboot, затем замените **path\to** путём к образу
 ```cmd
-fastboot flash devcfg_ab path\to\devcgf-polaris.img
+fastboot flash devcfg_ab path\to\devcfg-polaris.img
 ```
 
 ### Перезагрузка в Windows
