@@ -95,7 +95,7 @@ quit
 ```
 
 #### Formatowanie danych
-- Sformatuj wszystkie dane w TWRP, w przeciwnym razie Android nie uruchomi się.
+- Sformatuj wszystkie dane w OFOX, w przeciwnym razie Android nie uruchomi się.
 - (Idź do Wyczyść > Formatuj dane > wpisz yes)
 
 #### Sprawdź, czy Android nadal się uruchamia
