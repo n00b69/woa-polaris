@@ -32,33 +32,10 @@ adb shell msc
 diskpart
 ```
 
-#### Найдите ваш телефон
-> При этом отобразится список всех подключенных дисков
-```cmd
-lis dis
-```
-
-#### Выберите ваш телефон
-> Замените `$` актуальным номером вашего телефона (должен быть последним)
-```cmd
-sel dis $
-```
-
-#### Отобразить список разделов вашего телефона
-> Это отобразит список разделов вашего телефона 
-```cmd
-lis par
-```
-
 #### Выбрать раздел Windows 
-> Замените `$` номером раздела Windows (должен быть 23)
-```cmd
-sel par $
-```
-
-#### Отформатировать раздел Windows
-```cmd
-format quick fs=ntfs label="WINPOLARIS"
+> Use `list volume` to find it, replace **$** with the actual number of the Windows volume (it should be around the same size you picked on the last page)
+```diskpart
+select volume $
 ```
 
 #### Добавить букву к разделу Windows
@@ -66,20 +43,25 @@ format quick fs=ntfs label="WINPOLARIS"
 assign letter X
 ```
 
-#### Выбhfnm раздел ESP
-> Замените `$` номером раздела ESP (должен быть 22)
+#### Отформатировать раздел Windows
 ```cmd
-sel par $
+format quick fs=ntfs label="WINPOLARIS"
 ```
 
-#### Отформатировать раздел ESP
-```cmd
-format quick fs=fat32 label="ESPPOLARIS"
+#### Выбhfnm раздел ESP
+> Use `list volume` to find it, replace **$** with the actual number of the ESP volume (it should be around 286MB)
+```diskpart
+select volume $
 ```
 
 #### Добавьте букву к ESP
 ```cmd
 assign letter Y
+```
+
+#### Отформатировать раздел ESP
+```cmd
+format quick fs=fat32 label="ESPPOLARIS"
 ```
 
 #### Выйти из diskpart
