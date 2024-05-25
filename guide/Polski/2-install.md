@@ -22,7 +22,7 @@ fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 #### Włączanie trybu pamięci masowej
-> If it asks you to run it once again, do so
+> Jeżeli ci mówi aby wykonać polecenie jescze raz to zrób to
 ```cmd
 adb shell msc
 ```
