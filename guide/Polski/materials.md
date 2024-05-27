@@ -34,7 +34,7 @@ Uruchom [Kontrola hosta USB](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pa
 #### Skończone!
 
 ### Zainstaluj pakiet Microsoft Office/Microsoft 365
-– Pobierz ten [plik ISO](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) na tablet
+– Pobierz ten [plik ISO](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) na telefon
 - Kliknij prawym przyciskiem myszy plik ISO i wybierz Zamontuj, aby otworzyć go w Eksploratorze
 - Kliknij dwukrotnie ```Office Tool Plus.exe```, aby uruchomić kreatora instalacji
 - W wyświetlonym oknie kliknij „Tak”.
