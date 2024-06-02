@@ -11,18 +11,26 @@ This is by no means a comprehensive list, it simply lists apps/games that have b
 
 You can also find a list of dedicated ARM software [at this link](https://armrepo.ver.lt/)
 
-#### Finished!
+##### Finished!
 
-## Hide D drive (modem partition)
+### Hide D drive (modem partition)
 > [!NOTE]
 > This is recommended because this drive should not be modified, while some applications may try to write to it.
 
-- Download [ModemHide.vbs](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) to your polaris 
+#### Automated method
+- Download [ModemHide.vbs](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) onto your polaris 
 - Run it
 - Approve any UAC dialogs 
 - Click `Yes` in the dialog box
 
-#### Finished!
+#### Manual method
+- Open a command prompt window and run ```diskpart```
+- Run ```list volume``` to see all available volumes
+- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
+- Remove the letter with ```remove letter d```
+- Exit diskpart with ```exit```
+
+##### Finished!
 
 ### Toggling USB host mode
 > [!Warning]
@@ -30,7 +38,7 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 
 Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
 
-#### Finished!
+##### Finished!
 
 ### Install Microsoft Office / Microsoft 365
 - Download this [ISO file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to the tablet
@@ -40,12 +48,12 @@ Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-H
 - In the window that appears, click `Yes` to start installation 
 - Wait for the installation to complete
 
-#### Finished!
+##### Finished!
 
 ### Activate Windows / Office
 Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-#### Finished!
+##### Finished!
 
 
 
