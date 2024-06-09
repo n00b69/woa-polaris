@@ -72,12 +72,12 @@ exit
 ```
 
 ### Установка Windows
-> Замените `<путь\к\install.esd>` актуальным путём к install.esd (файл также может называться install.wim)
+> Замените `путь\к\install.esd` актуальным путём к install.esd (файл также может называться install.wim)
 ```cmd
-dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` действтельным индексом Windows 11 Pro в вашем образе
+> Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:путь\к\install.esd`, затем замените `index:6` действтельным индексом Windows 11 Pro в вашем образе
 
 ### Установка драйверов
 > Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` 
@@ -140,16 +140,19 @@ remove letter y
 exit
 ```
 
+### Перезагрузитесь в fastboot
+> Удерживайте кнопку **уменьшение громкости** + **питание**, чтобы перезагрузить телефон в режим fastboot
+
 ### Исправить touch
-> Перезагрузитесь в fastboot, затем замените **path\to** путём к образу
+> Замените `путь\к\devcfg-polaris.img` актуальным путём к образу
 ```cmd
-fastboot flash devcfg_ab path\to\devcfg-polaris.img
+fastboot flash devcfg_ab путь\к\devcfg-polaris.img
 ```
 
 ### Перезагрузка в Windows
-> Замените **<путь\к\firstboot.img>** актуальным путём к образу UEFI
+> Замените `путь\к\firstboot.img` актуальным путём к образу UEFI
 ```cmd
-fastboot boot <путь\к\firstboot.img>
+fastboot boot путь\к\firstboot.img
 ```
 
 > После того как Windows загрузится и вы пройдёте первоначальную настройку, нажмите **Перезагрузка** в меню пуск чтобы загрузиться обратно в Android для последнего шага
