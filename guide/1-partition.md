@@ -20,6 +20,16 @@
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
+### Opening CMD as an admin
+> Download **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
+>
+> It is recommended to keep this window open and use it throughout the entire guide.
+> 
+> Replace `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
+```cmd
+cd path\to\platform-tools
+```
+
 #### Flash OFOX recovery
 > Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
 ```cmd
