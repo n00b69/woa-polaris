@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-polaris/assets/85476585/b6dc4793-f1fe-4007-8c06-a46d245c6c44" width="350" alt="Windows 11 running on polaris">
 
-# Windows na Xiaomi Mix 2s
+# Windows na i Mix 2s
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMIX2S)
 
 ## Wybierz swój język
