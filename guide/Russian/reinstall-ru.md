@@ -12,9 +12,9 @@
 - [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 ### Загрузитесь в UEFI
-> Замените **<путь\к\polaris-uefi.img>** действительным путём к образу UEFI
+> Замените `путь\к\polaris-uefi.img` действительным путём к образу UEFI
 ```cmd
-fastboot boot <путь\к\polaris-uefi.img>
+fastboot boot путь\к\polaris-uefi.img
 ```
 
 #### Включите режим mass storage
@@ -66,17 +66,17 @@ exit
 > Перейдите в Проводник Windows > Этот компьютер и выберите **WINPOLARIS**. Щелкните правой кнопкой мыши и отформатируйте как NTFS.
 
 ### Установка Windows
-> Замените `<путь\к\install.esd>` актуальным путём к install.esd (файл также может называться install.wim)
+> Замените `путь\к\install.esd` актуальным путём к install.esd (файл также может называться install.wim)
 ```cmd
-dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 ```
 
 > Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` действтельным индексом Windows 11 Pro в вашем образе
 
 ### Установка драйверов
-> Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` 
+> Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
-> Введите букву диска **WINPOLARIS** (должна быть X) затем нажмите Enter
+> Введите букву диска **WINPOLARIS** (должна быть **X**) затем нажмите Enter
 
 ### Загрузка в Windows
 Перезагрузите телефон. Если в итоге он загрузится в Android, а не в Windows, перепрошейте UEFI заново с помощью WOA Helper.
