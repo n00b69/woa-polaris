@@ -8,51 +8,35 @@
 - [Образ ARM Windows](https://worproject.com/esd)
   
 - [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
-  
+
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+
 - [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-### Загрузитесь в UEFI
-> Замените `путь\к\polaris-uefi.img` действительным путём к образу UEFI
+### Прошейте OFOX recovery
+> Если ваше recovery было заменено стоковым, прошейте его снова используя
 ```cmd
-fastboot boot путь\к\polaris-uefi.img
+fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 #### Включите режим mass storage
-> После загрузки в UEFI используйте кнопки регулировки громкости для навигации по меню и кнопку питания для подтверждения
-- Выберите **UEFI Boot Menu**.
-- Выберите **USB Attached SCSI (UAS) Storage**.
-- Нажмите кнопку **питания** дважды чтобы подтвердить.
+> Если он попросит вас запустить его ещё раз, сделайте это
+```cmd
+adb shell msc
+```
 
 ### Diskpart
 ```cmd
 diskpart
 ```
 
-#### Найдите диск вашего телефона
-> При этом отобразится список всех подключенных дисков
-```cmd
-lis dis
+#### Выбрать раздел Windows 
+> Use `list volume` to find it, replace `$` with the actual number of **WINPOLARIS**
+```diskpart
+select volume $
 ```
 
-#### Выберите диск вашего телефона
-> Замените `$` актуальным номером диска вашего телефона (должен быть последним)
-```cmd
-sel dis $
-```
-
-#### Отобразите список разделов вашего телефона
-> Это отобразит список разделов вашего телефона 
-```cmd
-lis par
-```
-
-#### Выберите раздел Windows 
-> Замените `$` номером раздела Windows (должен быть 23)
-```cmd
-sel par $
-```
-
-#### Добавьте букву к разделу Windows
+#### Добавить букву к разделу Windows
 ```cmd
 assign letter X
 ```
