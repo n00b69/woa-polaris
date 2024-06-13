@@ -145,6 +145,7 @@ exit
 > Hold **volume down** + **power** to force reboot your phone into fastboot mode
 
 ### Naprawianie dotyku
+> Zastąp `path\to\devcfg-polaris.img` rzeczywistą ścieżką obrazu
 ```cmd
 fastboot flash devcfg_ab path\to\devcfg-polaris.img
 ```
