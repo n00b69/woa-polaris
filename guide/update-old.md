@@ -34,7 +34,7 @@ list volume
 ```
 
 #### Select Windows volume
-> Replace $ with the actual number of **WINPOLARIS**
+> Replace `$` with the actual number of **WINPOLARIS**
 ```cmd
 select volume $
 ```
@@ -56,7 +56,6 @@ exit
 
 #### Boot back into Windows
 > Reboot your device to boot back into Windows. If this boots you to Android, reflash the UEFI image through fastboot or by using the WOA Helper app
-
 
 ## Finished!
 
