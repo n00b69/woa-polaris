@@ -40,7 +40,7 @@ list volume
 select volume $
 ```
 
-#### Assign letter to WINF1
+#### Assign letter to WINPOLARIS
 ```cmd
 assign letter x
 ```
