@@ -35,7 +35,7 @@ diskpart
 ```
 
 #### Выбрать раздел Windows 
-> Use `list volume` to find it, replace `$` with the actual number of the Windows volume (it should be around the same size you picked on the last page)
+> Use `list volume` to find it, replace `$` with the actual number of **WINPOLARIS**
 ```diskpart
 select volume $
 ```
@@ -51,7 +51,7 @@ format quick fs=ntfs label="WINPOLARIS"
 ```
 
 #### Выбhfnm раздел ESP
-> Use `list volume` to find it, replace `$` with the actual number of the ESP volume (it should be around 286MB)
+> Use `list volume` to find it, replace `$` with the actual number of **ESPPOLARIS**
 ```diskpart
 select volume $
 ```
@@ -77,10 +77,10 @@ exit
 dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:путь\к\install.esd`, затем замените `index:6` действтельным индексом Windows 11 Pro в вашем образе
+> Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:путь\к\install.esd`, затем замените `index:6` действтельным индексом **Windows 11 Pro** в вашем образе
 
 ### Установка драйверов
-> Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` 
+> Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (Если появляется ошибка, запустите  `OfflineUpdaterFix.cmd`)
 
 > Введите букву диска **WINPOLARIS** (должна быть **X**) затем нажмите Enter
 
