@@ -72,18 +72,18 @@ exit
 ```
 
 ### Instalowanie Windowsa
-> Zamień `<path\to\install.esd>` na rzeczywistą ścieżkę do pliku install.esd (może on również nosić nazwę install.wim)
+> Zamień `path\to\install.esd` na rzeczywistą ścieżkę do pliku install.esd (może on również nosić nazwę install.wim)
 
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu Windows 11 Pro na Twoim obrazie
+> Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:path\to\install.esd`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu **Windows 11 Pro** na Twoim obrazie
 
 ### Instalowanie Sterowników
 > Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd`
  
-> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być X), a następnie naciśnij enter.
+> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być **X**), a następnie naciśnij enter.
 
 > [!WARNING]
 > NIE UŻYWAJ DISM++
@@ -115,7 +115,7 @@ diskpart
 ```
 
 #### Wybierz głośność systemu Windows w telefonie
-> Użyj `list Volume`, aby go znaleźć, zamień „$” na rzeczywistą liczbę **WINPOLARIS**
+> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **WINPOLARIS**
 ```część dysku
 sel vol $
 ```
@@ -126,7 +126,7 @@ remove letter x
 ```
 
 #### Wybierz głośność systemu ESP w telefonie
-> Użyj `list Volume`, aby go znaleźć, zamień „$” na rzeczywistą liczbę **ESPPOLARIS**
+> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **ESPPOLARIS**
 ```część dysku
 sel vol $
 ```
@@ -141,16 +141,18 @@ remove letter y
 exit
 ```
 
+### Reboot to fastboot
+> Hold **volume down** + **power** to force reboot your phone into fastboot mode
+
 ### Naprawianie dotyku
-> Uruchom ponownie telefon w trybie fastboot, a następnie zamień **path\to** rzeczywistą ścieżką do obrazu devcfg (który pobrałeś wczesniej)
 ```cmd
 fastboot flash devcfg_ab path\to\devcfg-polaris.img
 ```
 
 ### Uruchom ponownie system Windows
-> Zastąp **<path\to\firstboot.img>** rzeczywistą ścieżką obrazu UEFI
+> Zastąp `path\to\firstboot.img` rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot boot <path\to\firstboot.img>
+fastboot boot path\to\firstboot.img
 ```
 > [!Important]
 > Po uruchomieniu systemu Windows i zakończeniu konfiguracji systemu Windows naciśnij **Uruchom ponownie** w menu Start, aby w ostatnim kroku ponownie uruchomić system Android
