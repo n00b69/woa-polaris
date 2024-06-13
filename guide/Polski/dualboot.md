@@ -5,6 +5,8 @@
 ## Dualboot
 
 ### Wymagania
+- [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
+
 - [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 - [WOA Helper](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
@@ -13,7 +15,7 @@
 W tym przewodniku założono, że jesteś zrootowany, jeśli tak nie jest, postępuj zgodnie z [tym przewodnikiem](root.md)
 
 ### Konfiguracja – Android
-- Pobierz i zainstaluj aplikację WOA Helpethen open it and grant it root access.
+- Download and install the **WOA Helper** app, then open it and grant it root access.
 - Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
 - Open the WOA Helper app and use the **STA CREATOR** in **WOA TOOLBOX**.
 > [!Important]
