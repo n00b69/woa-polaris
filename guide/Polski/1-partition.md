@@ -20,6 +20,16 @@
 >
 > MOŻESZ ZNISZCZYĆ SWOJE URZĄDZENIE ZA POMOCĄ PONIŻSZYCH POLECEŃ, JEŚLI ZROBISZ JE ŹLE!!!
 
+### Opening CMD as an admin
+> Download **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
+>
+> It is recommended to keep this window open and use it throughout the entire guide.
+> 
+> Replace `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
+```cmd
+cd path\to\platform-tools
+```
+
 #### Zflashuj OFOX
 > Otwórz okno CMD w folderze platform-tools, a następnie (gdy telefon jest w trybie szybkiego uruchamiania) uruchom
 ```cmd
