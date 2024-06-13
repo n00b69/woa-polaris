@@ -22,6 +22,7 @@ fastboot flash recovery path\to\ofox.img reboot recovery
 ```cmd
 adb shell msc
 ```
+
 ### Diskpart
 ```cmd
 diskpart
@@ -50,9 +51,9 @@ exit
 ```
 
 ### Installing Drivers
-> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
-> Enter the drive letter of **WINPOLARIS**, which should be X, then press enter
+> If it asks you to enter a letter, enter the drive letter of **WINPOLARIS** (which should be **X**), then press enter
 
 #### Boot back into Windows
 > Reboot your device to boot back into Windows. If this boots you to Android, reflash the UEFI image through fastboot or by using the WOA Helper app
