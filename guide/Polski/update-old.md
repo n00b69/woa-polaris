@@ -12,9 +12,9 @@
 - [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 ### Uruchom do UEFI
-> Zastąp **<path\to\polaris-uefi.img>** rzeczywistą ścieżką obrazu UEFI
+> Zastąp `path\to\polaris-uefi.img` rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot boot <path\to\polaris-uefi.img>
+fastboot boot path\to\polaris-uefi.img
 ```
 
 #### Włączanie trybu pamięci masowej
@@ -69,7 +69,6 @@ exit
 
 ### Uruchom ponownie system Windows
 > Uruchom ponownie urządzenie, aby ponownie uruchomić system Windows. Jeśli spowoduje to uruchomienie systemu Android, ponownie wykonaj flashowanie obrazu UEFI poprzez fastboot lub za pomocą aplikacji WOA Helper
-
 
 ## Skończone!
 
