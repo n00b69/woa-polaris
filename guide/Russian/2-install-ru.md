@@ -5,7 +5,7 @@
 ## Установка Windows
 
 ### Требования
-- [Образ ARM Windows](https://worproject.com/esd)
+- [Образ ARM Windows](https://worproject.com/esd) (НЕ ИСПОЛЬЗУЙТЕ 24H2)
   
 - [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
