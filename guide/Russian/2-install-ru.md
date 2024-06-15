@@ -5,7 +5,7 @@
 ## Установка Windows
 
 ### Требования
-- [Образ ARM Windows](https://worproject.com/esd) (НЕ ИСПОЛЬЗУЙТЕ 24H2)
+- [Образ ARM Windows](https://worproject.com/esd)
   
 - [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
@@ -72,6 +72,9 @@ exit
 ```
 
 ### Установка Windows
+> [!Warning]
+> НЕ ИСПОЛЬЗУЙТЕ 24H2!!!
+
 > Замените `путь\к\install.esd` актуальным путём к install.esd (файл также может называться install.wim)
 ```cmd
 dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
