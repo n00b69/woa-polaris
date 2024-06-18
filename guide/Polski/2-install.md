@@ -146,19 +146,17 @@ exit
 ### Reboot to fastboot
 > Hold **volume down** + **power** to force reboot your phone into fastboot mode
 
-### Naprawianie dotyku
+#### Naprawianie dotyku
 > Zastąp `path\to\devcfg-polaris.img` rzeczywistą ścieżką obrazu
 ```cmd
 fastboot flash devcfg_ab path\to\devcfg-polaris.img
 ```
 
-### Uruchom ponownie system Windows
-> Zastąp `path\to\firstboot.img` rzeczywistą ścieżką obrazu UEFI
+### Uruchom ponownie do Androida
+> Uruchom ponownie do Androida aby ustawić dualboot
 ```cmd
-fastboot boot path\to\firstboot.img
+fastboot reboot
 ```
-> [!Important]
-> Po uruchomieniu systemu Windows i zakończeniu konfiguracji systemu Windows naciśnij **Uruchom ponownie** w menu Start, aby w ostatnim kroku ponownie uruchomić system Android
 
 ## [Ostatni Krok: Ustawianie dualboot](dualboot.md)
 
