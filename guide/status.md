@@ -6,7 +6,7 @@
 Most things work, flashlight does not yet work but it might be functional soon.
 
 #### Features
-- [x] Audio
+- [ ] Audio ```Disabled. Can kill the speakers```
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness 
