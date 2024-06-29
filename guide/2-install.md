@@ -43,11 +43,6 @@ select volume $
 assign letter x
 ```
 
-#### Formatting Windows drive
-```cmd
-format quick fs=ntfs label="WINPOLARIS"
-```
-
 #### Selecting the ESP partition
 > Use `list volume` to find it, replace `$` with the actual number of **ESPPOLARIS**
 ```diskpart
@@ -57,11 +52,6 @@ select volume $
 #### Add letter to ESP
 ```cmd
 assign letter y
-```
-
-#### Formatting ESP drive
-```cmd
-format quick fs=fat32 label="ESPPOLARIS"
 ```
 
 #### Exit diskpart
