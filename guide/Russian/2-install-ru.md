@@ -43,11 +43,6 @@ select volume $
 assign letter X
 ```
 
-#### Отформатировать раздел Windows
-```cmd
-format quick fs=ntfs label="WINPOLARIS"
-```
-
 #### Выбhfnm раздел ESP
 > Use `list volume` to find it, replace `$` with the actual number of **ESPPOLARIS**
 ```diskpart
@@ -57,11 +52,6 @@ select volume $
 #### Добавьте букву к ESP
 ```cmd
 assign letter Y
-```
-
-#### Отформатировать раздел ESP
-```cmd
-format quick fs=fat32 label="ESPPOLARIS"
 ```
 
 #### Выйти из diskpart
