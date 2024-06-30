@@ -33,7 +33,7 @@ diskpart
 ```
 
 #### Wybór partycji Windows
-> Use `list volume` to find it, replace `$` with the actual number of the Windows volume (it should be around the same size you picked on the last page)
+> Use `list volume` to find it, replace `$` with the actual number of **WINPOLARIS**
 ```diskpart
 select volume $
 ```
@@ -43,13 +43,8 @@ select volume $
 assign letter x
 ```
 
-#### Formatowanie dysku z systemem Windows
-```cmd
-format quick fs=ntfs label="WINPOLARIS"
-```
-
 #### Wybieranie Partycji ESP
-> Use `list volume` to find it, replace `$` with the actual number of the ESP volume (it should be around 286MB)
+> Use `list volume` to find it, replace `$` with the actual number of **ESPPOLARIS**
 ```diskpart
 select volume $
 ```
