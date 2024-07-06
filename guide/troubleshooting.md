@@ -6,7 +6,7 @@
 > Below you will find a list of common problems and their solutions
 
 ## LTE and other network services in Android no longer work
-> Sometimes Windows may wipe your modem partitions, resulting in the loss of LTE in Android. To fix this, you'll need to restore your modem using the backups that you hopefully made [while partitioning your device](https://github.com/n00b69/woa-polaris/blob/main/guide/1-partition.md#backing-up-important-files). If you did not do this step, there is likely no way to recover.
+> Sometimes Windows may wipe your modem partitions, resulting in the loss of LTE in Android. To fix this, you'll need to restore your modem using the backups that you hopefully made [while partitioning your device](1-partition.md#backing-up-important-files). If you did not do this step, there is likely no way to recover.
 - Boot into any recovery other than the stock recovery (ADB commands do not work there)
 - Open CMD in the **platform-tools** folder.
 - Restore the four partitions that you backed up using the below commands. Replace `path\to` with the actual path of the images.
