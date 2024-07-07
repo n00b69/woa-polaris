@@ -33,7 +33,7 @@ diskpart
 ```
 
 #### Выбрать раздел Windows 
-> Use `list volume` to find it, replace `$` with the actual number of **WINPOLARIS**
+> Используйте `list volume` чтобы найти его, замените `$` номером раздела **WINPOLARIS**
 ```diskpart
 select volume $
 ```
@@ -44,7 +44,7 @@ assign letter X
 ```
 
 #### Выбhfnm раздел ESP
-> Use `list volume` to find it, replace `$` with the actual number of **ESPPOLARIS**
+> Используйте `list volume` чтобы найти его, замените `$` номером раздела **ESPPOLARIS**
 ```diskpart
 select volume $
 ```
