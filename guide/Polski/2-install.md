@@ -54,11 +54,6 @@ select volume $
 assign letter y
 ```
 
-#### Formatowanie ESP
-```cmd
-format quick fs=fat32 label="ESPPOLARIS"
-```
-
 #### Wyjdź z Diskpart
 ```cmd
 exit
