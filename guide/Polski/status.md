@@ -6,7 +6,7 @@
 Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić się, ale nie należy się ich spodziewać często
 
 #### Funkcje
-- [ ] Dzwięk ```Disabled. Can kill the speakers```
+- [ ] Dzwięk ```Wylączone, może uszkodzić głośniki.```
 - [X] Wzkaźnik baterii
 - [x] Bluetooth
 - [x] Jasność 
