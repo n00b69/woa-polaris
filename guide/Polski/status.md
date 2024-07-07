@@ -26,9 +26,9 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [x] Accelerometer
 - [ ] Odcisk palca
 - [x] GPS
-- [x] Gyroscope
-- [x] Light sensor
-- [x] Proximity
+- [x] Żyroskop
+- [x] Czujnik swiatła
+- [x] Odległość
 - [X] NFC ```Tagi NFC działają, inne funkcje związane z NFC też mogą działać```
       
 
