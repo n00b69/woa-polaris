@@ -136,8 +136,8 @@ remove letter y
 exit
 ```
 
-### Reboot to fastboot
-> Hold **volume down** + **power** to force reboot your phone into fastboot mode
+### Uruchom ponownie fastboot
+> Przytrzymaj **zmniejszanie głośności** + **zasilanie**, aby wymusić ponowne uruchomienie telefonu w trybie fastboot
 
 #### Naprawianie dotyku
 > Zastąp `path\to\devcfg-polaris.img` rzeczywistą ścieżką obrazu
