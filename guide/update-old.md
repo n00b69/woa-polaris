@@ -9,7 +9,7 @@
   
 - [Drivers](https://github.com/n00b69/woa-POLARIS/releases/tag/Drivers)
   
-- [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 ### Boot to OFOX recovery
 > If your recovery has been replaced by the stock recovery, flash it again using
@@ -28,14 +28,8 @@ adb shell msc
 diskpart
 ```
 
-#### List device volumes
-> To print a list of all the connected volumes, run
-```cmd
-list volume
-```
-
 #### Select Windows volume
-> Replace `$` with the actual number of **WINPOLARIS**
+> Use `list volume` to find it, replace `$` with the actual number of **WINPOLARIS**
 ```cmd
 select volume $
 ```
