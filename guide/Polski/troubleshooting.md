@@ -36,7 +36,7 @@ adb shell dd if=path\to\modemst2.bin of=/dev/block/by-name/modemst2
 fastboot flash modem path\to\modem.img
 ```
 
-##### Finished!
+##### Skończone!
 
 ## Nie można zamontować systemu Windows w systemie Android
 > Dzieje się tak, gdy zamykasz system Windows zamiast go ponownie uruchamiać.
