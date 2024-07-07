@@ -11,10 +11,10 @@
 
 - [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 ### Uruchom recovery OFOX
->Jeśli Twój recovery został zastąpiony recovery domyślnym, sflashuj go ponownie za pomocą
+> Jeśli Twój recovery został zastąpiony recovery domyślnym, sflashuj go ponownie za pomocą
 ```cmd
 fastboot flash recovery path\to\ofox.img reboot recovery
 ```
@@ -33,7 +33,7 @@ diskpart
 ```
 
 #### Wybór partycji Windows
-> Use `list volume` to find it, replace `$` with the actual number of **WINPOLARIS**
+> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **WINPOLARIS**
 ```diskpart
 select volume $
 ```
@@ -44,7 +44,7 @@ assign letter x
 ```
 
 #### Wybieranie Partycji ESP
-> Use `list volume` to find it, replace `$` with the actual number of **ESPPOLARIS**
+> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **ESPPOLARIS**
 ```diskpart
 select volume $
 ```
@@ -76,12 +76,12 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:path\to\install.esd`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu **Windows 11 Pro** na Twoim obrazie
 
 ### Instalowanie Sterowników
+> [!WARNING]
+> NIE UŻYWAJ DISM++
+
 > Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd`
  
 > Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być **X**), a następnie naciśnij enter.
-
-> [!WARNING]
-> NIE UŻYWAJ DISM++
 
 #### Utwórz pliki bootloadera systemu Windows
 ```cmd
