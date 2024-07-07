@@ -13,8 +13,8 @@
   
 - [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-### Boot to OFOX recovery
-> If your recovery has been replaced by the stock recovery, flash it again using
+### Uruchom recovery OFOX
+>Jeśli Twój recovery został zastąpiony recovery domyślnym, sflashuj go ponownie za pomocą
 ```cmd
 fastboot flash recovery path\to\ofox.img reboot recovery
 ```
