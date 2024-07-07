@@ -5,11 +5,11 @@
 ## Rozwiązywanie problemów
 > Poniżej znajdziesz listę typowych problemów i ich rozwiązań
 
-## LTE and other network services in Android no longer work
-> Sometimes Windows may wipe your modem partitions, resulting in the loss of LTE in Android. To fix this, you'll need to restore your modem using the backups that you hopefully made [while partitioning your device](1-partition.md#backing-up-important-files). If you did not do this step, there is likely no way to recover.
-- Boot into any recovery other than the stock recovery (ADB commands do not work there)
-- Open CMD in the **platform-tools** folder.
-- Restore the four partitions that you backed up using the below commands. Replace `path\to` with the actual path of the images.
+## LTE i inne usługi sieciowe w Androidzie już nie działają
+> Czasami system Windows może wyczyścić partycje modemu, powodując utratę LTE w systemie Android. Aby to naprawić, musisz przywrócić modem, korzystając z kopii zapasowych, które, miejmy nadzieję, wykonałeś [podczas partycjonowania urządzenia](1-partition.md#backing-up-important-files). Jeśli nie wykonałeś tego kroku, prawdopodobnie nie będzie możliwości odzyskania danych.
+- Uruchom dowolne odzyskiwanie inne niż odzyskiwanie zapasów (polecenia ADB tam nie działają)
+- Otwórz CMD w folderze **narzędzia platformy**.
+- Przywróć cztery partycje, których kopię zapasową utworzono, używając poniższych poleceń. Zastąp „ścieżkę do” rzeczywistą ścieżką obrazów.
 ```cmd
 adb shell dd if=path\to\fsc.bin of=/dev/block/by-name/fsc
 ```
@@ -25,13 +25,13 @@ adb shell dd if=path\to\modemst1.bin of=/dev/block/by-name/modemst1
 ```cmd
 adb shell dd if=path\to\modemst2.bin of=/dev/block/by-name/modemst2
 ```
-- Reboot your device and check if LTE works.
+- Uruchom ponownie urządzenie i sprawdź, czy działa LTE.
 > [!Note]
-> If it still does not work, you will have to do some additional steps;
-- Download the [stock rom for your device](https://xmfirmwareupdater.com/miui/polaris/)
-- Open it, look for a file called **modem.img** and extract it.
-- Boot into fastboot mode (`adb reboot bootloader`).
-- Flash this **modem.img** with the below command, replacing `path\to\modem.img` with the actual path of the image
+> Jeśli to nadal nie zadziała, będziesz musiał wykonać kilka dodatkowych kroków;
+- Pobierz [wersję ROM dla swojego urządzenia] (https://xmfirmwareupdater.com/miui/polaris/)
+- Otwórz go, poszukaj pliku o nazwie **modem.img** i rozpakuj go.
+- Uruchom system w trybie fastboot (`adb restart bootloader`.
+- Wgraj plik **modem.img** poniższym poleceniem, zastępując `ścieżkę\do\modem.img` rzeczywistą ścieżką obrazu
 ```cmd
 fastboot flash modem path\to\modem.img
 ```
