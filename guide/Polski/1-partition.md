@@ -18,12 +18,12 @@
 > 
 > Nie uruchamiaj wszystkich poleceń na raz, wykonuj je po kolei!
 
-### Opening CMD as an admin
-> Download **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
+### Otwieranie CMD jako administrator
+> Pobierz **platform-tools** i wypakuj gdzieś folder, a następnie otwórz CMD jako **administrator**.
 >
-> It is recommended to keep this window open and use it throughout the entire guide.
+> Zaleca się pozostawienie tego okna otwartego i korzystanie z niego przez cały przewodnik.
 > 
-> Replace `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
+> Zastąp `path\to\platform-tools` rzeczywistą ścieżką do folderu platform-tools, na przykład **C:\platform-tools**.
 ```cmd
 cd path\to\platform-tools
 ```
