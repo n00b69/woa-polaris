@@ -40,9 +40,6 @@ W tym przewodniku założono, że jesteś zrootowany, jeśli tak nie jest, post�
 
 
 
-#### aproved by alak robanian
-
-
 
 
 
