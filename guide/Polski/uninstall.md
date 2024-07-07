@@ -18,7 +18,7 @@ Jeśli chcesz ponownie zablokować program ładujący, musisz mieć zapasową ta
 > [!Important]
 > Istnieje bardzo małe prawdopodobieństwo, że ten przewodnik nie zadziała, jeśli tablica partycji jest całkowicie popieprzona. Jeśli później nie będziesz mógł uruchomić systemu odzyskiwania/Androida, będziesz musiał ponownie sflashować urządzenie za pomocą EDL.
 
-You can find a guide on how to use EDL [here](edl.md)
+Poradnik dotyczący korzystania z EDL znajdziesz [tutaj](edl.md)
 
 #### Uruchom komputer w trybie fastboot
 > Przytrzymaj przycisk zmniejszania głośności + przycisk zasilania, gdy telefon jest wyłączony, lub uruchom następujące polecenie podczas uruchamiania
