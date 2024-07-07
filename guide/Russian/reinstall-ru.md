@@ -31,7 +31,7 @@ diskpart
 ```
 
 #### Выбрать раздел Windows 
-> Use `list volume` to find it, replace `$` with the actual number of **WINPOLARIS**
+> Используйте `list volume` чтобы найти его, замените `$` номером раздела **WINPOLARIS**
 ```diskpart
 select volume $
 ```
