@@ -9,47 +9,29 @@
   
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
-- [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+- [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-### Uruchom do UEFI
-> Zastąp `path\to\polaris-uefi.img` rzeczywistą ścieżką obrazu UEFI
+### Uruchom recovery OFOX
+> Jeśli Twój recovery został zastąpiony recovery domyślnym, sflashuj go ponownie za pomocą
 ```cmd
-fastboot boot path\to\polaris-uefi.img
+fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 #### Włączanie trybu pamięci masowej
-> Po uruchomieniu systemu UEFI użyj przycisków głośności do poruszania się po menu i przycisku zasilania, aby potwierdzić
-- Wybierz **UEFI Boot Menu**.
-- Wybierz **USB Attached SCSI (UAS) Storage**.
-- Naciśnij przycisk dwa razy aby potwierdzić.
+> Jeżeli ci mówi aby wykonać polecenie jescze raz to zrób to
+```cmd
+adb shell msc
+```
 
 ### Diskpart
 ```cmd
 diskpart
 ```
 
-#### Znajdowanie telefonu
-> Spowoduje to wyświetlenie listy wszystkich podłączonych dysków
-```cmd
-lis dis
-```
-
-#### Wybieranie telefonu
-> Zastąp $ rzeczywistym numerem partycji telefonu (powinien być ostatnim)
-```cmd
-sel dis $
-```
-
-#### Lista partycji Twojego telefonu
-> Spowoduje to wyświetlenie listy partycji urządzenia
-```cmd
-lis par
-```
-
 #### Wybór partycji Windows
-> Zastąp $ numerem partycji systemu Windows (powinno być 23)
-```cmd
-sel par $
+> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **WINPOLARIS**
+```diskpart
+select volume $
 ```
 
 #### Dodaj literę do systemu Windows
