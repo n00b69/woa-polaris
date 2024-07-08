@@ -13,6 +13,8 @@
   
 - [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
+- [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+
 ### Uruchom recovery OFOX
 > Jeśli Twój recovery został zastąpiony recovery domyślnym, sflashuj go ponownie za pomocą
 ```cmd
@@ -140,11 +142,14 @@ exit
 fastboot flash devcfg_ab path\to\devcfg-polaris.img
 ```
 
-### Uruchom ponownie do Androida
-> Uruchom ponownie do Androida aby ustawić dualboot
+#### Uruchom do UEFI
+> Zastąp `path\to\polaris-uefi.img` rzeczywistą ścieżką obrazu UEFI
 ```cmd
-fastboot reboot
+fastboot boot path\to\polaris-uefi.img
 ```
+
+### Uruchom ponownie do Androida
+Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
 ## [Ostatni Krok: Ustawianie dualboot](dualboot.md)
 
