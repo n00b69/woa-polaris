@@ -13,6 +13,8 @@
   
 - [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
+- [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
+
 ### Прошейте OFOX recovery
 > Если ваше recovery было заменено стоковым, прошейте его снова используя
 ```cmd
@@ -140,11 +142,14 @@ exit
 fastboot flash devcfg_ab путь\к\devcfg-polaris.img
 ```
 
-### Перезагрузка в Android
-> Чтобы настроить двойную загрузку
+#### Загрузитесь в UEFI
+> Замените `путь\к\polaris-uefi.img` актуальным путём к образу UEFI
 ```cmd
-fastboot reboot
+fastboot boot путь\к\polaris-uefi.img
 ```
+
+### Reboot to Android
+Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
 ## [Последний шаг: Настройка двойной загрузки](dualboot-ru.md)
 
