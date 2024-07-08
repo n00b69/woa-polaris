@@ -12,6 +12,8 @@
 - [Devcfg (touch fix)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
 - [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+  
+- [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 ### Boot to OFOX recovery
 > If your recovery has been replaced by the stock recovery, flash it again using
@@ -141,11 +143,14 @@ exit
 fastboot flash devcfg_ab path\to\devcfg-polaris.img
 ```
 
-### Reboot to Android
-> To set up dualboot
+#### Boot to the UEFI
+> Replace `path\to\polaris-uefi.img` with the actual path of the UEFI image
 ```cmd
-fastboot reboot
+fastboot boot path\to\polaris-uefi.img
 ```
+
+### Reboot to Android
+Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
 ## [Last step: Setting up dualboot](/guide/dualboot.md)
 
