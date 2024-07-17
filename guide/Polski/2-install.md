@@ -29,7 +29,7 @@ adb shell msc
 
 ### Diskpart
 > [!WARNING]
-> NIE USUWAJ ŻADNYCH PARTYCJI W DISKPART!!!! TO USUNIE CAŁĄ TWOJĄ UFS!!!! OZNACZA TO, ŻE TWOJE URZĄDZENIE ZOSTANIE TRWAŁE USZKODZONE BEZ ROZWIĄZANIA! (z wyjątkiem zabrania urządzenia do Xiaomi lub flashowania go za pomocą EDL, co prawdopodobnie będzie kosztować)
+> NIE USUWAJ ŻADNYCH PARTYCJI W DISKPART!!!! TO USUNIE CAŁĄ TWOJĄ UFS!!!! OZNACZA TO, ŻE TWOJE URZĄDZENIE ZOSTANIE TRWAŁE USZKODZONE BEZ ROZWIĄZANIA! (z wyjątkiem zabrania urządzenia do Xiaomi lub flashowania go za pomocą EDL)
 ```cmd
 diskpart
 ```
@@ -62,9 +62,6 @@ exit
 ```
 
 ### Instalowanie Windowsa
-> [!WARNING]
-> NIE UŻYWAJ 24H2!!!
-
 > Zamień `path\to\install.esd` na rzeczywistą ścieżkę do pliku install.esd (może on również nosić nazwę install.wim)
 ```cmd
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
