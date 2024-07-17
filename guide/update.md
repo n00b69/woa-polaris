@@ -1,23 +1,23 @@
 <img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
 
-# Windows na Mi Mix 2s
+# Running Windows on the Xiaomi Mix 2S
 
-## Aktualizowanie sterowników
+## Updating drivers
 
-### Warunki wstępne
-- [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
+### Prerequisites
+- [Drivers](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
-### Uruchom system Windows
-> Flashuj obraz UEFI w trybie fastboot lub użyj aplikacji WOA Helper
+### Boot into Windows
+> Flash the UEFI image in fastboot or use the WOA Helper app
 
-### Instalowanie sterowników
-> Rozpakuj archiwum sterowników na swoim Xiaomi Mix 2s w systemie Windows, a następnie otwórz plik `OnlineUpdater.cmd`
+### Installing Drivers
+> Unpack the driver archive on your polaris while in Windows, then open the `OnlineUpdater.cmd` file
 
-> Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie
+> Follow any instructions provided on the screen
 
-> Jeśli po zainstalowaniu **pakietów aplikacji** zobaczysz błąd, zignoruj ​​go i ręcznie uruchom ponownie urządzenie, gdy pojawi się komunikat **Gotowe!**
+> If you see an error after installing **App Packages**, ignore it, and reboot your device manually after it says **Done!**
 
-## Skończone!
+## Finished!
 
 
 
