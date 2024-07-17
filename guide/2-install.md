@@ -29,7 +29,7 @@ adb shell msc
 
 ### Diskpart
 > [!WARNING]
-> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
+> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for flashing it with EDL)
 ```cmd
 diskpart
 ```
@@ -62,9 +62,6 @@ exit
 ```
 
 ### Installing Windows
-> [!Warning]
-> DO NOT USE 24H2!!!
-
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim)
 
 ```cmd
