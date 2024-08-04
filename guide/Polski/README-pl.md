@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/assets/85476585/b6dc4793-f1fe-4007-8c06-a46d245c6c44" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://media.discordapp.net/attachments/1073070082827235348/1268574917507416187/download.png?ex=66b037b5&is=66aee635&hm=92dab59333d78cc282851ececc4bb2971e1a3d6c23fd743ad432ff0163076d4f&=&format=webp&quality=lossless" width="350" alt="Windows 11 running on polaris">
 
-# Windows na i Mix 2s
+# Windows na Mi Mix 2s
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMIX2S)
 
 ## Wybierz swój język
