@@ -37,7 +37,7 @@ fastboot flash recovery путь\к\ofox.img reboot recovery
 ### Создание резервной копии важных файлов
 > Это создаст бэкап **fsc**, **fsg**, **modemst1** и **modemst2** в текущем расположении, где открыта ваша командная строка (например **C:\platform-tools**). Убедитесь, что эти файлы действительно сдесь, прежде чем продолжить.
 >
-> Keep these backups in a safe place. If your device's software ever gets destroyed, you might need these backups or your phone could lose cellular capabilities.
+> Сохраните эти резервные копии в надежном месте. Если программное обеспечение вашего устройства однажды будет уничтожено, вам могут понадобиться эти резервные копии, иначе ваш телефон может потерять возможности сотовой связи.
 >
 > Если вы хотите создать резервную копию чего-либо ещё, сделайте это сейчас. Ваши данные в Android будут удалены в ходе следующих действий.
 ```cmd
@@ -45,7 +45,7 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 ```
 
 #### Backing up your boot image
-> This will back up your current boot image in the current directory
+> Это позволит создать резервную копию вашего текущего загрузочного образа в текущем каталоге.
 ```cmd
 adb pull /dev/block/by-name/boot boot.img
 ```
