@@ -59,7 +59,7 @@ adb shell partition $
 ### Check if Android still starts
 - Just restart the phone, and see if Android still works
 
-## [Next step: Rooting your phone](/guide/2-install.md)
+## [Next step: Rooting your phone](/guide/2-root.md)
 
 
 
