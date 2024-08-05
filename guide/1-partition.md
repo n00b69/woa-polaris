@@ -42,6 +42,12 @@ fastboot flash recovery path\to\ofox.img reboot recovery
 cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
 ```
 
+### Backing up your boot image
+> This will back up your boot image in the current directory
+```cmd
+adb pull /dev/block/by-name/boot boot.img
+```
+
 ### Run the partitioning script
 > Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
 > 
@@ -53,7 +59,7 @@ adb shell partition $
 ### Check if Android still starts
 - Just restart the phone, and see if Android still works
 
-## [Next step: Installing Windows](/guide/2-install.md)
+## [Next step: Rooting your phone](/guide/2-install.md)
 
 
 
