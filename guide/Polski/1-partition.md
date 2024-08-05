@@ -42,6 +42,12 @@ fastboot flash recovery path\to\ofox.img reboot recovery
 cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
 ```
 
+### Backing up your boot image
+> This will back up your current boot image in the current directory
+```cmd
+adb pull /dev/block/by-name/boot boot.img
+```
+
 ### Uruchom skrypt partycjonowania
 > Zastąp **$** ilością miejsca, jaką ma mieć system Windows (nie dodawaj GB, po prostu wpisz liczbę)
 > 
@@ -53,8 +59,7 @@ adb shell partition $
 #### Sprawdź, czy Android nadal się uruchamia
 - Po prostu uruchom ponownie telefon i sprawdź, czy Android nadal działa
 
-
-## [Następny Krok](2-install.md)
+## [Next step: Rooting your phone](2-root.md)
 
 
 
