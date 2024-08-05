@@ -34,7 +34,7 @@ cd path\to\platform-tools
 fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
-#### Backing up important files
+### Backing up important files
 > This will back up **fsc**, **fsg**, **modemst1** and **modemst2** to the current path your CMD is opened in (for example **C:\platform-tools**). Confirm these files are actually there before proceeding.
 >
 > If you've got anything else you want to back up, do this now. Your Android data will be erased in the next steps.
@@ -42,7 +42,7 @@ fastboot flash recovery path\to\ofox.img reboot recovery
 cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
 ```
 
-### Backing up your boot image
+#### Backing up your boot image
 > This will back up your boot image in the current directory
 ```cmd
 adb pull /dev/block/by-name/boot boot.img
