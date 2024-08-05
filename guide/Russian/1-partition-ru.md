@@ -44,7 +44,7 @@ fastboot flash recovery путь\к\ofox.img reboot recovery
 cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
 ```
 
-#### Backing up your boot image
+#### Бэкап вашего boot образа
 > Это позволит создать резервную копию вашего текущего загрузочного образа в текущем каталоге.
 ```cmd
 adb pull /dev/block/by-name/boot boot.img
