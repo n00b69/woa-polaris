@@ -2,60 +2,43 @@
 
 # Запуск Windows на Xiaomi Mix 2s
 
-## Root guide
+## Получение root-прав
 
 ### Требования 
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-### Copying your boot image to Android
-- Connect your phone to your computer (with USB debugging enabled).
-- Click the prompt on your phone to allow your computer to access your phone's data. If no prompt appears, go to your notification panel and click the USB notification, then change the connection type to **transferring files**.
-- Copy the **boot.img** file from the **platform-tools** folder into your internal storage.
+### Копирование boot образа на Android
+- Подключите телефон к компьютеру (с включенной отладкой по USB).
+- Щелкните по запросу на телефоне, чтобы разрешить компьютеру доступ к данным телефона. Если запрос не появился, перейдите на панель уведомлений и щелкните уведомление USB, затем измените тип подключения на **передача файлов**.
+- Скопируйте файл **boot.img** из папки **platform-tools** во внутреннюю память.
 
-#### Patching the boot image
-- Download and install **Magisk**, then open it.
-- Press **Install** > **Patch a file** and select the **boot.img** you just copied.
-- Once the patching has finished, locate  **magisk_patched-27000_XXXX.img** in your **Downloads** folder and copy it into the **platform-tools** folder on your computer.
-- Rename
+#### Патч boot образа
+- Загрузите и установите **Magisk**, затем откройте его.
+- Нажмите **Установить** > **Пропатчить boot-образ** и выберите **boot.img**, который вы только что скопировали.
+- После завершения исправления найдите **magisk_patched-27000_XXXX.img** в папке **Загрузки** и скопируйте его в папку **platform-tools** на компьютере.
+- Переименуйте
 
-### Reboot to fastboot mode
+### Перезагрузка в режим fastboot
 ```cmd
 adb reboot bootloader
 ```
 
-#### Flashing your rooted boot image
-> Replace `path\to\magisk_patched.img` with the actual path of the image
+#### Перепрошивка boot образа загрузки с root правами
+> Замените `path\to\magisk_patched.img` на ваш путь к образу
 ```cmd
 fastboot flash boot path\to\magisk_patched.img
 ```
 
-### Reboot to Android
+### Перезагрузка в Android
 ```cmd
 fastboot reboot
 ```
 
-#### Finishing setup
-- Open the **Magisk** app again.
-- Follow the instructions on the screen, and your device should reboot after a few seconds.
-- Now boot back into fastboot mode for the last section of the guide.
+#### Завершение настройки
+- Снова откройте приложение **Magisk**.
+- Следуйте инструкциям на экране, и ваше устройство должно перезагрузиться через несколько секунд.
+- Теперь снова загрузитесь в режим fastboot для последнего раздела руководства.
 
 ## [Следующий шаг: Установка Windows](3-install-ru.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
