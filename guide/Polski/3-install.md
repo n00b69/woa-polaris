@@ -73,10 +73,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 - Drag and drop the **magisk_patched.img** into the **WINPOLARIS** disk in Windows Explorer, then rename it to **boot.img**.
 
 ### Instalowanie Sterowników
-> [!WARNING]
-> NIE UŻYWAJ DISM++
-
-> Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd`
+- Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd`
  
 > Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być **X**), a następnie naciśnij enter.
 
