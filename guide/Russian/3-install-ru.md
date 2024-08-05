@@ -69,13 +69,13 @@ dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 
 > Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:путь\к\install.esd`, затем замените `index:6` действтельным индексом **Windows 11 Pro** в вашем образе
 
+### Copying your boot.img into Windows
+- Drag and drop the **magisk_patched.img** into the **WINPOLARIS** disk in Windows Explorer, then rename it to **boot.img**.
+
 ### Установка драйверов
 > Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (Если появляется ошибка, запустите  `OfflineUpdaterFix.cmd`)
 
 > Введите букву диска **WINPOLARIS** (должна быть **X**) затем нажмите Enter
-
-> [!WARNING]
-> НЕ ИСПОЛЬЗУЙТЕ DISM++
   
 #### Создать файлы загрузчика Windows
 ```cmd
