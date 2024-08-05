@@ -148,7 +148,7 @@ fastboot boot путь\к\polaris-uefi.img
 ### Reboot to Android
 Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
-## [Последний шаг: Настройка двойной загрузки](dualboot-ru.md)
+## [Последний шаг: Настройка двойной загрузки](4-dualboot-ru.md)
 
 
 
