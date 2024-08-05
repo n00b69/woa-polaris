@@ -70,6 +70,9 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:path\to\install.esd`, then replace `index:6` with the actual index number of **Windows 11 Pro** in your image
 
+### Copying your boot.img into Windows
+- Drag and drop the **magisk_patched.img** into the **WINPOLARIS** disk in Windows Explorer, then rename it to **boot.img**
+
 ### Installing Drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
@@ -105,7 +108,7 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **WINPOLARIS**
+> Use `list volume` to find it, replace `$` with the actual number of **WINPOLARIS**
 ```diskpart
 select volume $
 ```
@@ -116,7 +119,7 @@ remove letter x
 ```
 
 #### Select the ESP volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **ESPPOLARIS**
+> Use `list volume` to find it, replace `$` with the actual number of **ESPPOLARIS**
 ```diskpart
 select volume $
 ```
