@@ -45,7 +45,7 @@ exit
 ```
 
 ### Instalowanie sterowników
-> Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd`
+- Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd` (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
  
 > Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być X), a następnie naciśnij enter.
 
