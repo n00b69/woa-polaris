@@ -62,7 +62,7 @@ exit
 ```
 
 ### Installing Windows
-> Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim)
+> Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
 ```cmd
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
