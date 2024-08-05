@@ -148,7 +148,7 @@ fastboot boot path\to\polaris-uefi.img
 ### Uruchom ponownie do Androida
 Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
-## [Ostatni Krok: Ustawianie dualboot](dualboot.md)
+## [Ostatni Krok: Ustawianie dualboot](4-dualboot.md)
 
 
 
