@@ -73,7 +73,7 @@ dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 - Drag and drop the **magisk_patched.img** into the **WINPOLARIS** disk in Windows Explorer, then rename it to **boot.img**.
 
 ### Установка драйверов
-> Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (Если появляется ошибка, запустите  `OfflineUpdaterFix.cmd`)
+- Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (Если появляется ошибка, запустите  `OfflineUpdaterFix.cmd`)
 
 > Введите букву диска **WINPOLARIS** (должна быть **X**) затем нажмите Enter
   
