@@ -34,12 +34,18 @@ cd путь\к\platform-tools
 fastboot flash recovery путь\к\ofox.img reboot recovery
 ```
 
-#### Создание резервной копии важных файлов
+### Создание резервной копии важных файлов
 > Это создаст бэкап **fsc**, **fsg**, **modemst1** и **modemst2** в текущем расположении, где открыта ваша командная строка (например **C:\platform-tools**). Убедитесь, что эти файлы действительно сдесь, прежде чем продолжить.
 >
 > Если вы хотите создать резервную копию чего-либо ещё, сделайте это сейчас. Ваши данные в Android будут удалены в ходе следующих действий.
 ```cmd
 cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
+```
+
+#### Backing up your boot image
+> This will back up your current boot image in the current directory
+```cmd
+adb pull /dev/block/by-name/boot boot.img
 ```
 
 ### Запустите скрипт разметки 
@@ -53,7 +59,7 @@ adb shell partition $
 ### Проверьте, запускается ли Android 
 - Просто перезагрузите телефон и посмотрите, загружается ли Android
 
-## [Следующий шаг: Установка Windows](2-install-ru.md)
+## [Следующий шаг: Rooting your phone](2-install-ru.md)
 
 
 
