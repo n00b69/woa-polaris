@@ -34,7 +34,7 @@ cd path\to\platform-tools
 fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
-#### Tworzenie kopii zapasowych ważnych plików
+### Tworzenie kopii zapasowych ważnych plików
 > Spowoduje to utworzenie kopii zapasowej plików **fsc**, **fsg**, **modemst1** i **modemst2** w bieżącej ścieżce, w której otwarto CMD (na przykład **C:\platform-tools**). Przed kontynuowaniem upewnij się, że te pliki rzeczywiście tam są.
 >
 > Jeśli chcesz utworzyć kopię zapasową czegoś innego, zrób to teraz. Twoje dane Androida zostaną usunięte w kolejnych krokach.
@@ -42,7 +42,7 @@ fastboot flash recovery path\to\ofox.img reboot recovery
 cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
 ```
 
-### Backing up your boot image
+#### Backing up your boot image
 > This will back up your current boot image in the current directory
 ```cmd
 adb pull /dev/block/by-name/boot boot.img
