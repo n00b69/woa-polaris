@@ -38,6 +38,11 @@ fastboot reboot
 #### Завершение настройки
 - Снова откройте приложение **Magisk**.
 - Следуйте инструкциям на экране, и ваше устройство должно перезагрузиться через несколько секунд.
-- Теперь снова загрузитесь в режим fastboot для последнего раздела руководства.
+
+### Copying the rooted boot image
+> After your device has booted
+```cmd
+adb pull /dev/block/by-name/boot root.img
+```
 
 ## [Следующий шаг: Установка Windows](3-install-ru.md)
