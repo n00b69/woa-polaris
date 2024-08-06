@@ -2,7 +2,7 @@
 
 # Running Windows on the Xiaomi Mix 2s
 
-## Root guide
+## Rooting your device
 
 ### Prerequisites
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
