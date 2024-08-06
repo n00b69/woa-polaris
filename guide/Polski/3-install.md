@@ -70,7 +70,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:path\to\install.esd`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu **Windows 11 Pro** na Twoim obrazie
 
 ### Copying your boot.img into Windows
-- Drag and drop the **magisk_patched.img** into the **WINPOLARIS** disk in Windows Explorer, then rename it to **boot.img**.
+- Drag and drop the **root.img** from the last page of the guide into the **WINPOLARIS** disk in Windows Explorer, then rename it to **boot.img**.
 
 ### Instalowanie Sterowników
 - Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd` (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
