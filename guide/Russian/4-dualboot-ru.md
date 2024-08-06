@@ -2,7 +2,7 @@
 
 # Запуск Windows на Xiaomi Mix 2s
 
-## Dualboot guide
+## Dualboot гайд
 
 ### Требования
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
