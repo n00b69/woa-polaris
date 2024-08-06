@@ -39,8 +39,8 @@ fastboot reboot
 - Снова откройте приложение **Magisk**.
 - Следуйте инструкциям на экране, и ваше устройство должно перезагрузиться через несколько секунд.
 
-### Copying the rooted boot image
-> After your device has booted
+### Скопируйте патченый boot образ
+> После загрузки устройства
 ```cmd
 adb pull /dev/block/by-name/boot root.img
 ```
