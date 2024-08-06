@@ -45,7 +45,7 @@ select volume $
 assign letter X
 ```
 
-#### Выбhfnm раздел ESP
+#### Выбрать раздел ESP
 > Используйте `list volume` чтобы найти его, замените `$` номером раздела **ESPPOLARIS**
 ```diskpart
 select volume $
@@ -69,11 +69,11 @@ dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 
 > Если вы получите `Error 87`, проверьте индекс вышего образа используя `dism /get-imageinfo /ImageFile:путь\к\install.esd`, затем замените `index:6` действтельным индексом **Windows 11 Pro** в вашем образе
 
-### Copying your boot.img into Windows
-- Drag and drop the **magisk_patched.img** into the **WINPOLARIS** disk in Windows Explorer, then rename it to **boot.img**.
+### Копирование вашего boot.img в Windows
+- Перетащите **magisk_patched.img** на диск **WINPOLARIS** в проводнике Windows, затем переименуйте его в **boot.img**.
 
 ### Установка драйверов
-- Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (Если появляется ошибка, запустите  `OfflineUpdaterFix.cmd`)
+- Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (Если появляется ошибка, запустите `OfflineUpdaterFix.cmd`)
 
 > Введите букву диска **WINPOLARIS** (должна быть **X**) затем нажмите Enter
   
@@ -82,7 +82,7 @@ dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-#### Включение тестовой подпись
+#### Включение тестовой подписи
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
@@ -145,8 +145,8 @@ fastboot flash devcfg_ab путь\к\devcfg-polaris.img
 fastboot boot путь\к\polaris-uefi.img
 ```
 
-### Reboot to Android
-Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
+### Перезагрузка в Android
+Ваше устройство должно перезагрузиться само после +- 10 минут ожидания, после чего вы загрузитесь в Android для последнего шага.
 
 ## [Последний шаг: Настройка двойной загрузки](4-dualboot-ru.md)
 

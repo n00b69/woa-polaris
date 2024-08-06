@@ -2,7 +2,7 @@
 
 # Запуск Windows на Xiaomi Mix 2s
 
-## Dualboot guide
+## Dualboot гайд
 
 ### Требования
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
@@ -17,7 +17,7 @@
 ### Установка - Android
 - Загрузите и установите приложение **WOA Helper**, затем откройте его и предоставьте ему root-доступ.
 - Загрузите изображение **UEFI** и поместите его в папку с именем `UEFI` в вашем внутреннем хранилище.
-- Open the **WOA Helper** app and use the **STA CREATOR** in **WOA TOOLBOX**.
+- Откройте приложение **WOA Helper** и используйте **STA CREATOR** в **WOA TOOLBOX**.
 > [!Important]
 > Если папка `/sdcard/Windows` пустая, ваше ПЗУ не поддерживает монтирование, и вам придётся создать резервную копию boot.img внутри приложения, а затем вручную скопировать её в Windows после загрузки (например, загрузив её куда-нибудь, а затем скачав после загрузки в Windows). The same applies to the StA files, which are also generated in your internal storage.
 >
@@ -26,8 +26,8 @@
   
 ### Установка - Windows
 > [!Tip]
-> If this is your first time booting Windows and you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
-- Перейдите к C:\sta и создайте ярлык `sta.exe` на своём рабочем столе, if one isn't already present
+> Если вы загружаете Windows впервые и хотите пропустить вход в учетную запись Microsoft, нажмите кнопку **У меня нет интернета** на странице Wi-Fi, а затем при появлении соответствующего запроса нажмите кнопку **Продолжить с ограниченной настройкой**.
+- Перейдите к C:\sta и создайте ярлык `sta.exe` на своём рабочем столе, если его еще нет
 
 #### Загрузка на Android
 - Запустите новый ярлык на своем рабочем столе (вы также можете прикрепить его к меню "Пуск" / панели задач для удобства доступа).
@@ -36,19 +36,3 @@
 - Нажмите **БЫСТРАЯ ЗАГРУЗКА В WINDOWS** в приложении или воспользуйтесь только что созданным переключателем на панели быстрых настроек.
   
 ## Готово!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
