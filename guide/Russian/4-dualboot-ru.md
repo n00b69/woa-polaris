@@ -17,11 +17,11 @@
 ### Установка - Android
 - Загрузите и установите приложение **WOA Helper**, затем откройте его и предоставьте ему root-доступ.
 - Загрузите изображение **UEFI** и поместите его в папку с именем `UEFI` в вашем внутреннем хранилище.
-- Open the WOA Helper app and press the **БЫСТРАЯ ЗАГРУЗКА В WINDOWS** button.
+- Вернитесь в приложение WOA Helper и нажмите кнопку **БЫСТРАЯ ЗАГРУЗКА В WINDOWS**.
   
 ### Установка - Windows
 > [!Tip]
-> If this is your first time booting Windows and you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
+> Если вы загружаете Windows впервые и хотите пропустить вход в учетную запись Microsoft, нажмите кнопку **У меня нет интернета** на странице Wi-Fi, а затем при появлении соответствующего запроса нажмите кнопку **Продолжить с ограниченной настройкой**.
 
 #### Загрузка на Android
 - Запустите новый ярлык на своем рабочем столе (вы также можете прикрепить его к меню "Пуск" / панели задач для удобства доступа).
