@@ -61,7 +61,7 @@ adb shell partition $
 ### Проверьте, запускается ли Android 
 - Просто перезагрузите телефон и посмотрите, загружается ли Android
 
-## [Следующий шаг: Rooting your phone](2-install-ru.md)
+## [Следующий шаг: Rooting your phone](2-root-ru.md)
 
 
 
