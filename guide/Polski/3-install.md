@@ -97,37 +97,10 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
-### Usuwanie przypisanych liter dysków
-> Żeby zniknęły po odłączeniu urządzenia
+#### Remove the drive letter for ESP
+> If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
 ```cmd
-diskpart
-```
-
-#### Wybieranie wolumin systemu Windows na telefonie
-> Użyj `list Volume`, aby go znaleźć, a następnie zamień `$` na rzeczywistą liczbę **WINPOLARIS**
-```diskpart
-sel vol $
-```
-
-#### Usuwanie przypisania litery X
-```diskpart
-remove letter x
-```
-
-#### Wybieranie wolumin ESP na telefonie
-> Użyj `list Volume`, aby go znaleźć, a następnie zamień `$` na rzeczywistą liczbę **ESPPOLARIS**
-```diskpart
-sel vol $
-```
-
-#### Usuwanie przypisania litery Y
-```diskpart
-remove letter y
-```
-
-#### Wyjście z diskpart
-```diskpart
-exit
+mountvol y: /d
 ```
 
 ### Uruchamianie ponownie w trybie fastboot
