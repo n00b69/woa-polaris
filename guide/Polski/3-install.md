@@ -9,7 +9,7 @@
   
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
-- [Devcfg (naprawia dotyk)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
+- [Devcfg (naprawa dotyku)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
   
 - [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
@@ -75,7 +75,7 @@ dism /apply-image /ImageFile:ścieżka\do\install.esd /index:6 /ApplyDir:X:\
 ### Instalowanie sterowników
 - Wypakuj archiwum ze sterownikami, a następnie otwórz plik `OfflineUpdater.cmd` (jeśli pojawi się błąd, otwórz `OfflineUpdaterFix.cmd`)
  
-> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (którą powinna być **X**), a następnie naciśnij enter.
+> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (powinna to być litera **X**), a następnie naciśnij enter.
 
 #### Tworzenie plików bootloadera systemu Windows
 ```cmd
@@ -146,7 +146,7 @@ fastboot boot ścieżka\do\polaris-uefi.img
 ```
 
 ### Uruchamianie ponownie do Androida
-Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
+Telefon powinien uruchomić się ponownie sam po +- 10 minutach czekania, po których uruchomi się Android, aby wykonać ostatni krok.
 
 ## [Ostatni krok: Konfiguracja dualboot](4-dualboot.md)
 
