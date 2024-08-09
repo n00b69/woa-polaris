@@ -2,7 +2,7 @@
 
 # Windows na Xiaomi Mix 2s
 
-## Dualboot
+## Konfiguracja dualboot
 
 ### Wymagania
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
@@ -26,7 +26,7 @@ W tym przewodniku założono, że jesteś zrootowany, jeśli tak nie jest, post�
 
 ### Konfiguracja — Windows
 > [!Tip]
-> If this is your first time booting Windows and you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
+> Jeśli to będzie pierwszy raz, gdy uruchamiasz Windowsa i chcesz pominąć logowanie do konta Microsoft, wciśnij przycisk **Nie mam Internetu** w etapie WiFi, a gdy zapytany, wciśnij **Kontynuuj z ograniczoną konfiguracją**.
 - Navigate to `C:\sta` and create a shortcut of **sta.exe** to your desktop, if one isn't already present
 
 #### Uruchamianie systemu Android
