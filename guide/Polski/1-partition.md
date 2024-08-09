@@ -7,14 +7,14 @@
 ### Wymagania
 - Mózg (najważniejsze ze wszystkich)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
 - [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-### Notes
+### Uwagi
 > [!Warning]  
 > 
-> NIE URUCHAMIAJ PONOWNIE TELEFONU! Jeśli uważasz, że popełniłeś błąd, poproś o pomoc na [czacie telegramowym](https://t.me/WinOnMIX2S).
+> NIE URUCHAMIAJ PONOWNIE TELEFONU! Jeśli uważasz, że popełniłeś błąd, poproś o pomoc na [Telegramie](https://t.me/WinOnMIX2S).
 > 
 > Nie uruchamiaj wszystkich poleceń na raz, wykonuj je po kolei!
 
@@ -23,29 +23,29 @@
 >
 > Zaleca się pozostawienie tego okna otwartego i korzystanie z niego przez cały przewodnik.
 > 
-> Zastąp `path\to\platform-tools` rzeczywistą ścieżką do folderu platform-tools, na przykład **C:\platform-tools**.
+> Zastąp `ścieżka\do\platform-tools` rzeczywistą ścieżką do folderu platform-tools, na przykład **C:\platform-tools**.
 ```cmd
-cd path\to\platform-tools
+cd ścieżka\do\platform-tools
 ```
 
-#### Zflashuj OFOX
-> Otwórz okno CMD w folderze platform-tools, a następnie (gdy telefon jest w trybie szybkiego uruchamiania) uruchom
+#### Instalacja OFOX
+> Otwórz okno CMD w folderze platform-tools, a następnie (gdy telefon jest w trybie fastboot) wpisz
 ```cmd
-fastboot flash recovery path\to\ofox.img reboot recovery
+fastboot flash recovery ścieżka\do\ofox.img reboot recovery
 ```
 
-### Tworzenie kopii zapasowych ważnych plików
+### Tworzenie kopii zapasowej ważnych plików
 > Spowoduje to utworzenie kopii zapasowej plików **fsc**, **fsg**, **modemst1** i **modemst2** w bieżącej ścieżce, w której otwarto CMD (na przykład **C:\platform-tools**). Przed kontynuowaniem upewnij się, że te pliki rzeczywiście tam są.
 >
-> Keep these backups in a safe place. If your device's software ever gets destroyed, you might need these backups or your phone could lose cellular capabilities.
+> Trzymaj tę kopię zapasową w bezpiecznym miejscu. Jeśli oprogramowanie Twojego urządzenia kiedykolwiek ulegnie uszkodzeniu, możesz potrzebować tej kopii, gdyż w przeciwnym wypadku telefon może już nigdy nie być w stanie wykonywać połączeń.
 > 
 > Jeśli chcesz utworzyć kopię zapasową czegoś innego, zrób to teraz. Twoje dane Androida zostaną usunięte w kolejnych krokach.
 ```cmd
 cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
 ```
 
-#### Backing up your boot image
-> This will back up your current boot image in the current directory
+#### Tworzenie kopii zapasowych obrazu rozruchu
+> Spowoduje to utworzenie kopii zapasowej obecnego obrazu rozruchu w bieżącej ścieżce
 ```cmd
 adb pull /dev/block/by-name/boot boot.img
 ```
@@ -61,7 +61,7 @@ adb shell partition $
 #### Sprawdź, czy Android nadal się uruchamia
 - Po prostu uruchom ponownie telefon i sprawdź, czy Android nadal działa
 
-## [Next step: Rooting your phone](2-root.md)
+## [Następny krok: Rootowanie telefonu](2-root.md)
 
 
 

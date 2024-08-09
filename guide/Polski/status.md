@@ -3,19 +3,19 @@
 # Windows na Xiaomi Mix 2s
 
 ## Status Projektu
-Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić się, ale nie należy się ich spodziewać często
+Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić się, ale nie należy się ich spodziewać często.
 
 #### Funkcje
-- [ ] Dzwięk ```Wylączone, może uszkodzić głośniki.```
+- [ ] Dzwięk ```Wyłączone, może uszkodzić głośniki.```
 - [X] Wzkaźnik baterii
 - [x] Bluetooth
-- [x] Jasność 
-- [ ] Kamera
+- [x] Sterowanie jasnością
+- [ ] Aparat
 - [x] LTE ```Problematyczne```
-- [x] Ładowanie ```BARDZO Powolne```
+- [x] Ładowanie ```BARDZO powolne```
 - [x] Wyświetlacz
 - [ ] Latarka
-- [x] Karta Graficzna  ```Brak x64```
+- [x] Karta graficzna  ```Brak akceleracji x64```
 - [ ] SMS
 - [x] Dotyk 
 - [x] UFS
@@ -23,11 +23,11 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [x] Wi-Fi
 
 #### Sensory
-- [x] Accelerometer
-- [ ] Odcisk palca
+- [x] Akcelerometr
+- [ ] Skaner odcisków palca
 - [x] GPS
 - [x] Żyroskop
-- [x] Czujnik swiatła
+- [x] Czujnik światła
 - [x] Odległość
 - [X] NFC ```Tagi NFC działają, inne funkcje związane z NFC też mogą działać```
       

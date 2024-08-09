@@ -4,7 +4,7 @@
 
 ## Aktualizowanie sterowników
 
-### Warunki wstępne
+### Wymagania
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
 ### Uruchom system Windows
