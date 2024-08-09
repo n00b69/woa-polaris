@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/user-attachments/assets/0b59ee4f-f1ce-4600-9116-c28d936f6585" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="" width="350" alt="Windows 11 running on polaris">
 
 # Windows na Mi Mix 2s
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMIX2S)
