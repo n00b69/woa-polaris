@@ -6,42 +6,42 @@
 > Poniżej znajdziesz listę typowych problemów i ich rozwiązań
 
 ## LTE i inne usługi sieciowe w Androidzie już nie działają
-> Czasami system Windows może wyczyścić partycje modemu, powodując utratę LTE w systemie Android. Aby to naprawić, musisz przywrócić modem, korzystając z kopii zapasowych, które, miejmy nadzieję, wykonałeś [podczas partycjonowania urządzenia](1-partition.md#backing-up-important-files). Jeśli nie wykonałeś tego kroku, prawdopodobnie nie będzie możliwości odzyskania danych.
-- Uruchom dowolne odzyskiwanie inne niż odzyskiwanie zapasów (polecenia ADB tam nie działają)
-- Otwórz CMD w folderze **narzędzia platformy**.
-- Przywróć cztery partycje, których kopię zapasową utworzono, używając poniższych poleceń. Zastąp „ścieżkę do” rzeczywistą ścieżką obrazów.
+> Czasami system Windows może wyczyścić partycje modemu, powodując utratę LTE w systemie Android. Aby to naprawić, musisz przywrócić modem, korzystając z kopii zapasowych, które, miejmy nadzieję, wykonałeś [podczas partycjonowania urządzenia](1-partition.md#backing-up-important-files). Jeśli nie wykonałeś tego kroku, prawdopodobnie nie będzie możliwości odzyskania funkcji LTE
+- Uruchom dowolne recovery inne niż stockowe recovery (polecenia ADB tam nie działają).
+- Otwórz CMD w folderze **platform-tools**.
+- Przywróć cztery partycje, których kopię zapasową utworzono, używając poniższych poleceń. Zastąp „ścieżka\do” rzeczywistą ścieżką obrazów.
 ```cmd
-adb shell dd if=path\to\fsc.bin of=/dev/block/by-name/fsc
+adb shell dd if=ścieżka\do\fsc.bin of=/dev/block/by-name/fsc
 ```
 
 ```cmd
-adb shell dd if=path\to\fsg.bin of=/dev/block/by-name/fsg
+adb shell dd if=ścieżka\do\fsg.bin of=/dev/block/by-name/fsg
 ```
 
 ```cmd
-adb shell dd if=path\to\modemst1.bin of=/dev/block/by-name/modemst1
+adb shell dd if=ścieżka\do\modemst1.bin of=/dev/block/by-name/modemst1
 ```
 
 ```cmd
-adb shell dd if=path\to\modemst2.bin of=/dev/block/by-name/modemst2
+adb shell dd if=ścieżka\do\modemst2.bin of=/dev/block/by-name/modemst2
 ```
 - Uruchom ponownie urządzenie i sprawdź, czy działa LTE.
 > [!Note]
-> Jeśli to nadal nie zadziała, będziesz musiał wykonać kilka dodatkowych kroków;
+> Jeśli to nadal nie zadziała, będziesz musiał wykonać kilka dodatkowych kroków:
 - Pobierz [wersję ROM dla swojego urządzenia](https://xmfirmwareupdater.com/miui/polaris/)
 - Otwórz go, poszukaj pliku o nazwie **modem.img** i rozpakuj go.
-- Uruchom system w trybie fastboot (`adb restart bootloader`.
-- Wgraj plik **modem.img** poniższym poleceniem, zastępując `ścieżkę\do\modem.img` rzeczywistą ścieżką obrazu
+- Uruchom system w trybie fastboot (`adb restart bootloader`).
+- Wgraj plik **modem.img** poniższym poleceniem, zastępując `ścieżkę\do` rzeczywistą ścieżką do obrazu.
 ```cmd
-fastboot flash modem path\to\modem.img
+fastboot flash modem ścieżka\do\modem.img
 ```
 
 ##### Skończone!
 
 ## Nie można zamontować systemu Windows w systemie Android
-> Dzieje się tak, gdy zamykasz system Windows zamiast go ponownie uruchamiać.
-- Aby rozwiązać ten problem, uruchom system Windows, a następnie naciśnij „Uruchom ponownie”, a następnie, gdy ekran się wyłączy, uruchom system TWRP i stamtąd załaduj system Android.
-> Alternatywnie, jeśli masz już skonfigurowaną aplikację Przełącz na Androida, po prostu użyj jej, aby przejść na Androida.
+> Dzieje się tak, gdy zamykasz system Windows zamiast go ponownie uruchamiać
+- Aby rozwiązać ten problem, uruchom system Windows, a następnie naciśnij „Uruchom ponownie”, a następnie, gdy ekran się wyłączy, uruchom TWRP i stamtąd załaduj system Android.
+> Alternatywnie, jeśli masz już skonfigurowaną aplikację Switch to Android, po prostu użyj jej, aby przejść na Androida
 
 ##### Skończone!
 
@@ -56,12 +56,12 @@ Zwykle oznacza to, że masz nieczysty obraz systemu Windows z innymi sterownikam
 ##### Skończone!
 
 ## BSOD 0xc000021a
-Zwykle oznacza to, że plik winlogon.exe nie powiódł się i może być konieczne ponowne zastosowanie obrazu systemu Windows.
+Zwykle oznacza to, że plik winlogon.exe się uszkodził i może być konieczne ponowne zastosowanie obrazu systemu Windows.
 
 ##### Skończone!
 
 ## Komputer nieoczekiwanie uruchomił się ponownie lub napotkał nieoczekiwany błąd
-Jeśli natkniesz się na ten błąd, może być konieczne ponowne wdrożenie obrazu systemu Windows. Skorzystaj w tym celu z [przewodnika ponownej instalacji](2-install.md).
+Jeśli natkniesz się na ten błąd, może być konieczna ponowna instalacja obrazu systemu Windows. Skorzystaj w tym celu z [przewodnika ponownej instalacji](2-install.md).
 
 ##### Skończone!
 

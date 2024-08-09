@@ -23,7 +23,7 @@ Ten projekt jest na wczesnym etapie, wszystkie pliki tutaj zostały przesłane p
 
 
 ## Różnorodny
-- [Konfiguracja Dualboot](dualboot.md)
+- [Konfiguracja dualboot](dualboot.md)
 
 - [Materiały dodatkowe](materials.md)
 

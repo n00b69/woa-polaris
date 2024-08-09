@@ -2,50 +2,50 @@
 
 # Windows na Xiaomi Mix 2s
 
-## Przewodnik po rootowaniu
+## Rootowanie telefonu
 
 ### Wymagania
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-### Copying your boot image to Android
-- Connect your phone to your computer (with USB debugging enabled).
-- Click the prompt on your phone to allow your computer to access your phone's data. If no prompt appears, go to your notification panel and click the USB notification, then change the connection type to **transferring files**.
-- Copy the **boot.img** file from the **platform-tools** folder into your internal storage.
+### Skopiowanie obecnego obrazu rozruchu do Androida
+- Podłącz telefon do komputera (z włączonym debugowaniem USB)
+- W oknie na telefonie zezwól na dostęp do plików z poziomu komputera. Jeśli okno nie wyskoczy, przejdź do panelu powiadomień i kliknij na powiadomienie odnośnie USB, a następnie zmień rodzaj połączenia na **przesyłanie plików**.
+- Skopiuj plik **boot.img** z folderu **platform-tools** do pamięci wewnętrznej telefonu.
 
-#### Patching the boot image
-- Download and install **Magisk**, then open it.
-- Press **Install** > **Patch a file** and select the **boot.img** you just copied.
-- Once the patching has finished, locate  **magisk_patched-27000_XXXX.img** in your **Downloads** folder and copy it into the **platform-tools** folder on your computer.
+#### Łatanie obrazu rozruchu
+- Pobierz i zainstaluj **Magisk**, następnie go otwórz.
+- Kliknij **Instaluj** > **wybierz i załataj plik** i wybierz **boot.img**, który przed chwilą skopiowałeś.
+- Gdy łatanie się zakończy, znajdź **magisk_patched-27000_XXXX.img** w folderze **Downloads** i skopiuj go do folderu **platform-tools** na komputerze.
 
-### Reboot to fastboot mode
+### Uruchomienie ponownie do trybu fastboot
 ```cmd
 adb reboot bootloader
 ```
 
-#### Flashing your rooted boot image
-> Replace `path\to\magisk_patched.img` with the actual path of the image
+#### Wgrywanie zrootowanego obrazu rozruchu
+> zmień `ścieżka\do\magisk_patched.img` na faktyczną scieżkę do obrazu.
 ```cmd
-fastboot flash boot path\to\magisk_patched.img
+fastboot flash boot ścieżka\do\magisk_patched.img
 ```
 
-### Reboot to Android
+### Uruchom ponownie do Androida
 ```cmd
 fastboot reboot
 ```
 
-#### Finishing setup
-- Open the **Magisk** app again.
-- Follow the instructions on the screen, and your device should reboot after a few seconds.
+#### Zakończenie instalacji
+- Otwórz aplikację **Magisk** ponownie.
+- Postępuj zgodnie z instrukcjami na ekranie. Telefon powinien się uruchomić ponownie po kilku sekundach.
 
-### Copying the rooted boot image
-> After your device has booted
+### Kopiowanie zrootowanego obrazu rozruchu
+> Gdy już Twój telefon się włączy
 ```cmd
 adb pull /dev/block/by-name/boot root.img
 ```
 
-## [Next step: Installing Windows](3-install.md)
+## [Następny krok: Instalacja Windowsa](3-install.md)
 
 
 

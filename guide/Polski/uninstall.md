@@ -7,7 +7,7 @@
 ### Dlaczego jest to potrzebne?
 Jeśli chcesz odinstalować system Windows, używa się tego zamiast ręcznego usuwania partycji, aby uniknąć błędów ludzkich + napisania całego dedykowanego przewodnika na temat samego odinstalowywania.
 
-Jeśli chcesz ponownie zablokować program ładujący, musisz mieć zapasową tablicę partycji.
+Jeśli chcesz ponownie zablokować program rozruchowy (bootloader), musisz mieć zapasową tablicę partycji.
 
 ### Wymagania
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
@@ -16,9 +16,9 @@ Jeśli chcesz ponownie zablokować program ładujący, musisz mieć zapasową ta
 
 ### Instrukcje odinstalowania
 > [!Important]
-> Istnieje bardzo małe prawdopodobieństwo, że ten przewodnik nie zadziała, jeśli tablica partycji jest całkowicie popieprzona. Jeśli później nie będziesz mógł uruchomić systemu odzyskiwania/Androida, będziesz musiał ponownie sflashować urządzenie za pomocą EDL.
+> Istnieje bardzo małe prawdopodobieństwo, że ten przewodnik nie zadziała, jeśli tablica partycji jest całkowicie popieprzona. Jeśli później nie będziesz mógł uruchomić systemu odzyskiwania/Androida, będziesz musiał ponownie sflashować urządzenie za pomocą EDL
 
-Poradnik dotyczący korzystania z EDL znajdziesz [tutaj](edl.md)
+Poradnik dotyczący korzystania z EDL znajdziesz [tutaj](edl.md).
 
 #### Uruchom komputer w trybie fastboot
 > Przytrzymaj przycisk zmniejszania głośności + przycisk zasilania, gdy telefon jest wyłączony, lub uruchom następujące polecenie podczas uruchamiania
@@ -27,10 +27,10 @@ adb reboot bootloader
 ```
 
 #### Przywróć GPT
-> Zastąp ```ścieżkę\to\gpt_both0.bin``` ścieżką do pliku gpt_both0.bin.
+> Zastąp ```ścieżka\do\gpt_both0.bin``` ścieżką do pliku gpt_both0.bin
 
 ```cmd
-fastboot flash partition:0 ścieżkę\to\gpt_both0.bin
+fastboot flash partition:0 ścieżka\do\gpt_both0.bin
 ```
 
 #### Usuń dane użytkownika, aby uniknąć pętli rozruchowej i przywrócić rozmiar FS

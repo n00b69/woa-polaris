@@ -5,12 +5,12 @@
 ## Ponowna instalacja Windows
 
 ### Wymagania
-- [Windows dla ARM](https://worproject.com/esd)
+- [Windows na ARM](https://worproject.com/esd)
   
 - [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 ### Uruchom recovery OFOX
-> Jeśli Twój recovery został zastąpiony recovery domyślnym, sflashuj go ponownie za pomocą
+> Jeśli Twoje recovery zostało zastąpione recovery domyślnym, zainstaluj go ponownie za pomocą
 ```cmd
 fastboot flash recovery path\to\ofox.img reboot recovery
 ```
@@ -20,7 +20,7 @@ fastboot flash recovery path\to\ofox.img reboot recovery
 adb shell format
 ```
 
-## [Następny Krok: Ponowna instalacja Windows](3-install.md)
+## [Następny krok: Ponowna instalacja Windows](3-install.md)
 
 
 

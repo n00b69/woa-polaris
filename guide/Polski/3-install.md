@@ -5,7 +5,7 @@
 ## Instalacja Windowsa
 
 ### Wymagania
-- [Windows dla ARM](https://worproject.com/esd)
+- [Windows na ARM](https://worproject.com/esd)
   
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
@@ -15,74 +15,74 @@
 
 - [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-### Uruchom recovery OFOX
-> Jeśli Twój recovery został zastąpiony recovery domyślnym, sflashuj go ponownie za pomocą
+### Uruchomienie recovery OFOX
+> Jeśli recovery zostało zastąpione recovery domyślnym, sflashuj go ponownie za pomocą
 ```cmd
-fastboot flash recovery path\to\ofox.img reboot recovery
+fastboot flash recovery ścieżka\do\ofox.img reboot recovery
 ```
 
 #### Włączanie trybu pamięci masowej
-> Jeżeli ci mówi aby wykonać polecenie jescze raz to zrób to
+> Jeżeli zostałeś poproszony, aby wykonać polecenie jeszcze raz, zrób to
 ```cmd
 adb shell msc
 ```
 
 ### Diskpart
 > [!WARNING]
-> NIE USUWAJ ŻADNYCH PARTYCJI W DISKPART!!!! TO USUNIE CAŁĄ TWOJĄ UFS!!!! OZNACZA TO, ŻE TWOJE URZĄDZENIE ZOSTANIE TRWAŁE USZKODZONE BEZ ROZWIĄZANIA! (z wyjątkiem zabrania urządzenia do Xiaomi lub flashowania go za pomocą EDL)
+> NIE USUWAJ ŻADNYCH PARTYCJI W DISKPART!!!! TO USUNIE CAŁĄ ZAWARTOŚĆ PAMIĘCI!!!! OZNACZA TO, ŻE TWOJE URZĄDZENIE ZOSTANIE TRWALE USZKODZONE BEZ ROZWIĄZANIA! (z wyjątkiem wysłania go do Xiaomi lub flashowania go za pomocą EDL)
 ```cmd
 diskpart
 ```
 
-#### Wybór partycji Windows
-> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **WINPOLARIS**
+#### Wybieranie partycji Windows
+> Wpisz `list Volume`, aby ją znaleźć, zamień `$` na rzeczywistą liczbę **WINPOLARIS**
 ```diskpart
 select volume $
 ```
 
-#### Dodaj literę do systemu Windows
+#### Dodanie litery do systemu Windows
 ```cmd
 assign letter x
 ```
 
-#### Wybieranie Partycji ESP
+#### Wybieranie partycji ESP
 > Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **ESPPOLARIS**
 ```diskpart
 select volume $
 ```
 
-#### Dodaj literę do ESP
+#### Dodanie literę do ESP
 ```cmd
 assign letter y
 ```
 
-#### Wyjdź z Diskpart
+#### Wyjście z Diskpart
 ```cmd
 exit
 ```
 
 ### Instalowanie Windowsa
-> Zamień `path\to\install.esd` na rzeczywistą ścieżkę do pliku install.esd (może on również nosić nazwę install.wim lub 22631.2861.XXXXXXX.esd)
+> Zamień `ścieżka\do\install.esd` na rzeczywistą ścieżkę do pliku install.esd (może on również nosić nazwę install.wim lub 22631.2861.XXXXXXX.esd)
 ```cmd
-dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:ścieżka\do\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:path\to\install.esd`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu **Windows 11 Pro** na Twoim obrazie
+> Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:ścieżka\do\install.esd`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu **Windows 11 Pro** w Twoim obrazie
 
-### Copying your boot.img into Windows
-- Drag and drop the **root.img** from the last page of the guide into the **WINPOLARIS** disk in Windows Explorer, then rename it to **boot.img**.
+### Kopiowanie obrazu rozruchu do Windowsa
+- Zaznacz i upuść **root.img** z poprzedniego kroku do **WINPOLARIS** w eksploratorze plików, a następnie zmień mu nazwę na **boot.img**.
 
-### Instalowanie Sterowników
-- Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd` (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
+### Instalowanie sterowników
+- Wypakuj archiwum ze sterownikami, a następnie otwórz plik `OfflineUpdater.cmd` (jeśli pojawi się błąd, otwórz `OfflineUpdaterFix.cmd`)
  
-> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być **X**), a następnie naciśnij enter.
+> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (którą powinna być **X**), a następnie naciśnij enter.
 
-#### Utwórz pliki bootloadera systemu Windows
+#### Tworzenie plików bootloadera systemu Windows
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-#### Włącz tryb testowy
+#### Włączanie trybu testowego
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
@@ -97,58 +97,58 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
-### Usuń przypisanie litery dysku
-> Żeby nie pozostał tam po odłączeniu urządzenia
+### Usuwanie przypisanych liter dysków
+> Żeby zniknęły po odłączeniu urządzenia
 ```cmd
 diskpart
 ```
 
-#### Wybierz głośność systemu Windows w telefonie
-> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **WINPOLARIS**
-```część dysku
+#### Wybieranie wolumin systemu Windows na telefonie
+> Użyj `list Volume`, aby go znaleźć, a następnie zamień `$` na rzeczywistą liczbę **WINPOLARIS**
+```diskpart
 sel vol $
 ```
 
-#### Usuń przypisanie litery X
-```część dysku
+#### Usuwanie przypisania litery X
+```diskpart
 remove letter x
 ```
 
-#### Wybierz głośność systemu ESP w telefonie
-> Użyj `list Volume`, aby go znaleźć, zamień `$` na rzeczywistą liczbę **ESPPOLARIS**
-```część dysku
+#### Wybieranie wolumin ESP na telefonie
+> Użyj `list Volume`, aby go znaleźć, a następnie zamień `$` na rzeczywistą liczbę **ESPPOLARIS**
+```diskpart
 sel vol $
 ```
 
-#### Usuń przypisanie litery Y
-```część dysku
+#### Usuwanie przypisania litery Y
+```diskpart
 remove letter y
 ```
 
-#### Wyjdź z dysku
-```część dysku
+#### Wyjście z diskpart
+```diskpart
 exit
 ```
 
-### Uruchom ponownie fastboot
+### Uruchamianie ponownie w trybie fastboot
 > Przytrzymaj **zmniejszanie głośności** + **zasilanie**, aby wymusić ponowne uruchomienie telefonu w trybie fastboot
 
 #### Naprawianie dotyku
-> Zastąp `path\to\devcfg-polaris.img` rzeczywistą ścieżką obrazu
+> Zastąp `ścieżka\do\devcfg-polaris.img` rzeczywistą ścieżką do obrazu
 ```cmd
-fastboot flash devcfg_ab path\to\devcfg-polaris.img
+fastboot flash devcfg_ab ścieżka\do\devcfg-polaris.img
 ```
 
 #### Uruchom do UEFI
-> Zastąp `path\to\polaris-uefi.img` rzeczywistą ścieżką obrazu UEFI
+> Zastąp `ścieżka\do\polaris-uefi.img` rzeczywistą ścieżką do obrazu UEFI
 ```cmd
-fastboot boot path\to\polaris-uefi.img
+fastboot boot ścieżka\do\polaris-uefi.img
 ```
 
-### Uruchom ponownie do Androida
+### Uruchamianie ponownie do Androida
 Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
-## [Ostatni Krok: Ustawianie dualboot](4-dualboot.md)
+## [Ostatni krok: Konfiguracja dualboot](4-dualboot.md)
 
 
 
