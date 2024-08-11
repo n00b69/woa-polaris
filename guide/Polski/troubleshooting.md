@@ -9,21 +9,21 @@
 > Czasami system Windows może wyczyścić partycje modemu, powodując utratę LTE w systemie Android. Aby to naprawić, musisz przywrócić modem, korzystając z kopii zapasowych, które, miejmy nadzieję, wykonałeś [podczas partycjonowania urządzenia](1-partition.md#backing-up-important-files). Jeśli nie wykonałeś tego kroku, prawdopodobnie nie będzie możliwości odzyskania funkcji LTE
 - Uruchom dowolne recovery inne niż stockowe recovery (polecenia ADB tam nie działają).
 - Otwórz CMD w folderze **platform-tools**.
-- Przywróć cztery partycje, których kopię zapasową utworzono, używając poniższych poleceń. Zastąp „ścieżka\do” rzeczywistą ścieżką obrazów.
+- Przywróć cztery partycje, których kopię zapasową utworzono, używając poniższych poleceń. Zastąp `path\to` rzeczywistą ścieżką obrazów.
 ```cmd
-adb shell dd if=ścieżka\do\fsc.bin of=/dev/block/by-name/fsc
+adb push path\to\fsc.bin /cache/ & adb shell dd if=/cache/fsc.bin of=/dev/block/by-name/fsc
 ```
 
 ```cmd
-adb shell dd if=ścieżka\do\fsg.bin of=/dev/block/by-name/fsg
+adb push path\to\fsg.bin /cache/ & adb shell dd if=/cache/fsg.bin of=/dev/block/by-name/fsg
 ```
 
 ```cmd
-adb shell dd if=ścieżka\do\modemst1.bin of=/dev/block/by-name/modemst1
+adb push path\to\modemst1.bin /cache/ & adb shell dd if=/cache/modemst1.bin of=/dev/block/by-name/modemst1
 ```
 
 ```cmd
-adb shell dd if=ścieżka\do\modemst2.bin of=/dev/block/by-name/modemst2
+adb push path\to\modemst2.bin /cache/ & adb shell dd if=/cache/modemst2.bin of=/dev/block/by-name/modemst2
 ```
 - Uruchom ponownie urządzenie i sprawdź, czy działa LTE.
 > [!Note]
