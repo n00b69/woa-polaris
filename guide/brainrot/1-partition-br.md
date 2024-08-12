@@ -63,4 +63,4 @@ adb shell partition $
 ### Check if Adrod still starts
 - Just restart ur sigma phone, and see in u sigma phone if Adrod still works
 
-## [Next gyat: Rooting ur sigma phone](/guide/2-root.md)
+## [Next gyat: Rooting ur sigma phone](2-root-br.md)
