@@ -4,7 +4,7 @@
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMIX2S)
 
 ## Choose your skibidi
-**English** | [`Pусский`](/guide/Russian/README-ru.md) | [`Polski`](/guide/Polski/README-pl.md) | [`Brainrot`](/guide/Polski/README-br.md)
+[`English`](README.md) | [`Pусский`](/guide/Russian/README-ru.md) | [`Polski`](/guide/Polski/README-pl.md) | **Brainrot**
 
 ## ⚠️ Warning
 We're not responsible for gyatt devices, missing skibidi partitions, dead xiaomi factoryline goons, dead pmics, dead ram, dead sim cards, dead display ics, dead cpus, any xiaomi shenanigans, exploding batteries, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
@@ -15,23 +15,23 @@ This project is in an early skibidi stage, all the files here have been contribu
 
 
 ## Get started
-- [Skibidi status](guide/status.md)
+- [Skibidi status](status-br.md)
 
-- [Gyatt instructions](guide/1-partition.md)
+- [Gyatt instructions](1-partition-br.md)
 
-- [Rizz troubleshooting](guide/troubleshooting.md)
+- [Rizz troubleshooting](troubleshooting-br.md)
 
 
 ## Miscellaneous
-- [Skibidi dualboot setup](guide/dualboot.md)
+- [Skibidi dualboot setup](dualboot-br.md)
 
-- [Gyatt materials](guide/materials.md)
+- [Gyatt materials](materials-br.md)
 
-- [Rizz update drivers](guide/update.md)
+- [Rizz update drivers](update-br.md)
 
-- [Reinstall skibidi](guide/reinstall.md)
+- [Reinstall skibidi](reinstall-br.md)
 
-- [Uninstall rizz](guide/uninstall.md)
+- [Uninstall rizz](uninstall-br.md)
 
 
 ## Contributors
