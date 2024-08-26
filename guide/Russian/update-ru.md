@@ -13,7 +13,7 @@
   
 - [Образ UEFI](https://github.com/n00b69/woa-beryllium/releases/tag/UEFI)
 
-### Прошейте OFOX recovery
+### Прошейте модифицированный recovery
 > Если ваше recovery было заменено стоковым, прошейте его снова используя
 ```cmd
 fastboot flash recovery path\to\ofox.img reboot recovery
