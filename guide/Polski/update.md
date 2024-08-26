@@ -13,10 +13,10 @@
 
 - [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-### Uruchom recovery OFOX
-> Jeśli Twój recovery został zastąpiony recovery domyślnym, sflashuj go ponownie za pomocą
+### Uruchomienie recovery
+> Jeśli recovery zostało zastąpione recovery domyślnym, sflashuj go ponownie za pomocą
 ```cmd
-fastboot flash recovery path\to\ofox.img reboot recovery
+fastboot flash recovery ścieżka\do\ofox.img reboot recovery
 ```
 
 #### Włączanie trybu pamięci masowej
