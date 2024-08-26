@@ -13,7 +13,7 @@
 
 - [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-### Boot to OFOX recovery
+### Boot into the modded recovery
 > If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
 fastboot flash recovery path\to\ofox.img reboot recovery
