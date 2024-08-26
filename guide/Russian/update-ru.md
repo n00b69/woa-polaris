@@ -7,7 +7,7 @@
 ### Требования
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Модифицированный OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 - [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
   
