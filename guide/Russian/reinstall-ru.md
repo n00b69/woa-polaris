@@ -7,7 +7,7 @@
 ### Требования
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Модифицированный OFOX recovery](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 ### Прошейте OFOX recovery
 > Если ваше recovery было заменено стоковым, прошейте его снова используя
