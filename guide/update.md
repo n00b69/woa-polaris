@@ -36,7 +36,7 @@ diskpart
 select volume $
 ```
 
-#### Assign letter to WINPOLARIS
+#### Assign the letter X
 ```cmd
 assign letter x
 ```
