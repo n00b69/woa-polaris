@@ -50,15 +50,14 @@ exit
 > [!Note]
 > This process will take +- 20 minutes. Do not worry, this is normal.
 
-- Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd`
+- Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` (Если появляется ошибка, запустите `OfflineUpdaterFix.cmd`)
 
-> Введите букву диска **WINF1**, должна быть X, затем нажмите enter
+> Введите букву диска **WINPOLARIS** (должна быть **X**) затем нажмите Enter
 
-### Загрузка обратно в Windows
+### Reboot your device
 > Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
 ```cmd
 adb reboot
 ```
-
 
 ## Готово!
