@@ -54,7 +54,7 @@ exit
 
 > If it asks you to enter a letter, enter the drive letter of **WINPOLARIS** (which should be **X**), then press enter
 
-#### Boot back into Windows
+#### Reboot your device
 > Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
 ```cmd
 adb reboot
