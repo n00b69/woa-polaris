@@ -28,7 +28,7 @@
 cd path\to\platform-tools
 ```
 
-#### Flash OFOX recovery
+#### Flash the modded OFOX recovery
 > Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run the following command, replacing `path\to\ofox.img` with the actual path of the image
 ```cmd
 fastboot flash recovery path\to\ofox.img reboot recovery
