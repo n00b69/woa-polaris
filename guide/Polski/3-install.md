@@ -5,13 +5,13 @@
 ## Instalacja Windowsa
 
 ### Wymagania
+- [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+
 - [Windows na ARM](https://worproject.com/esd)
   
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
 - [Devcfg (naprawa dotyku)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
-  
-- [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 - [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
