@@ -5,13 +5,13 @@
 ## Installing Windows
 
 ### Prerequisites
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+
 - [Windows on ARM image](https://worproject.com/esd)
   
 - [Drivers](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
 - [Devcfg (touch fix)](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
-  
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
   
 - [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
