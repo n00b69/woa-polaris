@@ -50,9 +50,9 @@ exit
 > [!Note]
 > Ten proces zajmie +- 20 minut. Nie martw się, to normalne.
 
-- Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd` (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
+- Wypakuj archiwum ze sterownikami, potem otwórz plik `OfflineUpdater.cmd` (jeśli pojawi się błąd, otwórz `OfflineUpdaterFix.cmd`)
  
-> Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być X), a następnie naciśnij enter.
+> Jeśli poprosi cię o podanie litery, wpisz literę dysku **WINPOLARIS** (która powinna być **X**), a następnie naciśnij enter.
 
 ### Uruchom ponownie urządzenie
 > Pamiętaj, aby zmienić także obraz UEFI w systemie Android, w przeciwnym razie podczas późniejszego uruchamiania systemu Windows może pojawić się „niebieski ekran śmierci” (BSoD).
