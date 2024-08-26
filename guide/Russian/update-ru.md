@@ -13,26 +13,30 @@
   
 - [Образ UEFI](https://github.com/n00b69/woa-beryllium/releases/tag/UEFI)
 
+### Прошейте OFOX recovery
+> Если ваше recovery было заменено стоковым, прошейте его снова используя
+```cmd
+fastboot flash recovery path\to\ofox.img reboot recovery
+```
 
+#### Включите режим mass storage
+> Если он попросит вас запустить его ещё раз, сделайте это
+```cmd
+adb shell msc
+```
 
 ### Diskpart
 ```cmd
 diskpart
 ```
 
-#### Отобразить разделы устройства
-> Чтобы отобразить список всех подключенных разделов, используйте
-```cmd
-list volume
-```
-
-#### Выберите раздел Windows 
-> Замените `$` номером раздела **WINF1**
-```cmd
+#### Выбрать раздел Windows 
+> Используйте `list volume` чтобы найти его, замените `$` номером раздела **WINPOLARIS**
+```diskpart
 select volume $
 ```
 
-#### Привязать букву к WINF1
+#### Добавить букву к разделу Windows
 ```cmd
 assign letter X
 ```
@@ -43,12 +47,18 @@ exit
 ```
 
 ### Установка драйверов 
-> Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd`
+> [!Note]
+> This process will take +- 20 minutes. Do not worry, this is normal.
+
+- Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd`
 
 > Введите букву диска **WINF1**, должна быть X, затем нажмите enter
 
-#### Загрузка обратно в Windows
-> Перезагрузите устройство, чтобы снова загрузиться в Windows. Если после этого планшет загрузится в Android, перепрошейте образ UEFI с помощью fastboot или с помощью приложения WOA Helper
+### Загрузка обратно в Windows
+> Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
+```cmd
+adb reboot
+```
 
 
 ## Готово!
