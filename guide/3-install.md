@@ -7,7 +7,7 @@
 ### Prerequisites
 - [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-- [Windows on ARM image](https://worproject.com/esd)
+- [Windows on ARM image](https://arkt-7.github.io/woawin/)
   
 - [Drivers](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
@@ -15,7 +15,7 @@
   
 - [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-### Boot to OFOX recovery
+### Boot into OFOX recovery
 > If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
 fastboot flash recovery path\to\ofox.img reboot recovery
