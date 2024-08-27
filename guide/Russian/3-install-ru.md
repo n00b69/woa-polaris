@@ -7,7 +7,7 @@
 ### Требования
 - [Модифицированный OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-- [Образ ARM Windows](https://worproject.com/esd)
+- [Образ ARM Windows](https://arkt-7.github.io/woawin/)
   
 - [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
