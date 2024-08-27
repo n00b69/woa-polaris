@@ -104,7 +104,9 @@ mountvol y: /d
 ```
 
 ### Uruchamianie ponownie w trybie fastboot
-> Przytrzymaj **zmniejszanie głośności** + **zasilanie**, aby wymusić ponowne uruchomienie telefonu w trybie fastboot
+```cmd
+adb reboot bootloader
+```
 
 #### Naprawianie dotyku
 > Zastąp `ścieżka\do\devcfg-polaris.img` rzeczywistą ścieżką do obrazu
