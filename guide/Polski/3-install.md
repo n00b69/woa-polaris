@@ -7,7 +7,7 @@
 ### Wymagania
 - [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
-- [Windows na ARM](https://worproject.com/esd)
+- [Windows na ARM](https://arkt-7.github.io/woawin/)
   
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
