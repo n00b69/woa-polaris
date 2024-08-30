@@ -5,8 +5,6 @@
 ## Ponowna instalacja Windows
 
 ### Wymagania
-- [Windows na ARM](https://worproject.com/esd)
-  
 - [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 ### Uruchom recovery OFOX
