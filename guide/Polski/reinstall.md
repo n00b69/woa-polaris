@@ -5,6 +5,8 @@
 ## Ponowna instalacja Windows
 
 ### Wymagania
+- [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
+
 - [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
 
 ### Uruchom recovery OFOX
