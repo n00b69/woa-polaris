@@ -2,7 +2,7 @@
 
 # Windows na Xiaomi Mix 2s
 
-## Przywracanie urządzenia za pomocą trybu EDL.
+## Przywracanie urządzenia za pomocą trybu EDL
 
 ### Wymagania
 - [Oryginalny ROM fastboot](https://xiaomifirmwareupdater.com/miui/polaris/)
