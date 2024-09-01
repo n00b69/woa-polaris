@@ -5,8 +5,6 @@
 ## Konfiguracja dualboot
 
 ### Wymagania
-- [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
-
 - [Obraz UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
 - [WOA Helper](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
@@ -36,6 +34,26 @@ W tym przewodniku założono, że jesteś zrootowany, jeśli tak nie jest, post�
 - Naciśnij **SZYBKI START DO WINDOWS** w aplikacji lub użyj nowo utworzonego przełącznika w panelu szybkich ustawień
   
 ## Skończone!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
