@@ -28,7 +28,7 @@
 
 ### Flashowanie stockowego romu
 - Skopiuj i wklej pełną ścieżkę do folderu obrazów w wyodrębnionym ROMie Fastboot z pierwszego kroku, a następnie naciśnij **Enter**, aby rozpocząć flashowanie ROMu.
-> Powinno wyglądać mniej więcej tak: C:\Users\alak_romanian\Downloads\polaris_global_images_V12.0.3.0.QDGMIXM_20201228.0000.00_10.0_global\images
+> Powinno wyglądać mniej więcej tak: `C:\Users\alak_romanian\Downloads\polaris_global_images_V12.0.3.0.QDGMIXM_20201228.0000.00_10.0_global\images`
 
 #### Uruchom ponownie system Android
 > Po zakończeniu flashowania pamięci ROM (może to zająć około 5 minut) po prostu uruchom ponownie urządzenie, aby ponownie uruchomić system Android
