@@ -117,6 +117,9 @@ fastboot flash devcfg_ab путь\к\devcfg-polaris.img
 
 #### Загрузитесь в UEFI
 > Замените `путь\к\polaris-uefi.img` актуальным путём к образу UEFI
+
+> [!Important]
+> Remove your USB cable right after leaving the fastboot screen, or Windows may crash in the initial setup
 ```cmd
 fastboot boot путь\к\polaris-uefi.img
 ```
