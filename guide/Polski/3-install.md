@@ -78,6 +78,7 @@ dism /apply-image /ImageFile:ścieżka\do\install.esd /index:6 /ApplyDir:X:\
 > Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINPOLARIS** (powinna to być litera **X**), a następnie naciśnij enter.
 
 #### Tworzenie plików bootloadera systemu Windows
+> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPPOLARIS**, then replace the letter `Y` in the next commands with the letter that you just added.
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
@@ -116,6 +117,9 @@ fastboot flash devcfg_ab ścieżka\do\devcfg-polaris.img
 
 #### Uruchom do UEFI
 > Zastąp `ścieżka\do\polaris-uefi.img` rzeczywistą ścieżką do obrazu UEFI
+
+> [!Important]
+> Remove your USB cable right after leaving the fastboot screen, or Windows may crash in the initial setup
 ```cmd
 fastboot boot ścieżka\do\polaris-uefi.img
 ```
