@@ -38,6 +38,16 @@ fastboot flash modem path\to\modem.img
 
 ##### Finished!
 
+## LTE in Windows does not work
+> [!Note]
+> You may have to follow the steps above to restore your modem first
+- In Android, find your APN settings. It should be located in `Connections` > `Mobile Networks` > `Access Point Names`.
+- Write the information of your current APN settings down, then boot into Windows.
+- In `Cellular Settings`, click on `Mobile operator settings` > `APN settings` and add the APN settings you wrote down earlier.
+- Enable **Cellular**. It may say `No Internet Access`, but it should still work. 
+
+##### Finished!
+
 ## Не удается смонтировать Windows в Android
 Если при монтировании Windows образуется пустая папка, значит у вас не установлена Windows, либо в вашем ПЗУ нет поддержки монтирования.
 
@@ -53,11 +63,6 @@ fastboot flash modem path\to\modem.img
 
 ## USB не работает 
 Включите режим USB хост ипользуя инструкцию на странице [полезные приложения и инструкции](materials-ru.md).
-
-##### Готово!
-
-## DISM Ошибка:87 The add-driver option is unkown
-Обычно это означает, что у вас поврежден образ Windows с некоторыми другими драйверами. Вам необходимо получить чистый образ Windows (что означает, что вы не следовали инструкциям).
 
 ##### Готово!
 
