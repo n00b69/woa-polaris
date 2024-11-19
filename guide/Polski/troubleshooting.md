@@ -48,6 +48,14 @@ fastboot flash modem ścieżka\do\modem.img
 
 ##### Finished!
 
+## Device is not recognized in fastboot or recovery
+> This likely means you don't have (proper) USB drivers installed
+- Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
+- Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
+- Right click this devjce, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
+
+##### Finished!
+
 ## Nie można zamontować systemu Windows w systemie Android
 > Dzieje się tak, gdy zamykasz system Windows zamiast go ponownie uruchamiać
 - Aby rozwiązać ten problem, uruchom system Windows, a następnie naciśnij „Uruchom ponownie”, a następnie, gdy ekran się wyłączy, uruchom TWRP i stamtąd załaduj system Android.
@@ -57,11 +65,6 @@ fastboot flash modem ścieżka\do\modem.img
 
 ## USB nie działa
 Włącz tryb hosta USB, korzystając z [przewodnika dotyczącego przełączania trybu hosta USB](materials.md#przełączanie-trybu-hosta-usb).
-
-##### Skończone!
-
-## Błąd DISM: 87 Opcja dodawania sterownika jest nieznana
-Zwykle oznacza to, że masz nieczysty obraz systemu Windows z innymi sterownikami. Musisz uzyskać czysty obraz systemu Windows (co oznacza, że ​​nie postępowałeś zgodnie z instrukcjami).
 
 ##### Skończone!
 
