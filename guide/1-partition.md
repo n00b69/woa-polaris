@@ -28,6 +28,9 @@
 cd path\to\platform-tools
 ```
 
+> [!Note]
+> If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting.md#device-is-not-recognized-in-fastboot-or-recovery)
+
 #### Flash the modded OFOX recovery
 > Replace `path\to\ofox.img` with the actual path of the image
 ```cmd
