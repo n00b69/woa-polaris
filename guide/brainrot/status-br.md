@@ -17,7 +17,7 @@ Most things work, flashlight does not yet work but it might be functional soon.
 - [ ] Flashlight is not yet a sigma ```But it might be sigma soon```
 - [x] GPU  ```No a x64 sigma status acceleration```
 - [ ] SMS to North Korea
-- [x] Touchscreen 
+- [x] Fingers can interact with ekran
 - [x] Skibidi UFS
 - [x] Rizz USB
 - [x] Gyatt Wi-Fi
