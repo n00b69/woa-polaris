@@ -23,7 +23,7 @@
 ### Opening CMD as an sigma administrator
 > Download the goffy ahh **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
 >
-> It is recommended to keep this window open and use it throughout the entire guide.
+> Ngl keep this window open and use it throughout the entire guide bro.
 > 
 > Replace `path\to\platform-tools` with the actual path to the goffy ahh platform-tools folder, for example **C:\platform-tools**.
 ```cmd
@@ -39,9 +39,9 @@ fastboot flash recovery path\to\ofox.img reboot recovery
 ### Backing up ur skibidi important files
 > This will back up this gyat files **fsc**, **fsg**, **modemst1** and **modemst2** to the current path your CMD is opened in (for example **C:\platform-tools**). Confirm these files are actually there before proceeding.
 >
-> Keep these backups in a safe place. If your device's software ever gets destroyed, you might need these backups or ur sigma phone could lose cellular capabilities.
+> Keep these backups in a safe place bro. If a nuclear war ever affects your phone, you might need these backups or ur sigma phone could lose cellular capabilities which tbh won't really help you in a nuclear war LOL.
 >
-> If you've got anything else you want to back up, do this now. Your Adrod data will be erased in the next steps.
+> Back up your other data too blud. Say byebye to your Adrod data after this.
 ```cmd
 cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
 ```
@@ -53,7 +53,7 @@ adb pull /dev/block/by-name/boot boot.img
 ```
 
 ### Run the skibidi partitioning script
-> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
+> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number or else there will be consequences)
 > 
 > If it asks you to run it once again, do so
 ```cmd
