@@ -3,7 +3,8 @@
 # Gyat Windows on the Sigma Mix 2s
 
 ## Skibidi Status
-Most things work, flashlight does not yet work but it might be functional soon.
+Sigma things work..................
+Sigma things.......
 
 #### Skibidi Features
 - [ ] Skibidi Audio ```SYKA BLYAT, Disabled, can kill ur speakers```
