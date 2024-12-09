@@ -17,6 +17,8 @@
 > NIE URUCHAMIAJ PONOWNIE TELEFONU! Jeśli uważasz, że popełniłeś błąd, poproś o pomoc na [Telegramie](https://t.me/WinOnMIX2S).
 > 
 > Nie uruchamiaj wszystkich poleceń na raz, wykonuj je po kolei!
+>
+> MOŻESZ ZNISZCZYĆ SWOJE URZĄDZENIE ZA POMOCĄ PONIŻSZYCH POLECEŃ, JEŚLI ZROBISZ JE ŹLE!!!
 
 ### Otwieranie CMD jako administrator
 > Pobierz **platform-tools** i wypakuj gdzieś folder, a następnie otwórz CMD jako **administrator**.
@@ -31,7 +33,7 @@ cd ścieżka\do\platform-tools
 > [!Note]
 > If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting.md#device-is-not-recognized-in-fastboot-or-recovery)
 
-#### Instalacja OFOX
+#### Flashuj zmodyfikowane recovery OFOX
 > Otwórz okno CMD w folderze platform-tools, a następnie (gdy telefon jest w trybie fastboot) wpisz
 ```cmd
 fastboot flash recovery ścieżka\do\ofox.img reboot recovery
