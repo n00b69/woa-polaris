@@ -12,7 +12,8 @@ Most things work, flashlight does not yet work but it might be functional soon.
 - [x] Brightness 
 - [ ] Camera
 - [x] LTE ```Problematic```
-- [x] Charging ```VERY slow```
+- [x] Charging (USB) ```VERY slow```
+- [x] Charging (Wireless)
 - [x] Display
 - [ ] Flashlight
 - [x] GPU  ```No x64 acceleration```
