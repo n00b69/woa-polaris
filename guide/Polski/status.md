@@ -11,8 +11,9 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [x] Bluetooth
 - [x] Sterowanie jasnością
 - [ ] Aparat
-- [x] LTE ```Problematyczne```
-- [x] Ładowanie ```BARDZO powolne```
+- [x] LTE
+- [x] Ładowanie (USB) ```BARDZO powolne```
+- [x] Ładowanie (Wireless)
 - [x] Wyświetlacz
 - [ ] Latarka
 - [x] Karta graficzna  ```Brak akceleracji x64```
