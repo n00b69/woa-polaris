@@ -33,7 +33,8 @@ adb reboot bootloader
 fastboot flash partition:0 path\to\gpt_both0.bin
 ```
 
-#### Erase userdata to avoid a bootloop and restore FS size
+#### Erase userdata
+> To avoid a bootloop and restore FS size
 ```cmd
 fastboot -w
 ```
