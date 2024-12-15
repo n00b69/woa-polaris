@@ -7,7 +7,7 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/modded-ofox-polaris.img)
   
 - [Drivers](https://github.com/n00b69/woa-POLARIS/releases/tag/Drivers)
 
@@ -16,7 +16,7 @@
 ### Boot into the modded recovery
 > If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
-fastboot flash recovery path\to\ofox.img reboot recovery
+fastboot flash recovery path\to\modded-ofox-polaris.img reboot recovery
 ```
 
 #### Enabling mass storage mode
