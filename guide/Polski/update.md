@@ -7,7 +7,7 @@
 ### Wymagania
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/modded-ofox-polaris.img)
   
 - [Sterowniki](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
@@ -16,7 +16,7 @@
 ### Uruchomienie recovery
 > Jeśli recovery zostało zastąpione recovery domyślnym, sflashuj go ponownie za pomocą
 ```cmd
-fastboot flash recovery ścieżka\do\ofox.img reboot recovery
+fastboot flash recovery ścieżka\do\modded-ofox-polaris.img reboot recovery
 ```
 
 #### Włączanie trybu pamięci masowej
