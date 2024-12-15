@@ -7,12 +7,12 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/modded-ofox-polaris.img)
 
 ### Boot into OFOX
 > If MIUI has replaced your recovery, boot to fastboot and run
 ```cmd
-fastboot flash recovery path\to\ofox.img reboot recovery
+fastboot flash recovery path\to\modded-ofox-polaris.img reboot recovery
 ```
 
 #### Formatting the Windows partition
