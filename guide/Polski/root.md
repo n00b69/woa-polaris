@@ -9,12 +9,12 @@
 
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/modded-ofox-polaris.img)
 
 ### Uruchom OFOX
 > Jeśli Twoje recovery zostało przywrócone do stanu fabrycznego, wykonaj flashowanie ponownie w trybie fastboot za pomocą:
 ```cmd
-fastboot flash \path\to\ofox.img reboot recovery
+fastboot flash path\to\modded-ofox-polaris.img reboot recovery
 ```
 
 #### Tworzenie kopii zapasowej obrazu rozruchowego
