@@ -9,7 +9,7 @@
 
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/modded-ofox-polaris.img)
 
 ### Uwagi
 > [!Warning]  
@@ -36,7 +36,7 @@ cd ścieżka\do\platform-tools
 #### Flashuj zmodyfikowane recovery OFOX
 > Otwórz okno CMD w folderze platform-tools, a następnie (gdy telefon jest w trybie fastboot) wpisz
 ```cmd
-fastboot flash recovery ścieżka\do\ofox.img reboot recovery
+fastboot flash recovery ścieżka\do\modded-ofox-polaris.img reboot recovery
 ```
 
 ### Tworzenie kopii zapasowej ważnych plików
