@@ -11,7 +11,7 @@ Most things work, flashlight does not yet work but it might be functional soon.
 - [x] Bluetooth
 - [x] Brightness 
 - [ ] Camera
-- [x] LTE ```if LTE does not work, follow [these steps](troubleshooting.md#lte-in-windows-does-not-work)
+- [x] LTE ```if LTE does not work, follow [these steps](troubleshooting.md#lte-in-windows-does-not-work)```
 - [x] Charging (USB) ```VERY slow```
 - [x] Charging (Wireless)
 - [x] Display
