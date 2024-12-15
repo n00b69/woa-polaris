@@ -9,7 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/modded-ofox-polaris.img)
 
 ### Notes
 > [!WARNING]  
@@ -32,9 +32,9 @@ cd path\to\platform-tools
 > If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting.md#device-is-not-recognized-in-fastboot-or-recovery)
 
 #### Flash the modded OFOX recovery
-> Replace `path\to\ofox.img` with the actual path of the image
+> Replace `path\to\modded-ofox-polaris.img` with the actual path of the image
 ```cmd
-fastboot flash recovery path\to\ofox.img reboot recovery
+fastboot flash recovery path\to\modded-ofox-polaris.img reboot recovery
 ```
 
 ### Backing up important files
