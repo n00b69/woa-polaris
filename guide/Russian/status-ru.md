@@ -11,7 +11,7 @@
 - [x] Bluetooth
 - [x] Яркость
 - [ ] Камера
-- [x] LTE ```if LTE does not work, follow``` [these steps](troubleshooting.md#lte-in-windows-does-not-work)
+- [x] LTE ```if LTE does not work, follow``` [these steps](troubleshooting-ru.md#lte-in-windows-does-not-work)
 - [x] Зарядка (USB) ```ОЧЕНЬ медленно```
 - [x] Зарядка (Wireless)
 - [x] Дисплей
