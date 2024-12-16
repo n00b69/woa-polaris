@@ -9,10 +9,10 @@
 
 - [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/modded-ofox-polaris.img)
 
-### Uruchom recovery OFOX
-> Jeśli Twoje recovery zostało zastąpione recovery domyślnym, zainstaluj go ponownie za pomocą
+### Uruchomienie recovery OFOX
+> Jeśli recovery zostało zastąpione recovery domyślnym, sflashuj go ponownie za pomocą
 ```cmd
-fastboot flash recovery path\to\modded-ofox-polaris.img reboot recovery
+fastboot flash recovery ścieżka\do\modded-ofox-polaris.img reboot recovery
 ```
 
 #### Formatowanie Windows
