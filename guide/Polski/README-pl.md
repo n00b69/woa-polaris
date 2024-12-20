@@ -34,6 +34,11 @@ Wszystkie pliki tutaj zostały przesłane przez innych użytkowników, tutaj zna
 - [Instrukcje odinstalowania](uninstall.md)
 
 
+## Maintainers
+[<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
+[<img alt="TrustedFloppa" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85476585?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TrustedFloppa)
+
+
 ## Współtwórcy
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
@@ -54,7 +59,6 @@ Wszystkie pliki tutaj zostały przesłane przez innych użytkowników, tutaj zna
 [<img alt="KuatoDev" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17999613?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/KuatoDev)
 [<img alt="belomaxorka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54049465?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/belomaxorka)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
-[<img alt="TrustedFloppa" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85476585?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TrustedFloppa)
 [<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="Dawid2849" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/77780707?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Dawid2849)
