@@ -17,7 +17,7 @@ All the files here have been contributed by other users, here you will find a gu
 ## Get started
 - [Project status](guide/status.md)
 
-- [Installation instructions](guide/1-partition.md)
+- [Installation instructions](guide/installation-selection.md)
 
 - [Troubleshooting](guide/troubleshooting.md)
 
