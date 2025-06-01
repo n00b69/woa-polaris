@@ -9,12 +9,12 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/modded-ofox-polaris.img)
+- [Modded recovery](https://github.com/n00b69/woa-polaris/releases/tag/Recovery)
 
-##### Boot OFOX recovery
+##### Boot the modded recovery
 > If your recovery has been replaced back to stock, flash it again in fastboot with:
 ```cmd
-fastboot flash recovery path\to\modded-ofox-polaris.img reboot recovery
+fastboot flash recovery path\to\modded-recovery-polaris.img reboot recovery
 ```
 
 ##### Backing up your boot image
