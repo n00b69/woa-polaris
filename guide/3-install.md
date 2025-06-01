@@ -5,7 +5,7 @@
 ## Installing Windows
 
 ### Prerequisites
-- [Modded OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/modded-ofox-polaris.img)
+- [Modded recovery](https://github.com/n00b69/woa-polaris/releases/tag/Recovery)
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
   
@@ -15,10 +15,10 @@
   
 - [UEFI image](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
-### Boot into OFOX recovery
+### Boot into modded recovery
 > If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
-fastboot flash recovery path\to\modded-ofox-polaris.img reboot recovery
+fastboot flash recovery path\to\modded-recovery-polaris.img reboot recovery
 ```
 
 #### Enabling mass storage mode
