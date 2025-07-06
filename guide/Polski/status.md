@@ -14,7 +14,7 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [x] LTE ```if LTE does not work, follow``` [these steps](troubleshooting.md#lte-in-windows-does-not-work)
 - [x] Ładowanie (USB) ```BARDZO powolne```
 - [x] Ładowanie (Wireless)
-- [x] Wyświetlacz
+- [x] Wyświetlacz ```if it randomly stops working, follow``` [these steps](troubleshooting.md#touch-sometimes-stops-working)
 - [ ] Latarka
 - [x] Karta graficzna  ```Brak akceleracji x64```
 - [ ] SMS
