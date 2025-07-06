@@ -5,6 +5,15 @@
 ## Rozwiązywanie problemów
 > Poniżej znajdziesz listę typowych problemów i ich rozwiązań
 
+## Touch sometimes stops working
+> This may be caused by the device's power saving settings, to (hopefully) fix this, do the following:
+
+- Open **Device Manager** on the device while in Windows.
+- Navigate to **Human Interface Devices** > **Synaptics RMI4 over Function 12 (2D Multifinger Pointing/Pen) Digitizer (S3708)**.
+- Click on **Power Mangament** and uncheck **"Allow the computer to turn off this device to save power"**.
+
+##### Finished!
+
 ## LTE i inne usługi sieciowe w Androidzie już nie działają
 > Czasami system Windows może wyczyścić partycje modemu, powodując utratę LTE w systemie Android. Aby to naprawić, musisz przywrócić modem, korzystając z kopii zapasowych, które, miejmy nadzieję, wykonałeś [podczas partycjonowania urządzenia](1-partition.md#backing-up-important-files). Jeśli nie wykonałeś tego kroku, prawdopodobnie nie będzie możliwości odzyskania funkcji LTE
 - Uruchom dowolne recovery inne niż stockowe recovery (polecenia ADB tam nie działają).
