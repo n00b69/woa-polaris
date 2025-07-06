@@ -17,7 +17,7 @@
 - [x] Дисплей
 - [x] GPU  ```Нет ускорения x64```
 - [ ] СМС
-- [x] Тачскрин ```Перестаёт работать после спящего режима```
+- [x] Тачскрин ```if it randomly stops working, follow``` [these steps](troubleshooting-ru.md#touch-sometimes-stops-working)
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
