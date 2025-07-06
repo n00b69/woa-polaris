@@ -18,7 +18,7 @@ Most things work, flashlight does not yet work but it might be functional soon.
 - [ ] Flashlight
 - [x] GPU  ```No x64 acceleration```
 - [ ] SMS
-- [x] Touchscreen 
+- [x] Touchscreen ```if it randomly stops working, follow``` [these steps](troubleshooting.md#touch-sometimes-stops-working)
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
