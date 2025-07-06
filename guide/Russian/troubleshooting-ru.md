@@ -5,6 +5,15 @@
 ## Исправление Проблем 
 > Ниже вы найдете список распространенных проблем и путей их решения
 
+## Touch sometimes stops working
+> This may be caused by the device's power saving settings, to (hopefully) fix this, do the following:
+
+- Open **Device Manager** on the device while in Windows.
+- Navigate to **Human Interface Devices** > **Synaptics RMI4 over Function 12 (2D Multifinger Pointing/Pen) Digitizer (S3708)**.
+- Click on **Power Mangament** and uncheck **"Allow the computer to turn off this device to save power"**.
+
+##### Finished!
+
 ## LTE and other network services in Android no longer work
 > Sometimes Windows may wipe your modem partitions, resulting in the loss of LTE in Android. To fix this, you'll need to restore your modem using the backups that you hopefully made [while partitioning your device](1-partition.md#backing-up-important-files). If you did not do this step, there is likely no way to recover.
 - Boot into any recovery other than the stock recovery (ADB commands do not work there)
