@@ -5,12 +5,12 @@
 ## Rozwiązywanie problemów
 > Poniżej znajdziesz listę typowych problemów i ich rozwiązań
 
-## Touch sometimes stops working
-> This may be caused by the device's power saving settings, to (hopefully) fix this, do the following:
+## Dotyk czasami przestaje działać
+> Przyczyną mogą być ustawienia oszczędzania energii urządzenia. Aby (miejmy nadzieję) rozwiązać ten problem, wykonaj następujące czynności:
 
-- Open **Device Manager** on the device while in Windows.
-- Navigate to **Human Interface Devices** > **Synaptics RMI4 over Function 12 (2D Multifinger Pointing/Pen) Digitizer (S3708)**.
-- Click on **Power Mangament** and uncheck **"Allow the computer to turn off this device to save power"**.
+- Otwórz **Menedżer urządzeń** na urządzeniu w systemie Windows.
+- Przejdź do **Urządzenia interfejsu HID** > **Synaptics RMI4 over Function 12 (2D Multifinger Pointing/Pen) Digitizer (S3708)**.
+- Kliknij **Zarządzanie energią** i odznacz opcję **„Zezwalaj komputerowi na wyłączanie tego urządzenia w celu oszczędzania energii”**.
 
 ##### Finished!
 
@@ -47,23 +47,23 @@ fastboot flash modem ścieżka\do\modem.img
 
 ##### Skończone!
 
-## LTE in Windows does not work
+## LTE w systemie Windows nie działa
 > [!Note]
-> You may have to follow the steps above to restore your modem first
-- In Android, find your APN settings. It should be located in `Connections` > `Mobile Networks` > `Access Point Names`.
-- Write the information of your current APN settings down, then boot into Windows.
-- In `Cellular Settings`, click on `Mobile operator settings` > `APN settings` and add the APN settings you wrote down earlier.
-- Enable **Cellular**. It may say `No Internet Access`, but it should still work. 
+> Aby przywrócić modem, konieczne może być wykonanie powyższych kroków.
+- W systemie Android znajdź ustawienia APN. Powinny one znajdować się w „Połączenia” > „Sieci komórkowe” > „Nazwy punktów dostępu”.
+- Zapisz informacje o bieżących ustawieniach APN, a następnie uruchom system Windows.
+- W „Ustawieniach sieci komórkowej” kliknij „Ustawienia operatora komórkowego” > „Ustawienia APN” i dodaj zapisane wcześniej ustawienia APN.
+- Włącz **Sieć komórkową**. Może pojawić się komunikat „Brak dostępu do internetu”, ale nadal powinno działać.
 
-##### Finished!
+##### Skończone!
 
-## Device is not recognized in fastboot or recovery
-> This likely means you don't have (proper) USB drivers installed
-- Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
-- Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
-- Right click this devjce, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
+## Urządzenie nie jest rozpoznawane w trybie fastboot ani recovery
+> Prawdopodobnie oznacza to, że nie masz zainstalowanych (prawidłowych) sterowników USB.
+- Pobierz plik [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) tutaj i rozpakuj go.
+- Otwórz Menedżera urządzeń i znajdź nieznane urządzenie lub urządzenie z błędami, które może nazywać się **Android**, **ADB Interface** lub **QUSB_BULK**.
+- Kliknij prawym przyciskiem myszy to urządzenie, wybierz „Aktualizuj sterowniki” > „Przeglądaj pliki”, a następnie wybierz wcześniej rozpakowany folder **QUD**.
 
-##### Finished!
+##### Gotowe!
 
 ## Nie można zamontować systemu Windows w systemie Android
 > Dzieje się tak, gdy zamykasz system Windows zamiast go ponownie uruchamiać
