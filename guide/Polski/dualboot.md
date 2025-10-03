@@ -25,7 +25,7 @@ W tym przewodniku założono, że jesteś zrootowany, jeśli tak nie jest, post�
 ### Konfiguracja — Windows
 > [!Tip]
 > Jeśli to będzie pierwszy raz, gdy uruchamiasz Windowsa i chcesz pominąć logowanie do konta Microsoft, wciśnij przycisk **Nie mam Internetu** w etapie WiFi, a gdy zapytany, wciśnij **Kontynuuj z ograniczoną konfiguracją**.
-- Navigate to `C:\sta` and create a shortcut of **sta.exe** to your desktop, if one isn't already present
+- Przejdź do `C:\sta` i utwórz skrót pliku **sta.exe** na swoim pulpicie, jeśli nie jest jeszcze utworzony
 
 #### Uruchamianie systemu Android
 - Uruchom nowy skrót na pulpicie (możesz także przypiąć go do menu startowego/paska zadań, aby ułatwić dostęp)
