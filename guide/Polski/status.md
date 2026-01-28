@@ -13,7 +13,7 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [ ] Aparat
 - [x] LTE ```jeśli LTE nie działa, postępuj``` [ zgodnie z instrukcjami](troubleshooting.md#lte-in-windows-does-not-work)
 - [x] Ładowanie (USB) ```BARDZO powolne```
-- [x] Ładowanie (Wireless)
+- [x] Ładowanie (Bezprzewodowe)
 - [x] Wyświetlacz ```jeśli nagle przestanie działać, postępuj``` [zgodnie z instrukcjami](troubleshooting.md#touch-sometimes-stops-working)
 - [ ] Latarka
 - [x] Karta graficzna  ```Brak akceleracji x64```
