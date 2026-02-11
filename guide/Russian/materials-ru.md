@@ -14,7 +14,7 @@
 
 - [News & supported applications](https://windowsonarm.org/)
 
-#### Finished!
+#### Конец!
 
 
 ### Отключение USB host mode
