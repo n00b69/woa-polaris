@@ -65,7 +65,7 @@ exit
 > [!Important]
 > Zamień `ścieżka\do\install.esd` na rzeczywistą ścieżkę do pliku install.esd (może on również nosić nazwę install.wim lub 22631.2861.XXXXXXX.esd)
 
-> For performance reasons, it is recommended to use Windows 11 25H2 (builds that start with 262XX, such as 26200.6713)
+> Ze względów wydajnościowych zaleca się korzystanie z systemu Windows 11 w wersji 25H2 (kompilacje rozpoczynające się od 262XX, np. 26200.6713)
 ```cmd
 dism /apply-image /ImageFile:ścieżka\do\install.esd /index:6 /ApplyDir:X:\
 ```
