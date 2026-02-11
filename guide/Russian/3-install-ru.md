@@ -11,7 +11,7 @@
   
 - [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
-- [Devcfg исправления touch](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
+- [Devcfg для исправления touch](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
 
 - [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
@@ -112,7 +112,7 @@ mountvol y: /d
 adb reboot bootloader
 ```
 
-#### Исправить touch
+#### Если не работает touch
 > Замените `путь\к\devcfg-polaris.img` актуальным путём к образу
 ```cmd
 fastboot flash devcfg_ab путь\к\devcfg-polaris.img
