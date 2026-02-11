@@ -63,8 +63,9 @@ exit
 
 ### Installing Windows
 > [!Important]
-
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
+
+> For performance reasons, it is recommended to use Windows 11 25H2 (builds that start with 262XX, such as 26200.6713)
 
 ```cmd
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\

@@ -11,7 +11,7 @@
   
 - [Драйвера](https://github.com/n00b69/woa-polaris/releases/tag/Drivers)
 
-- [Devcfg исправления touch](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
+- [Devcfg для исправления touch](https://github.com/n00b69/woa-polaris/releases/download/Files/devcfg-polaris.img)
 
 - [Образ UEFI](https://github.com/n00b69/woa-polaris/releases/tag/UEFI)
 
@@ -63,9 +63,9 @@ exit
 
 ### Установка Windows
 > [!Important]
-> Do not install, or update to, Windows 11 25H2 26200.7XXX or higher! You will not be able to boot into this build due to a BSoD issue!
-
 > Замените `путь\к\install.esd` актуальным путём к install.esd (файл также может называться install.wim или 22631.2861.XXXXXXX.esd)
+
+> По причине производительности, рекомендуется использовать Windows 11 25H2 (которые начинаются как 262XX, например 26200.6713)
 ```cmd
 dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 ```
@@ -112,7 +112,7 @@ mountvol y: /d
 adb reboot bootloader
 ```
 
-#### Исправить touch
+#### Если не работает touch
 > Замените `путь\к\devcfg-polaris.img` актуальным путём к образу
 ```cmd
 fastboot flash devcfg_ab путь\к\devcfg-polaris.img
