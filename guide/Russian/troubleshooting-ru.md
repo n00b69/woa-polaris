@@ -35,7 +35,7 @@ adb shell dd if=path\to\modemst1.bin of=/dev/block/by-name/modemst1
 adb shell dd if=path\to\modemst2.bin of=/dev/block/by-name/modemst2
 ```
 - Перезагрузитесь и проверьте работу интернета.
-> [!Дополнительно]
+> [!Note]
 > 
 > Если интернет не начал работать;
 - Скачайте [стоковую прошивку](https://xmfirmwareupdater.com/miui/polaris/)
@@ -48,7 +48,7 @@ fastboot flash modem path\to\modem.img
 
 ##### Вы молодец!
 
-## LTE in Windows does not work
+## Интернет не работает в windows
 > [!Note]
 > Сначало надо пройти шаги по восстановлению раздела modem!
 - в андройд, найдите ваши APN settings. Iони должны находится в `Connections` > `Mobile Networks` > `Access Point Names`.
