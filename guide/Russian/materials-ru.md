@@ -5,8 +5,8 @@
 ## Дополнительные материалы
 > Ниже вы найдете список настроек и материалов для Windows на вашем устройстве ARM
 
-### List of supported apps/games
-> These are by no means comprehensive lists, they do however list apps/games that have been tested by the community
+### Спиок поддерживаемых программ и игр на ARM
+> Это далеко не все приложения что могут быть запущены, но это все программы что были проверенны комьюнити
 
 - [Renegade Google Sheets list](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
@@ -17,39 +17,39 @@
 #### Finished!
 
 
-### Toggling USB host mode
+### Отключение USB host mode
 > [!Warning]
-> Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
+> Отклюите USB host mode только если используете usb hub с дополнительным питанием, иначе оно может повредить устройство. Если у вас нет usb hub с дополнительным питанием, включитe USB host mode или вы не сможете использовать любые usb девайсы.
 
-- Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
-- If USB host mode is currently enabled and USB does not work, turn it off, then back on.
+- Запустите [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) что бы включить\выключить USB host mode, и подтвердите что вы хотите выключить\включить USB host mode.
+- Если USB host mode уже включен и USB устройства не работают, выключите и включите обратно.
 
-#### Finished!
-
-
-### Install Microsoft Office
-- Go to [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
-- Download the installer that fits your purposes. Make sure you select `Online x64`.
-- Open the `setup.exe` and follow any instructions provided within.
-
-#### Finished!
+#### Конец!
 
 
-### Activate Windows / Office
-- Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
+### Установка Microsoft Office
+- Перейдите на [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
+- Скачайте инсталлер на ваш выбор. убедитесь что вы выбрали `Online x64`.
+- Откройте `setup.exe` и следуйте инструкции внутри нее.
 
-#### Finished!
+#### Конец!
 
 
-### Making the keyboard float
+### Активация Windows / Office
+- Используйте инструкцию Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
+#### Конец!
+
+
+### Как сделать клавиатуру плавующей
 > [!WARNING]  
-> Make sure these steps are done on the device running Windows, not your computer!
+> Убедитесь что вы делаете эти шаги на устройстве, не на компьютере!
 
-- Open CMD as an administrator and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
-- Press `y` then enter.
-- Reboot your device.
+- Откройте командую строку от имени администратора и выполните команду ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
+- Намите `y`, а после enter.
+- Перезагрузите.
 
-##### Finished!
+##### Конец!
 
 
 
