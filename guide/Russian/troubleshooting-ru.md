@@ -36,7 +36,8 @@ adb shell dd if=path\to\modemst2.bin of=/dev/block/by-name/modemst2
 ```
 - Перезагрузитесь и проверьте работу интернета.
 > [!Дополнительно]
-> ЕСли интернет не начал работать;
+> 
+> Если интернет не начал работать;
 - Скачайте [стоковую прошивку](https://xmfirmwareupdater.com/miui/polaris/)
 - откройте, вы должны найти файл с названием **modem.img** достаньте его.
 - Загрузитесь в режим fastboot(`adb reboot bootloader`).
