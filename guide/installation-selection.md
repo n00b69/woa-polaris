@@ -5,7 +5,7 @@ There are two methods to install Windows. Select the method you would like to us
 
 | **Install Windows manually** | **Install Windows using automated scripts** 
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------
-| <a href="1-partition.md"><img src="https://github.com/n00b69/woa-polaris/blob/main/guide/zmanual.png" width="80"></a> | <a href="nopc.md"><img src="https://github.com/n00b69/woa-polaris/blob/main/guide/znopc.png" width="80"></a>
+| <a href="1-partition.md"><img src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="80"></a> | <a href="nopc.md"><img src="https://github.com/tvorogo/woa-polaris/blob/main/guide/wininstaller.png" width="80"></a>
 | - Complicated for inexperienced users | - Simple and quick
 | - You learn basic ADB commands etc. | - You don't learn anything
 | - Highly customizable in regards to OS version, language, edition, storage allocation | - Highly customizable in regards to OS version, language, edition, storage allocation
