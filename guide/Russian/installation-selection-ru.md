@@ -5,12 +5,12 @@
 
 | **Установка Windows вручную** | **Установка Windows используя автоматические скрипты** 
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------
-| <a href="1-partition.md"><img src="https://github.com/n00b69/woa-dipper/blob/main/guide/zmanual.png" width="80"></a> | <a href="nopc.md"><img src="https://github.com/n00b69/woa-dipper/blob/main/guide/znopc.png" width="80"></a>
+| <a href="1-partition.md"><img src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="80"></a> | <a href="nopc.md"><img src="https://github.com/n00b69/woa-polaris/blob/main/guide/polaris.png" width="80"></a>
 | - Сделано для более продвинутых пользователей | - Просто и быстро
 | - Вам известны базовые команды adb | - вы не знаете ничего
 | - ПК необходим  | - Компьютер не требуется
 | - Легко устранять ошибки в случае их возникновения | - Трудно устранять ошибки в случае их возникновения
-| [Руччная установка](1-partition-ru.md) | [Установка без компьютера](nopc-ru.md)
+| [Ручная установка](1-partition-ru.md) | [Установка без компьютера](nopc-ru.md)
 
 
 
