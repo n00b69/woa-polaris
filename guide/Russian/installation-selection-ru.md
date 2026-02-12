@@ -1,4 +1,4 @@
-# Running Windows on the Xiaomi Mi 8
+# Running Windows on the Xiaomi Mi mix 2s
 
 ## Варианты установки:
 Есть два метода установки
