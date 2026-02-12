@@ -74,7 +74,7 @@ partition
 - В recovery, выберите **Install** и выберите **WinInstaller.zip**, затем прошейте его
 > [!Note]
 > Ожидайте пока ваш девайс загрузится в Windows этот процесс может занять 15-20 минут.
-> [!Tip]
+> 
 > если вы хотите пропустить Microsoft Account , нажмите **I don't have internet** когда находитесь на меню выбора WiFi.
 
 #### Загрузка в Android
