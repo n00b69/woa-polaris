@@ -1,15 +1,15 @@
-<img align="right" src="https://github.com/n00b69/woa-dipper/blob/main/dipper.png" width="350" alt="Windows 11 running on a Redmi K20 Pro">
+<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on a Mi mix 2s">
 
-# Запуск Windows на Xiaomi Mi 8
+# Запуск Windows на Xiaomi Mi mix 2s
 
 ## Установка Windows без компьютера 
 
 ### Требования
 - Рут на Xiaomi Mi 8
 
-- [Модифицированное рекавери](https://github.com/n00b69/woa-dipper/releases/tag/Recovery)
+- [Модифицированное рекавери](https://github.com/n00b69/woa-polaris/releases/tag/Recovery)
 
-- [Dipper WinInstaller](https://github.com/n00b69/woa-dipper/releases/download/Files/DipperWinInstaller.zip)
+- [Dipper WinInstaller](https://github.com/n00b69/woa-polaris/releases/download/Files/polarisWinInstaller.zip)
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
 
