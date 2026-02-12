@@ -10,7 +10,6 @@ There are two methods to install Windows. Select the method you would like to us
 | - You learn basic ADB commands etc. | - You don't learn anything
 | - Highly customizable in regards to OS version, language, edition, storage allocation | - Highly customizable in regards to OS version, language, edition, storage allocation
 | - A PC is required | - No PC is required
-| - Can be installed on any ROM and does not require a USB stick | - Requires a ROM with TWRP decryption support or a USB stick
 | - Easy to troubleshoot in case of errors | - Hard to troubleshoot in case of errors
 | [Manual guide](1-partition.md) | [No-PC guide](nopc.md)
 
