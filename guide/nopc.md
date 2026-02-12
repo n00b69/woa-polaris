@@ -9,7 +9,7 @@
 
 - [Modded recovery](https://github.com/n00b69/woa-polaris/releases/tag/Recovery)
 
-- [Polaris WinInstaller](https://github.com/n00b69/woa-polaris/releases/download/Files/PolarisWinInstaller.zip)
+- [Polaris WinInstaller](https://github.com/tvorogo/woa-polaris/releases/tag/WinInstaller)
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
 
