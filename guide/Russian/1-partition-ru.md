@@ -63,8 +63,14 @@ adb shell umount /dev/block/by-name/userdata
 
 #### Подгатовка к разметке
 ```cmd
-adb shell parted /dev/block/sda
-``` 
+adb shell 
+```
+
+#### Выполните эту команду что бы открыть parted
+
+```
+parted /dev/block/sda
+```
 
 #### Отобразить текущую таблицу разделов
 > Parted выведет список разделов, userdata должна быть последним разделом в списке.
