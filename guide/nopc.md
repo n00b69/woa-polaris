@@ -47,13 +47,63 @@ su -c reboot recovery
 #### Opening recovery terminal
 - Press the **Advanced** button on the bottom right of the screen, then press **Terminal**.
 
-### Run the partitioning script
-> After running the script, enter the size (in GB) that you want Windows to be
+### Preparing for partitioning
+> [!Note]
+> If at any moment in parted you see an error prompting you to type "Yes/No" or "Ignore/Cancel", type `Yes` or `Ignore` depending on the situation to ignore the errors and continue.
 >
-> Do not write **GB**, just the number (for example **50**)
+> If you see any **udevadm** errors, you can ignore these as well.
 ```cmd
-partition
+parted /dev/block/sda
+```
+
+#### Printing the current partition table
+> Parted will print the list of partitions, userdata should be the last partition in the list
+```cmd
+print
 ``` 
+
+#### Removing userdata
+> Replace **$** with the number of the **userdata** partition, which should be **21**
+```cmd
+rm $
+``` 
+
+#### Recreating userdata
+> Replace **1611MB** with the former start value of **userdata** which we just deleted
+>
+> Replace **32GB** with the end value you want **userdata** to have. In this example your available usable space in Android will be 32GB-1611MB = **30GB**
+```cmd
+mkpart userdata ext4 1611MB 32GB
+``` 
+
+#### Creating ESP partition
+> Replace **32GB** with the end value of **userdata**
+>
+> Replace **32.35GB** with the value you used before, adding **0.35GB** to it
+```cmd
+mkpart esp fat32 32GB 32.35GB
+``` 
+
+#### Creating Windows partition
+> Replace **32.35GB** with the end value of **esp**
+```cmd
+mkpart win ntfs 32.35GB -0MB
+``` 
+
+#### Making ESP bootable
+> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be **22**
+```cmd
+set $ esp on
+```
+
+#### Exit parted
+```cmd
+quit
+```
+
+### Formatting data
+- Format all data in recovery, or Android will not boot.
+- ( Go to Wipe > Format data > type yes )
 
 ### Check if Android still starts
 - Just restart the phone, and see if Android still works
