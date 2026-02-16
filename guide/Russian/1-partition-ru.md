@@ -55,8 +55,6 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 adb pull /dev/block/by-name/boot boot.img
 ```
 
-### Разметка вашего устройства 
-
 #### Размантируйте data
 > Игнорируйте любые возможные ошибки и продолжайте
 ```cmd
