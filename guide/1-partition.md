@@ -54,13 +54,6 @@ adb pull /dev/block/by-name/boot boot.img
 ```
 
 ### Partitioning your device
-> There are two methods to partition your device. Please select the method you would like to use below. 
-
-#### Method 1: Manual partitioning 
-
-<details>
-  <summary><strong>Click here for method 1</strong></summary> 
-
 #### Opening a shell
 ```cmd
 adb shell
@@ -142,21 +135,6 @@ adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPPOLARIS
 ```cmd
 adb shell fixgpt
 ```
-
-</details>
-
-#### Method 2: Automatic partitioning 
-
-<details>
-  <summary><strong>Click here for method 2</strong></summary> 
-
-### Run the partitioning script
-> After running the script, enter the size (in GB) that you want Windows to be
->
-> Do not write **GB**, just the number (for example **50**)
-```cmd
-adb shell partition
-``` 
 
 ### Check if Android still starts
 - Just restart the phone, and see if Android still works 
