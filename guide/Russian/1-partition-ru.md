@@ -54,12 +54,15 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 ```cmd
 adb pull /dev/block/by-name/boot boot.img
 ```
-
+ 
 #### Размантируйте data
 > Игнорируйте любые возможные ошибки и продолжайте
 ```cmd
 adb shell umount /dev/block/by-name/userdata
 ```
+
+[!Note]
+> Если в любой момент в parted вы увидеть ошибку которая попросит написать "Yes/No" или "Ignore/Cancel", напишите `Yes` или `Ignore` не обращайте внимания на эти ошибки.
 
 #### Подгатовка к разметке
 ```cmd
