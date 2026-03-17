@@ -5,7 +5,7 @@
 ## Установка Windows без компьютера 
 
 ### Требования
-- Рут на Xiaomi Mi 8
+- Рут на Xiaomi Mi Mix 2S
 
 - [Модифицированное рекавери](https://github.com/n00b69/woa-polaris/releases/tag/Recovery)
 
